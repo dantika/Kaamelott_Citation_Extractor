@@ -1,0 +1,284 @@
+<mediawiki xmlns="http://www.mediawiki.org/xml/export-0.11/" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:schemaLocation="http://www.mediawiki.org/xml/export-0.11/ http://www.mediawiki.org/xml/export-0.11.xsd" version="0.11" xml:lang="fr">
+  <siteinfo>
+    <sitename>Wikiquote</sitename>
+    <dbname>frwikiquote</dbname>
+    <base>https://fr.wikiquote.org/wiki/Wikiquote:Accueil</base>
+    <generator>MediaWiki 1.45.0-wmf.8</generator>
+    <case>first-letter</case>
+    <namespaces>
+      <namespace key="-2" case="first-letter">Média</namespace>
+      <namespace key="-1" case="first-letter">Spécial</namespace>
+      <namespace key="0" case="first-letter" />
+      <namespace key="1" case="first-letter">Discussion</namespace>
+      <namespace key="2" case="first-letter">Utilisateur</namespace>
+      <namespace key="3" case="first-letter">Discussion utilisateur</namespace>
+      <namespace key="4" case="first-letter">Wikiquote</namespace>
+      <namespace key="5" case="first-letter">Discussion Wikiquote</namespace>
+      <namespace key="6" case="first-letter">Fichier</namespace>
+      <namespace key="7" case="first-letter">Discussion fichier</namespace>
+      <namespace key="8" case="first-letter">MediaWiki</namespace>
+      <namespace key="9" case="first-letter">Discussion MediaWiki</namespace>
+      <namespace key="10" case="first-letter">Modèle</namespace>
+      <namespace key="11" case="first-letter">Discussion modèle</namespace>
+      <namespace key="12" case="first-letter">Aide</namespace>
+      <namespace key="13" case="first-letter">Discussion aide</namespace>
+      <namespace key="14" case="first-letter">Catégorie</namespace>
+      <namespace key="15" case="first-letter">Discussion catégorie</namespace>
+      <namespace key="100" case="first-letter">Portail</namespace>
+      <namespace key="101" case="first-letter">Discussion Portail</namespace>
+      <namespace key="102" case="first-letter">Projet</namespace>
+      <namespace key="103" case="first-letter">Discussion Projet</namespace>
+      <namespace key="104" case="first-letter">Référence</namespace>
+      <namespace key="105" case="first-letter">Discussion Référence</namespace>
+      <namespace key="108" case="first-letter">Transwiki</namespace>
+      <namespace key="109" case="first-letter">Discussion Transwiki</namespace>
+      <namespace key="710" case="first-letter">TimedText</namespace>
+      <namespace key="711" case="first-letter">TimedText talk</namespace>
+      <namespace key="828" case="first-letter">Module</namespace>
+      <namespace key="829" case="first-letter">Discussion module</namespace>
+      <namespace key="2600" case="first-letter">Sujet</namespace>
+    </namespaces>
+  </siteinfo>
+  <page>
+    <title>Kaamelott/Venec</title>
+    <ns>0</ns>
+    <id>17649</id>
+    <revision>
+      <id>377587</id>
+      <parentid>377586</parentid>
+      <timestamp>2024-02-06T08:29:30Z</timestamp>
+      <contributor>
+        <username>Ambrena</username>
+        <id>68193</id>
+      </contributor>
+      <comment>/* Citations */Ajout de ponctuation</comment>
+      <origin>377587</origin>
+      <model>wikitext</model>
+      <format>text/x-wiki</format>
+      <text bytes="10524" sha1="phgd3tww3zvtbjcw38tocbrjq8ahaki" xml:space="preserve">Citations de '''[[w:Personnages de Kaamelott#Venec|Venec]]''' dans la [[:catégorie:série télévisée|série télévisée]] [[Kaamelott]].
+
+==Citations==
+{{citation|citation= Sinon, pour rester sur le thème du pied, il y a ça: vous serrez la vis jusqu'à ce que vous entendiez le bruit de l'os. }}
+{{Réf Série|auteur=Alexandre Astier
+|acteur=Loïc Varraut
+|série=Kaamelott
+|saison=Livre I
+|épisode= 13 : ''Arthur et la Question''}}
+
+{{citation|citation= (''Au sujet des instruments de torture'') 
+[Arthur : Mais qui c'est qui invente ces trucs, vous les connaissez les mecs vous ?] 
+[Léodagan : ça ça a toujours plus ou moins existé] 
+De temps en temps on tombe sur un farfelu qui croit qu'il a inventé l'eau chaude mais le plus souvent, c'est l'adaptation d'un modèle existant. }}
+{{Réf Série|auteur=Alexandre Astier
+|acteur=Loïc Varraut
+|série=Kaamelott
+|saison=Livre I
+|épisode= 13 : ''Arthur et la Question''}}
+
+{{citation|citation= Si vous aimez ; j'ai ça, c'est pour arracher les noix [Bohort : Les noix... Les fruits ?] Ah, non, les noix... les noix.}}
+{{Réf Série|auteur=Alexandre Astier
+|acteur=Loïc Varraut
+|série=Kaamelott
+|saison=Livre I
+|épisode= 13 : ''Arthur et la Question''}}
+
+{{citation|citation= Viens voir biquette ! tortille un peu du fion pour le roi Arthur !}}
+{{Réf Série|auteur=Alexandre Astier
+|acteur=Loïc Varraut
+|série=Kaamelott
+|saison=Livre I
+|épisode= 16 : ''Le banquet des chefs''}}
+
+{{citation|citation= C'est un pote pirate qui me les ramène des îles d'Irlande, par contre c'est des cagaudes hein faut pas leur demander de compter jusqu'à dix.}}
+{{Réf Série|auteur=Alexandre Astier
+|acteur=Loïc Varraut
+|série=Kaamelott
+|saison=Livre I
+|épisode= 16 : ''Le banquet des chefs''}}
+
+{{citation|citation= (''Parlant des chefs de clans'') Si on les invite et qu’y a pas d’femmes, vous allez fédérer mes couilles...}}
+{{Réf Série|auteur=Alexandre Astier
+|acteur=Loïc Varraut
+|série=Kaamelott
+|saison=Livre I
+|épisode= 16 : ''Le banquet des chefs''}}
+
+{{citation|citation= (''Au sujet d'une cathédrale'') Ben, tout ce qui est niveau de prestations, finitions, déco... Ben ouais, si vous voulez que ça ait de la gueule, faut définir un style, une ambiance... Bon, par exemple, on peut faire genre sobre, avec des teintes unies, pierres apparentes... Ou alors, on donne dans le plus chaud, tentures colorées, statues de gonzesses à poil... Ben quoi ?}}
+{{Réf Série|auteur=Nicolas Gabion
+|acteur=Loïc Varraut
+|série=Kaamelott
+|saison=Livre II
+|épisode= 18 : ''Plus près de Toi''}}
+
+{{citation|citation= Je vous ai déjà dit que je prête du pognon à des taux vraiment pas dégueulasses ?}}
+{{Réf Série|auteur=Nicolas Gabion
+|acteur=Loïc Varraut
+|série=Kaamelott
+|saison=Livre II
+|épisode= 18 : ''Plus près de Toi''}}
+
+{{citation|citation= Des bandits ? Nooon... Des gars futés !}}
+{{Réf Série|auteur=Alexandre Astier
+|acteur=Loïc Varraut
+|série=Kaamelott
+|saison=Livre II
+|épisode= 16 : ''Les Tuteurs ''}}
+
+{{citation|citation= (''à propos de Yvain et Gauvain'') Si ils sont de sang royal, le bon coup pour se faire un gros paquet de blé, ce serait de les vendre.}}
+{{Réf Série|auteur=Alexandre Astier
+|acteur=Loïc Varraut
+|série=Kaamelott
+|saison=Livre II
+|épisode= 16 : ''Les Tuteurs ''}}
+
+{{citation|citation= [Arthur: Nan, mais ici elles sont pas punies les femmes qui trompent leur mari.] Ah ouais, ben si vous faites n’importe quoi la justice, on s’en sortira pas, c’est sûr.}}
+{{Réf Série|auteur=Alexandre Astier
+|acteur=Loïc Varraut
+|série=Kaamelott
+|saison=Livre II
+|épisode= 19 : ''L'absolution ''}}
+
+{{citation|citation= Mais j’fais toujours esclaves ! J’ai un dépôt-vente sur la côte ! Mais c’est complémentaire avec la cathédrale. Si j’ai un coup de bourre sur l’chantier, j’renforce mon équipe avec du chinetoque ou du bouquaque, selon ce que j’ai en stock sur le moment, comme ça je suis jamais pris de court !}}
+{{Réf Série|auteur=Alexandre Astier
+|acteur=Loïc Varraut
+|série=Kaamelott
+|saison=Livre II
+|épisode= 22 : ''Plus près de toi ''}}
+
+{{citation|citation= Ah. Ah ben ça, ça vous pendait au nez. C’est un vrai fromage à trous, là, votre baraque : y’a pas une porte qui ferme, les gardes sont toujours en train de roupiller…}}
+{{Réf Série|auteur=Alexandre Astier
+|acteur=Loïc Varraut
+|série=Kaamelott
+|saison=Livre II
+|épisode= 38 : ''Le larcin''}}
+
+{{citation|citation= Moi, officiellement, j’suis censé vendre du miel ! Comme ça, en cas de contrôle, tac ! Trois étalages de miel en-dessous de la boutique, et les esclaves, j’les accuse de vol à la tire. Ni vu, ni connu !}}
+{{Réf Série|auteur=Alexandre Astier
+|acteur=Loïc Varraut
+|série=Kaamelott
+|saison=Livre II
+|épisode= 88 : ''Les esclaves''}}
+
+{{citation|citation= (''À propos d'une ancienne vente d'esclave'') Attendez, ça on en a déjà parlé ! Celui de l'autre fois, il m'avait pas dit qu'il était unijambiste !}}
+{{Réf Série|auteur=Alexandre Astier
+|acteur=Loïc Varraut
+|série=Kaamelott
+|saison=Livre II
+|épisode= 88 : ''Les esclaves''}}
+
+{{citation|citation= Pourquoi vous faites ça ? A quoi est-ce que ça vous sert de libérer des galériens ? En plus c'est que de la racaille tout ça !}}
+{{Réf Série|auteur=Alexandre Astier
+|acteur=Loïc Varraut
+|série=Kaamelott
+|saison=Livre III
+|épisode= 38 : ''Les affranchis''}}
+
+{{citation|citation= (''à propos du travail des esclave'') J'ai fait double journée au début, mais il y en a six qui sont morts. Ça va ! Je vais pas vous dévaliser non plus.}}
+{{Réf Série|auteur=Alexandre Astier
+|acteur=Loïc Varraut
+|série=Kaamelott
+|saison=Livre III
+|épisode= 38 : ''Les affranchis''}}
+
+{{citation|citation= ça le pognon ça reste à la pogne, c'est la règle.}}
+{{Réf Série|auteur=Alexandre Astier
+|acteur=Loïc Varraut
+|série=Kaamelott
+|saison=Livre III
+|épisode= 53 : ''Les paris II''}}
+
+{{citation|citation= Non, mais c'est entre amis, il parait que c'est toléré entre amis.}}
+{{Réf Série|auteur=Alexandre Astier
+|acteur=Loïc Varraut
+|série=Kaamelott
+|saison=Livre III
+|épisode= 53 : ''Les paris II''}}
+
+{{citation|citation= Truqué ! Ben tout de suite les grands mots ! Non, mon chien, il est entraîné, eux ils ont pas de chien, alors je leur en prête un que j'ai là, alors évidemment, il est à moitié crevé le machin il fait pas des miracles.}}
+{{Réf Série|auteur=Alexandre Astier
+|acteur=Loïc Varraut
+|série=Kaamelott
+|saison=Livre III
+|épisode= 53 : ''Les paris II''}}
+
+{{citation|citation= ('' à Arthur à propos de la vente d'esclave'')Attendez, je vous pète les prix, vous continuez à râler.}}
+{{Réf Série|auteur=Alexandre Astier
+|acteur=Loïc Varraut
+|série=Kaamelott
+|saison=Livre III
+|épisode= 69 : ''Le tourment III''}}
+
+{{citation|citation= (''au sujet de l'anonymat de son espion'') Alexandre le Grand tout le monde sait qui c’est, bon c’est pas pour ça que je saurais le reconnaître si je le croisais à la taverne !}}
+{{Réf Série|auteur=Alexandre Astier
+|acteur=Loïc Varraut
+|série=Kaamelott
+|saison=Livre IV
+|épisode= 20 : ''Au service de sa majesté''}}
+
+{{citation|citation= Tenez lui aussi il le dit qu'il est votre espion ! [Arthur: Quoi ?] Non mais enfin il va pas le crier sur les marchés mais quand il peut placer discret qu'il espionne pour le roi Arthur... C'est important aujourd'hui les curriculums.}}
+{{Réf Série|auteur=Alexandre Astier
+|acteur=Loïc Varraut
+|série=Kaamelott
+|saison=Livre IV
+|épisode= 32 : ''Le rapport''}}
+
+{{citation|citation= Non mais sans vous grouiller, heu, vous serez gentil de pas lambiner ! Parce que moi de l’autre côté, j’ai tous mes supporters qui ont payé double. Et puis, comme c’est quand même des très très gros cons, je voudrais pas qu’ils me volent dans les plumes, sous prétexte que je livre pas ce que j’ai dit.}}
+{{Réf Série|auteur=Alexandre Astier
+|acteur=Loïc Varraut
+|série=Kaamelott
+|saison=Livre IV
+|épisode= 66 : ''L'habitué''}}
+
+{{citation|citation= Les petits pères, les affaires reprennent. Parce que la couronne, là, j’aime autant vous dire qu’elle date pas d’hier. Là, y a de la relique ou je m’appelle pas Venec. […] Qu’est-ce vous en dites ? Bon, hein, imaginez que j’ai mon froc, ça me donne du style ou pas ?}}
+{{Réf Série|auteur=Alexandre Astier
+|acteur=Loïc Varraut
+|série=Kaamelott
+|saison=Livre V
+|épisode= 1 : ''Les Repentants''}}
+
+{{citation|citation= Je suis pas son associé, je suis pas son associé, si je lui donnais trente pour cent il serait peut-être moins catégorique, si ?}} 
+{{Réf Série|auteur=Alexandre Astier
+|acteur=Loïc Varraut
+|série=Kaamelott
+|saison=Livre V
+|épisode= : ''L'élu''}}
+
+{{citation|citation= (''Parlant à ses compères du roi Arthur'') Donc là, pour le voyageur isolé y'a deux solutions : soit il dépose ses armes, ses objets, sa bouffe et ses fringues par terre, et il s'en va d'où il est venu à poil dans la neige, soit il décide de se battre... À un contre dix.}}
+{{Réf Série|auteur=Alexandre Astier
+|acteur=Loïc Varraut
+|série=Kaamelott
+|saison=Livre V
+|épisode= 42 : ''Le Destitué''}}
+
+{{citation|citation= Ben p't'être... n'empêche que moi, j'préfère quand même quand c'est vous l'roi !}}
+{{Réf Série|auteur=Alexandre Astier
+|acteur=Loïc Varraut
+|série=Kaamelott
+|saison=Livre V
+|épisode= réplique souvent répétée}}
+
+{{citation|citation= C'que j'vous explique depuis trois quart d'heure. J'en ai rien a foutre de devenir chevalier. Ce qui m'intéresse, si y a un nouveau roi qui chapeaute tout l'système, c'est d'être en affaires avec.
+(''Maître d'armes : Nan mais vous avez quand même écouté notre topo sur la fédération ?'')
+J'vous ai pas coupés en plein milieu parce que bon... Mais effectivement ça m'concerne pas votre bordel. Qu'vous vous réunissiez pour faire des fédérations, même jouer aux cartes... c'qui compte c'est qu'ce soit moi qui vous fournisse en putes.}}
+{{Réf Série|auteur=Alexandre Astier
+|acteur=Loïc Varraut
+|série=Kaamelott
+|saison=Livre VI
+|épisode= 7 : ''Arturus Rex''}}
+ 
+
+{{citation|citation= Au moins vous serez en sécurité ! [Arthur: Non mais attendez je vais probablement crever pendant le voyage alors...] Vous crèverez en essayant de faire quelque chose, allez, accrochez-vous.}}
+{{Réf Série
+|auteur=Alexandre Astier
+|acteur=Loïc Varrault
+|série=Kaamelott
+|saison=Livre VI
+|épisode=''Dies Irae''}}
+
+{{autres projets|w=Personnages de Kaamelott#Venec}}
+
+[[Catégorie:Kaamelott|Venec]]</text>
+      <sha1>phgd3tww3zvtbjcw38tocbrjq8ahaki</sha1>
+    </revision>
+  </page>
+</mediawiki>

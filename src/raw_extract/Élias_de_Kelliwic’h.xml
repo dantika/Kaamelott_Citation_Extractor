@@ -1,0 +1,146 @@
+<mediawiki xmlns="http://www.mediawiki.org/xml/export-0.11/" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:schemaLocation="http://www.mediawiki.org/xml/export-0.11/ http://www.mediawiki.org/xml/export-0.11.xsd" version="0.11" xml:lang="fr">
+  <siteinfo>
+    <sitename>Wikiquote</sitename>
+    <dbname>frwikiquote</dbname>
+    <base>https://fr.wikiquote.org/wiki/Wikiquote:Accueil</base>
+    <generator>MediaWiki 1.45.0-wmf.8</generator>
+    <case>first-letter</case>
+    <namespaces>
+      <namespace key="-2" case="first-letter">Média</namespace>
+      <namespace key="-1" case="first-letter">Spécial</namespace>
+      <namespace key="0" case="first-letter" />
+      <namespace key="1" case="first-letter">Discussion</namespace>
+      <namespace key="2" case="first-letter">Utilisateur</namespace>
+      <namespace key="3" case="first-letter">Discussion utilisateur</namespace>
+      <namespace key="4" case="first-letter">Wikiquote</namespace>
+      <namespace key="5" case="first-letter">Discussion Wikiquote</namespace>
+      <namespace key="6" case="first-letter">Fichier</namespace>
+      <namespace key="7" case="first-letter">Discussion fichier</namespace>
+      <namespace key="8" case="first-letter">MediaWiki</namespace>
+      <namespace key="9" case="first-letter">Discussion MediaWiki</namespace>
+      <namespace key="10" case="first-letter">Modèle</namespace>
+      <namespace key="11" case="first-letter">Discussion modèle</namespace>
+      <namespace key="12" case="first-letter">Aide</namespace>
+      <namespace key="13" case="first-letter">Discussion aide</namespace>
+      <namespace key="14" case="first-letter">Catégorie</namespace>
+      <namespace key="15" case="first-letter">Discussion catégorie</namespace>
+      <namespace key="100" case="first-letter">Portail</namespace>
+      <namespace key="101" case="first-letter">Discussion Portail</namespace>
+      <namespace key="102" case="first-letter">Projet</namespace>
+      <namespace key="103" case="first-letter">Discussion Projet</namespace>
+      <namespace key="104" case="first-letter">Référence</namespace>
+      <namespace key="105" case="first-letter">Discussion Référence</namespace>
+      <namespace key="108" case="first-letter">Transwiki</namespace>
+      <namespace key="109" case="first-letter">Discussion Transwiki</namespace>
+      <namespace key="710" case="first-letter">TimedText</namespace>
+      <namespace key="711" case="first-letter">TimedText talk</namespace>
+      <namespace key="828" case="first-letter">Module</namespace>
+      <namespace key="829" case="first-letter">Discussion module</namespace>
+      <namespace key="2600" case="first-letter">Sujet</namespace>
+    </namespaces>
+  </siteinfo>
+  <page>
+    <title>Kaamelott/Élias de Kelliwic’h</title>
+    <ns>0</ns>
+    <id>17625</id>
+    <revision>
+      <id>377960</id>
+      <parentid>372584</parentid>
+      <timestamp>2024-02-17T20:37:24Z</timestamp>
+      <contributor>
+        <ip>82.216.225.74</ip>
+      </contributor>
+      <comment>/* Citations */Correction de numéro d'épisodes et d'une citation modifiée</comment>
+      <origin>377960</origin>
+      <model>wikitext</model>
+      <format>text/x-wiki</format>
+      <text bytes="4667" sha1="tm498qmer6i707t7mx1j7zffsgc4ti1" xml:space="preserve">Citations de '''[[w:Personnages de Kaamelott#Élias de Kelliwic’h|Élias de Kelliwic’h]]''' le druide et Grand enchanteur dans la [[:catégorie:série télévisée|série télévisée]] [[Kaamelott]].
+
+==Citations==
+
+{{citation|citation= Si j’échoue, je garde la butte aux Cerfs et je fais tomber une pluie de calamités sur le royaume par vengeance ! C’est pas pour rien qu’on m’appelle « le Fourbe ». Si je réussis, je garde la butte aux Cerfs, plus… Le tertre des Âmes…}}
+{{Réf Série|auteur=Alexandre Astier
+|acteur=Bruno Fontaine
+|série=Kaamelott
+|saison=Livre I
+|épisode= 15 : ''Les Défis de Merlin''}}
+
+{{citation|citation= Y'a toujours au moins deux solutions à un problème.}}
+{{Réf Série|auteur=Alexandre Astier
+|acteur=Bruno Fontaine
+|série=Kaamelott
+|saison=Livre III
+|épisode= 67 : ''La Potion de Fécondité II''}}
+
+{{citation|citation= (À Merlin) Une pluie de pierres en intérieur, donc ! Je vous prenais pour un pied de chaise, mais vous êtes un précurseur, en fait !}}
+{{Réf Série|auteur=Alexandre Astier
+|acteur=Bruno Fontaine
+|série=Kaamelott
+|saison=Livre IV
+|épisode=''Le Privilégié''}}
+
+{{citation|citation= (À Merlin) Oh vous, toujours vous, mais allez chier dans une fiole, on verra après.}}
+{{Réf Série|auteur=Alexandre Astier
+|acteur=Bruno Fontaine
+|série=Kaamelott
+|saison=Livre IV
+|épisode= 12 : ''Le Privilégié''}}
+
+{{citation|citation= Écoutez, si j'avais un sort pour contrecarrer les volontés divines, je serais pas en train de faire des potions de virilité pour tous les mous de la tige du pays breton.}}
+{{Réf Série|auteur=Alexandre Astier
+|acteur=Bruno Fontaine
+|série=Kaamelott
+|saison=Livre IV
+|épisode= 50 : ''Anges Et Démons''}}
+
+{{citation|citation= (À Arthur) Croyez bien que si j'avais, je le dirais pas ! Parce que voir celui-là passer pour un conneau devant tous les druides du continent, j'aime autant vous dire que je risque pas de louper ça ! J'vais même amener des copains.}}
+{{Réf Série|auteur=Alexandre Astier
+|acteur=Bruno Fontaine
+|série=Kaamelott
+|saison=Livre IV
+|épisode= 38 : ''Le rassemblement du corbeau II''}}
+
+{{citation|citation= (À Merlin) Je veux insinuer que vous n'avez pas de connaissances suffisantes pour faire des crêpes. Alors vous imaginer en train d'essayer de bricoler des plaques de dissimulation, c'est à pisser de rire.}}
+{{Réf Série|auteur=Alexandre Astier
+|acteur=Bruno Fontaine
+|série=Kaamelott
+|saison=Livre IV
+|épisode= 90 : ''Les plaques de dissimulation''}}
+
+{{citation|citation= (À Merlin) Mais retournez à l’état sauvage, espèce de con. Foutez le camp dans les montagnes avec une paire de chèvres. On vous achètera vos fromages, promis. […] Vous le sentez pas, l'appel de la nature, là ? Les animaux de la forêt, y z'ont pas besoin d'un toubib ? […] Tirez-vous d'ici. Définitivement. Et laissez bosser ceux qui savent faire ! Y a pas de place pour les amateurs ici.}}
+{{Réf Série|auteur=Alexandre Astier
+|acteur=Bruno Fontaine
+|série=Kaamelott
+|saison=Livre V
+|épisode= 5 : ''La Sorcière''}}
+
+{{citation|citation= (à propos de Merlin) Non. Je lui ai dit qu'on avait pas besoin d'un con d'herboriste sur le champ de bataille et qu'il ferait mieux de rester glander à l'abri plutôt que de venir nous faire chier sur le terrain. [...] Non mais au bout d'un moment faut dire les choses! Votre Merlin il est bien gentil mais il sait pas faire de magie! Si on vous collait un collaborateur qui connait rien à la tactique militaire je me demande bien ce que vous feriez.}}
+{{Réf Série|auteur=Alexandre Astier
+|acteur=Bruno Fontaine
+|série=Kaamelott
+|saison=Livre V
+|épisode= 9 : ''La démission''}}
+
+{{citation|citation= Dans la vie, faut bosser pour personne, et y faut faire bosser personne ! C'est le secret de la liberté. […] Rien que d'imaginer que je retire l'épée du rocher et que je me retrouve à la tête de ce bordel, ça me fait de la spasmophilie !}}
+{{Réf Série|auteur=Alexandre Astier
+|acteur=Bruno Fontaine
+|série=Kaamelott
+|saison=Livre V
+|épisode= 14 : ''Vae soli!''}}
+
+
+{{citation|citation= Ecoutez ma p'tite dame, ya des fois où y faut sentir le vent tourner et mettre du pognon à gauche pour filer à la concurrence [Mevanwi : où ça ? Chez Lancelot ?] [...] Pour aller là-bas, y faudrait que j'aie des principes, une quête à accomplir [Mevanwi : Et vous n'en avez pas ?] Si, m'en mettre plein les fouilles !}}
+{{Réf Série|auteur=Alexandre Astier
+|acteur=Bruno Fontaine
+|série=Kaamelott
+|saison=Livre V
+|épisode= 14 : ''Vae soli!''}}
+
+
+{{autres projets|w=Personnages de Kaamelott#Élias de Kelliwic’h}}
+
+[[Catégorie:Kaamelott|Elias de Kelliwic h]]</text>
+      <sha1>tm498qmer6i707t7mx1j7zffsgc4ti1</sha1>
+    </revision>
+  </page>
+</mediawiki>

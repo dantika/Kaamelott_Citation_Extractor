@@ -1,0 +1,260 @@
+<mediawiki xmlns="http://www.mediawiki.org/xml/export-0.11/" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:schemaLocation="http://www.mediawiki.org/xml/export-0.11/ http://www.mediawiki.org/xml/export-0.11.xsd" version="0.11" xml:lang="fr">
+  <siteinfo>
+    <sitename>Wikiquote</sitename>
+    <dbname>frwikiquote</dbname>
+    <base>https://fr.wikiquote.org/wiki/Wikiquote:Accueil</base>
+    <generator>MediaWiki 1.45.0-wmf.8</generator>
+    <case>first-letter</case>
+    <namespaces>
+      <namespace key="-2" case="first-letter">Média</namespace>
+      <namespace key="-1" case="first-letter">Spécial</namespace>
+      <namespace key="0" case="first-letter" />
+      <namespace key="1" case="first-letter">Discussion</namespace>
+      <namespace key="2" case="first-letter">Utilisateur</namespace>
+      <namespace key="3" case="first-letter">Discussion utilisateur</namespace>
+      <namespace key="4" case="first-letter">Wikiquote</namespace>
+      <namespace key="5" case="first-letter">Discussion Wikiquote</namespace>
+      <namespace key="6" case="first-letter">Fichier</namespace>
+      <namespace key="7" case="first-letter">Discussion fichier</namespace>
+      <namespace key="8" case="first-letter">MediaWiki</namespace>
+      <namespace key="9" case="first-letter">Discussion MediaWiki</namespace>
+      <namespace key="10" case="first-letter">Modèle</namespace>
+      <namespace key="11" case="first-letter">Discussion modèle</namespace>
+      <namespace key="12" case="first-letter">Aide</namespace>
+      <namespace key="13" case="first-letter">Discussion aide</namespace>
+      <namespace key="14" case="first-letter">Catégorie</namespace>
+      <namespace key="15" case="first-letter">Discussion catégorie</namespace>
+      <namespace key="100" case="first-letter">Portail</namespace>
+      <namespace key="101" case="first-letter">Discussion Portail</namespace>
+      <namespace key="102" case="first-letter">Projet</namespace>
+      <namespace key="103" case="first-letter">Discussion Projet</namespace>
+      <namespace key="104" case="first-letter">Référence</namespace>
+      <namespace key="105" case="first-letter">Discussion Référence</namespace>
+      <namespace key="108" case="first-letter">Transwiki</namespace>
+      <namespace key="109" case="first-letter">Discussion Transwiki</namespace>
+      <namespace key="710" case="first-letter">TimedText</namespace>
+      <namespace key="711" case="first-letter">TimedText talk</namespace>
+      <namespace key="828" case="first-letter">Module</namespace>
+      <namespace key="829" case="first-letter">Discussion module</namespace>
+      <namespace key="2600" case="first-letter">Sujet</namespace>
+    </namespaces>
+  </siteinfo>
+  <page>
+    <title>Kaamelott/Bohort</title>
+    <ns>0</ns>
+    <id>17612</id>
+    <revision>
+      <id>329676</id>
+      <parentid>291918</parentid>
+      <timestamp>2021-08-28T10:15:08Z</timestamp>
+      <contributor>
+        <ip>2A01:CB06:9032:A1A9:0:4C:7D42:4901</ip>
+      </contributor>
+      <comment>/* Citations */Correction épisode</comment>
+      <origin>329676</origin>
+      <model>wikitext</model>
+      <format>text/x-wiki</format>
+      <text bytes="7012" sha1="h8vz4vn5s14rurp0ttu5xnbvmzp1kur" xml:space="preserve">Citations de '''[[w:Personnages de Kaamelott#Bohort|Bohort]]''' dans la [[:catégorie:série télévisée|série télévisée]] [[Kaamelott]].
+
+==Citations==
+
+{{citation|citation=Jo le rigolo ???!!!}}
+{{Réf Série
+|auteur=Alexandre Astier
+|acteur=Nicolas Gabion
+|série=Kaamelott
+|saison=Livre I
+|épisode= 89 : ''Le Fléau de Dieu''}}
+
+{{citation|citation=Faut que j'enlève mon armure sinon y va se passer quelque chose d'atroce.[Part... Revient] J'ai pas eu le temps d'enlever mon armure...}}
+{{Réf Série
+|auteur=Alexandre Astier
+|acteur=Nicolas Gabion
+|série=Kaamelott
+|saison=Livre I
+|épisode= 31 : ''Basidiomycètes''}}
+
+{{citation|citation=D'après mes derniers renseignements, il serait tout à fait possible que le Graal ne soit ni un vase, ni une coupe, mais... un récipient.}}
+{{Réf Série
+|auteur=Alexandre Astier
+|acteur=Nicolas Gabion
+|série=Kaamelott
+|saison=Livre I
+|épisode=ép. 18 : ''En forme de Graal''
+}}
+
+{{citation|citation=(''À Arthur, Léodagan et Venec'')&lt;br /&gt;Ça vous ennuie si je vomis ?}}
+{{Réf Série
+|auteur=Alexandre Astier
+|acteur=Nicolas Gabion
+|série=Kaamelott
+|saison=Livre I
+|épisode= 13 : ''Arthur et la Question''}}
+
+{{citation|citation= J'irai me coucher quand vous m'aurez juré qu'il n'y a pas dans cette forêt d'animal plus dangereux que le lapin adulte !}}
+{{Réf Série|auteur=Alexandre Astier
+|acteur=Nicolas Gabion
+|série=Kaamelott
+|saison=Livre I
+|épisode= 61 : ''Un bruit dans la nuit''}}
+
+{{citation|citation= (''À Arthur, Perceval et Léodagan'')&lt;br /&gt;
+Moi aussi, je ne me sens pas dans mon assiette, j'ai jamais beaucoup aimé les tunnels.}}
+{{Réf Série|auteur=Alexandre Astier
+|acteur=Nicolas Gabion
+|série=Kaamelott
+|saison=Livre I
+|épisode= 86 : ''Le Dragon des tunnels''}}
+
+{{citation|citation=(''Au maître d'armes'')&lt;br/&gt;Vous êtes un grand malade mental !}}
+{{Réf Série|auteur=Alexandre Astier
+|acteur=Nicolas Gabion
+|série=Kaamelott
+|saison=Livre II
+|épisode= 14 : ''Les Classes de Bohort''}}
+
+{{citation|citation= (''Hurlant à plein poumons'') MÉÉCRÉÉAAAAAAAAANTS !}}
+{{Réf Série|auteur=Alexandre Astier
+|acteur=Nicolas Gabion
+|série=Kaamelott
+|saison=Livre II
+|épisode= 14 : ''Les Classes de Bohort''}}
+
+{{citation|citation=La neige... On l'enlève, elle revient. Toujours... encore et encore... Et nous, pauvres âmes chagrines, nous perdons nos regards dans l'horizon blanc de notre solitude.
+}}
+{{Réf Série|auteur=Alexandre Astier
+|acteur=Nicolas Gabion
+|série=Kaamelott
+|saison=Livre II
+|épisode= 66 : ''Les Neiges Éternelles''
+}}
+{{Choisie citation du jour
+|puce=*
+|année=2011
+|mois=octobre
+|jour=21
+}}
+
+
+{{citation|citation=Fort heureusement, je tiens à préciser que l'incident n'a fait aucune victime.}}
+{{Réf Série
+|auteur=Alexandre Astier
+|acteur=Nicolas Gabion
+|série=Kaamelott
+|saison=Livre II
+|épisode= 60 : ''Le Donneur''}}
+
+{{citation|citation= (''Criant'') NOUS ALLONS TOUS MOURIR !}}
+{{Réf Série|auteur=Alexandre Astier
+|acteur=Nicolas Gabion
+|série=Kaamelott
+|saison=Livre II
+|épisode= 93 : ''Stargate''}}
+
+{{citation|citation= (''À Arthur et Lancelot'')&lt;br /&gt;Ah bah ça va, excusez moi d'avoir paniqué... Finalement c'est pas des démons. C'est juste les pires bestioles de tout l'univers. Mettons deux gardes là devant et allons boire un coup !}}
+{{Réf Série|auteur=Alexandre Astier
+|acteur=Nicolas Gabion
+|série=Kaamelott
+|saison=Livre II
+|épisode= 93 : ''Stargate''}}
+
+{{citation|citation= C'est une catastrophe !}}
+{{Réf Série|auteur=Alexandre Astier
+|acteur=Nicolas Gabion
+|série=Kaamelott
+|saison=Livre III
+|épisode= 3 : ''L'Aveu de Bohort''}}
+
+{{citation|citation=Arbre, mon ami, majestueux témoin de ma gloire abattue, entends avec moi le céleste appel !}}
+{{Réf Série
+|auteur=Alexandre Astier
+|acteur=Nicolas Gabion
+|série=Kaamelott
+|saison=Livre III
+|épisode= 3 : ''L'Aveu de Bohort''}}
+
+{{citation|citation= Balancez-leur les radasses et qu'ils s'en aillent au diable !}}
+{{Réf Série|auteur=Alexandre Astier
+|acteur=Nicolas Gabion
+|série=Kaamelott
+|saison=Livre III
+|épisode= 10 : ''Le Fléau de Dieu II''}}
+
+{{citation|citation= Je suis un misérable !}}
+{{Réf Série
+|auteur=Alexandre Astier
+|acteur=Nicolas Gabion
+|série=Kaamelott
+|saison=Livre III
+|épisode= 40 : ''Arthur sensei''}}
+
+{{citation|citation= Et les petits pigeons ? Vous croyez peut-être qu'ils se nourrissent tout seuls, les petits pigeons ? [''Arthur'' : Bohort, vous commencez sérieusement à m'emmerder !]}}
+{{Réf Série
+|auteur=Alexandre Astier
+|acteur=Nicolas Gabion
+|série=Kaamelott
+|saison=Livre III
+|épisode= 47 : ''Le Petit Poucet''}}
+
+{{citation|citation= En même temps, admettez que me tuer n'aurait pas beaucoup de sens ! Vos nerfs seraient soulagés dans un premier temps, je ne dis pas, mais si vous considérez la situation avec un minimum de recul, vous vous apercevrez que le transport de votre hargne sur ma personne n'est pas départi d'une certaine forme d'absurdité. Et c'est là que j'ai envie de dire : est-ce que ça vaut bien le coup ?}}
+{{Réf Série
+|auteur=Alexandre Astier
+|acteur=Nicolas Gabion
+|série=Kaamelott
+|saison=Livre III
+|épisode= 98 : ''La Dispute I''}}
+
+{{citation|citation= Eh bien puisque c'est ça, allez-y : détruisez tout ! Entretuez-vous ! Mettez la Bretagne à feu et à sang ! Et ne comptez plus sur moi pour vous amener mes gâteaux à la purée de pomme dont vous êtes si friand ! Dorénavant, vous devrez vous les cuisiner vous-même ! ENTRE DEUX MISES À SAC !}}
+{{Réf Série
+|auteur=Alexandre Astier
+|acteur=Nicolas Gabion
+|série=Kaamelott
+|saison=Livre III
+|épisode= 99 : ''La Dispute II''}}
+
+{{citation|citation= Qui veut une tartelette ?}}
+{{Réf Série
+|auteur=Alexandre Astier
+|acteur=Nicolas Gabion
+|série=Kaamelott
+|saison=Livre IV
+|épisode= 36 : ''Les Tuteurs II''}}
+
+{{citation|citation= Moi, je suis en charge des négociations protocolaires de la surveillance intérieure de l'inspection de certains postes avancés, eh bien, voyez-vous, si on me disait : Bohort, tout ça c'est fini, à partir de maintenant, vous vous occuperez des pâtisseries et du linge de maison, je vous assure, je n'hésiterai pas une seconde .}}
+{{Réf Série
+|auteur=Alexandre Astier
+|acteur=Nicolas Gabion
+|série=Kaamelott
+|saison=Livre IV
+|épisode= 36 : ''Le Renoncement : 1ère partie''}}
+
+
+{{citation|citation=Vous prenez votre arc et vous le bouffez ! Espèce de dégénéré sanguinaire !}}
+{{Réf Série
+|auteur=Alexandre Astier
+|acteur=Nicolas Gabion
+|série=Kaamelott
+|saison=Livre V
+|épisode= 35 : ''Les Embusqués''}}
+
+{{citation|citation=Séchez vos larmes mon épousée, je m'occupe d'aller chercher ces petites salopes par la peau du fion !}}
+{{Réf Série
+|auteur=Alexandre Astier
+|acteur=Nicolas Gabion
+|série=Kaamelott
+|saison=Livre VI
+|épisode= 5 : ''Dux bellorum''}}
+
+{{citation|citation= (''En coin, à sa mère'') Pardon, mère.}}
+{{Réf Série
+|auteur=Alexandre Astier
+|acteur=Nicolas Gabion
+|série=Kaamelott
+|saison=Livre VI
+|épisode= 5 : ''Dux bellorum''}}
+
+[[Catégorie:Kaamelott|Bohort]]</text>
+      <sha1>h8vz4vn5s14rurp0ttu5xnbvmzp1kur</sha1>
+    </revision>
+  </page>
+</mediawiki>

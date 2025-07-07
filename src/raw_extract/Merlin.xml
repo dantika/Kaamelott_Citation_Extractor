@@ -1,0 +1,249 @@
+<mediawiki xmlns="http://www.mediawiki.org/xml/export-0.11/" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:schemaLocation="http://www.mediawiki.org/xml/export-0.11/ http://www.mediawiki.org/xml/export-0.11.xsd" version="0.11" xml:lang="fr">
+  <siteinfo>
+    <sitename>Wikiquote</sitename>
+    <dbname>frwikiquote</dbname>
+    <base>https://fr.wikiquote.org/wiki/Wikiquote:Accueil</base>
+    <generator>MediaWiki 1.45.0-wmf.8</generator>
+    <case>first-letter</case>
+    <namespaces>
+      <namespace key="-2" case="first-letter">Média</namespace>
+      <namespace key="-1" case="first-letter">Spécial</namespace>
+      <namespace key="0" case="first-letter" />
+      <namespace key="1" case="first-letter">Discussion</namespace>
+      <namespace key="2" case="first-letter">Utilisateur</namespace>
+      <namespace key="3" case="first-letter">Discussion utilisateur</namespace>
+      <namespace key="4" case="first-letter">Wikiquote</namespace>
+      <namespace key="5" case="first-letter">Discussion Wikiquote</namespace>
+      <namespace key="6" case="first-letter">Fichier</namespace>
+      <namespace key="7" case="first-letter">Discussion fichier</namespace>
+      <namespace key="8" case="first-letter">MediaWiki</namespace>
+      <namespace key="9" case="first-letter">Discussion MediaWiki</namespace>
+      <namespace key="10" case="first-letter">Modèle</namespace>
+      <namespace key="11" case="first-letter">Discussion modèle</namespace>
+      <namespace key="12" case="first-letter">Aide</namespace>
+      <namespace key="13" case="first-letter">Discussion aide</namespace>
+      <namespace key="14" case="first-letter">Catégorie</namespace>
+      <namespace key="15" case="first-letter">Discussion catégorie</namespace>
+      <namespace key="100" case="first-letter">Portail</namespace>
+      <namespace key="101" case="first-letter">Discussion Portail</namespace>
+      <namespace key="102" case="first-letter">Projet</namespace>
+      <namespace key="103" case="first-letter">Discussion Projet</namespace>
+      <namespace key="104" case="first-letter">Référence</namespace>
+      <namespace key="105" case="first-letter">Discussion Référence</namespace>
+      <namespace key="108" case="first-letter">Transwiki</namespace>
+      <namespace key="109" case="first-letter">Discussion Transwiki</namespace>
+      <namespace key="710" case="first-letter">TimedText</namespace>
+      <namespace key="711" case="first-letter">TimedText talk</namespace>
+      <namespace key="828" case="first-letter">Module</namespace>
+      <namespace key="829" case="first-letter">Discussion module</namespace>
+      <namespace key="2600" case="first-letter">Sujet</namespace>
+    </namespaces>
+  </siteinfo>
+  <page>
+    <title>Kaamelott/Merlin</title>
+    <ns>0</ns>
+    <id>17616</id>
+    <revision>
+      <id>349322</id>
+      <parentid>328589</parentid>
+      <timestamp>2022-12-01T18:53:47Z</timestamp>
+      <contributor>
+        <username>Laurent Dug</username>
+        <id>26560</id>
+      </contributor>
+      <minor/>
+      <comment>ponctuation</comment>
+      <origin>349322</origin>
+      <model>wikitext</model>
+      <format>text/x-wiki</format>
+      <text bytes="8783" sha1="ch0ofdbxyplrx0hege8t85m5bpjrhzm" xml:space="preserve">Citations de '''[[w:Personnages de Kaamelott#Merlin|Merlin]]''' dans la [[:catégorie:série télévisée|série télévisée]] [[Kaamelott]].
+
+==Citations==
+
+{{citation|citation= Invoquer une meute de loups ? Moi je veux bien, mais je vous préviens : s’ils se retournent contre nous pour nous bouffer les miches, vous viendrez pas pleurer !}}
+{{Réf Série|auteur=Alexandre Astier
+|acteur=Jacques Chambon
+|série=Kaamelott
+|saison=décembre 2004
+|épisode=promotion de la série}}
+
+{{citation|citation=(au Répurgateur) Mais moi je viens pas vous emmerder quand vous cramez des sorcières, alors foutez-moi la paix.}}
+{{Réf Série|auteur=Alexandre Astier
+|acteur=Jacques Chambon
+|série=Kaamelott
+|saison= Livre I
+|épisode= 79 : ''L'expurgation De Merlin''}}
+
+{{citation|citation=- Qu'est-ce qui est petit et marron ?&lt;br&gt;[Élias de Kelliwic'h : Un marron.]&lt;br&gt;- Putain, il est fort ce con.}}
+{{Réf Série|auteur=Alexandre Astier
+|acteur=Jacques Chambon
+|série=Kaamelott
+|saison= Livre I
+|épisode= 15 : ''Les Défis de Merlin''}}
+
+{{citation|citation= [À la fée Morgane] : J'adore la châtaigne. Je m'en ferais péter le bide. Vous en voulez ?}}
+{{Réf Série|auteur=Alexandre Astier
+|acteur=Jacques Chambon
+|série=Kaamelott
+|saison=Livre I
+|épisode= 85 : ''La Blessure Mortelle''}}
+
+{{citation|citation= [A Karadoc et Perceval] : La boutique est fermée, adressez-vous à la concurrence. ''(Cette réplique sera reprise dans le Livre V, lorsque Merlin quitte Kaamelott)''}}
+{{Réf Série|auteur=Alexandre Astier
+|acteur=Jacques Chambon
+|série=Kaamelott
+|saison=Livre II
+|épisode= 2 : ''Les Alchimistes''}}
+
+{{citation|citation= (''À propos du rassemblement du corbeau'') J'aime pas y aller à ce truc. Ça me gonfle. Y'a tous les clodos du pays qui portent une barbiche et qui se prennent pour des druides !}}
+{{Réf Série|auteur=Alexandre Astier
+|acteur=Jacques Chambon
+|série=Kaamelott
+|saison=Livre II
+|épisode= 4 : ''Le Rassemblement du Corbeau''}}
+
+{{citation|citation= Mais évidemment, c'est sans alcool !}}
+{{Réf Série|auteur=Alexandre Astier
+|acteur=Jacques Chambon
+|série=Kaamelott
+|saison= Livre II
+|épisode= 4 : ''Le rassemblement du corbeau''}}
+
+{{citation|citation= Alors le chevalier il crie au Romain : Hé ! Vous vous prenez pour le Colisée ?}}
+{{Réf Série|auteur=Alexandre Astier
+|acteur=Jacques Chambon
+|série=Kaamelott
+|saison= Livre II
+|épisode= 4 : ''Le rassemblement du corbeau''}}
+
+{{citation|citation= Hé toi là-bas avec ton casque à cornes, présente-moi ta femme, tu sauras pourquoi t'as des cornes !}}
+{{Réf Série|auteur=Alexandre Astier
+|acteur=Jacques Chambon
+|série=Kaamelott
+|saison= Livre II
+|épisode= 4 : ''Le rassemblement du corbeau''}}
+
+{{citation|citation= Franchement, une potion pour faire pisser bleu, ça presse forcément la minute ?}}
+{{Réf Série|auteur=Alexandre Astier
+|acteur=Jacques Chambon
+|série=Kaamelott
+|saison=Livre II
+|épisode= 21 : ''Les Misanthropes''}}
+
+{{citation|citation= Ah ben j’suis mi-démon, moi, les démons c’est pas foutu pareil. D’ailleurs, dans le calendrier démonique je vais bientôt avoir sept ans. J’aurai le droit d’avoir une mogriave. […] Une mogriave ? C’est comme un petit chien, mais hyper vilain.}}
+{{Réf Série|auteur=Alexandre Astier
+|acteur=Jacques Chambon
+|série=Kaamelott
+|saison=Livre II
+|épisode= 56 : ''Merlin l'archaïque''}}
+
+{{citation|citation= Arthur, je suis désolé je peux plus rien faire. Et vous lui rappellerez que s'il est roi, c'est aussi grâce a bibi, et que Excalibur, c'est moi qui l'ai emmené la chercher la première fois quand il avait même pas quatre ans... Oui môssieur Blaise ! Je lui ai torché le cul à Arthur, je lui ai trouvé un père adoptif ! Tout ça pour qu'il me remplace par l'autre guignol d'Elias de Kelliwic'h !}}
+{{Réf Série
+|auteur=Alexandre Astier
+|acteur=Jacques Chambon
+|série=Kaamelott
+|saison=Livre V
+|épisode= 9 : ''La démission''}}
+
+{{citation|citation= Ça fait des années que je me démène à apprendre des machins d'enchanteur ! Des grimoires plein les étages. J'en ai marre ! Je suis druide ! DRUI-DE ! Les trucs de flambeur pour amuser la galerie ça ne m'in-te-re-sse pas ! Alors salut tout le monde, je déserte. [Mevanwi : Merlin faites pas l'imbécile...
+Père Blaise : Et euh où est-ce que vous allez aller ?] Mais dehors ! A ma place ! Parce que oui, quand on a deux ronds de bon sens on demande pas à un druide de travailler dans un endroit clos, bande de crétins ! La quasi-totalité de mes pouvoirs est annulée quand j'ai un toit au dessus de la tête... Alors Merlin, il retourne à la belle étoile et si on vous demande ce qu'il a dit en partant, vous répondrez "merde" !}}
+{{Réf Série
+|auteur=Alexandre Astier
+|acteur=Jacques Chambon
+|série=Kaamelott
+|saison=Livre V
+|épisode=9 ; La démission}}
+
+{{citation|citation= J'ai tout entendu et c'est honteux !!}}
+{{Réf Série|auteur=Alexandre Astier
+|acteur=Jacques Chambon
+|série=Kaamelott
+|saison=Livre III
+|épisode= 4 : ''Le Renfort Magique''}}
+
+{{citation|citation= Vous n’êtes pas le plus fort, Môssieur Élias ! Quand on confond un clafoutis et UNE PART de clafoutis, on vient pas la ramener !}}
+{{Réf Série|auteur=Alexandre Astier
+|acteur=Jacques Chambon
+|série=Kaamelott
+|saison=Livre III
+|épisode= 96 : ''Les Défis De Merlin II''}}
+
+{{citation|citation= Attendez, je veux être là quand vous lui mettez une chasse !}}
+{{Réf Série|auteur=Alexandre Astier
+|acteur=Jacques Chambon
+|série=Kaamelott
+|saison=Livre IV
+|épisode= 12 : ''Le privilégié"}}
+
+{{citation|citation= Un arbre ça pousse, c'est là où vous pourrez faire la différence : le camouflage, il pousse pas !}}
+{{Réf Série|auteur=Alexandre Astier
+|acteur=Jacques Chambon
+|série=Kaamelott
+|saison=Livre V
+|épisode= 39 : ''Unagi V''}}
+
+{{citation|citation= Quand je dis que Rome est à la Cité ce que la chèvre est au fromage de chèvre, je veux dire que c'est le petit plus qui est corollaire au noyau mais qui est pas directement dans le cœur du fruit !}}
+{{Réf Série|auteur=Alexandre Astier
+|acteur=Jacques Chambon
+|série=Kaamelott
+|saison=Livre VI
+|épisode= 3 : ''Præceptores''}}
+
+
+{{citation|citation= Quand vous êtes parti, je me suis dit : Je vais me promener ? Je vais me pas promener ? Finalement j'ai décidé de me beurrer la gueule.
+}}
+{{Réf Série|auteur=Alexandre Astier
+|acteur=Jacques Chambon
+|série=Kaamelott
+|saison=Livre VI
+|épisode= 3 : ''Præceptores''}}
+
+{{citation|citation= Moi, je dis que c'est magique à cause des merdes qui pendouillent, mais ça se trouve, c'est pas ça...}}
+{{Réf Série|auteur=Alexandre Astier
+|acteur=Jacques Chambon
+|série=Kaamelott
+|saison=Livre III
+|épisode= ''L'arche de transport''}}
+
+{{citation|citation= Remarquez que moi, j'ai un pote poissonnier qui sait boire du lait à la paille par les trous de nez !}}
+{{Réf Série|auteur=Alexandre Astier
+|acteur=Jacques Chambon
+|série=Kaamelott
+|saison=Livre II
+|épisode= ''L'invincible''}}
+
+{{citation|citation= Moi j'ai vomi deux fois, mais c'est moi qu'ai ramassé !}}
+{{Réf Série|auteur=Alexandre Astier
+|acteur=Jacques Chambon
+|série=Kaamelott
+|saison=Livre VI
+|épisode= ''Nuptiæ''}}
+
+{{citation|citation= Ah mais foutez-moi la paix ! J'ai traversé l'île en long, en large et en travers ! Pareil en Aquitaine et en Armorique ! Vous croyez que j'me souviens de tous les trous du cul à qui j'ai balancé mon laïus ?}}
+{{Réf Série|auteur=Alexandre Astier
+|acteur=Jacques Chambon
+|série=Kaamelott
+|saison=Livre VI
+|épisode= 7 : ''Arturus rex''}}
+
+{{citation|citation= Arthur: Tout ce qui était sous le joug de mon de mon père quoi.
+&lt;br&gt;Merlin : Sous le ?&lt;br&gt;Arthur : Sous le joug.&lt;br&gt;Merlin : Le ?&lt;br&gt;Arthur : Le Joug.&lt;br&gt;Merlin : Comme le joug de fruit ?}}
+{{Réf Série|auteur=Alexandre Astier
+|acteur=Jacques Chambon
+|série=Kaamelott
+|saison=Livre VI
+|épisode= 3 : ''Præceptores''}}
+
+{{citation|citation= Pas besoin d'hommage puisque je vous dis que je vais vous le rafistoler. [Arthur: Ça fait vingt fois que vous essayez de me rafistoler comme vous dites, ça marche jamais.] Ça marche jamais parce que vous avez pas envie, c'est tout ! [...] Vous avez pas envie de refabriquer ce sang qui vous manque... Combien de temps ça fait que vous vous êtes taillé les veines ? Six mois, un an ?! Vous êtes toujours blanc comme une fesse ! [Bohort: Merlin, ne vous emballez pas...] J'm'emballe pas, ça m'énerve ! Il suffirait que vous vous donniez un bon coup de pied au fion et vous reprendriez du poil de la bête, mais non ! Et voilà ! Il s'endort, maintenant !}}
+{{Réf Série|auteur=Alexandre Astier
+|acteur=Jacques Chambon
+|série=Kaamelott
+|saison=Livre VI
+|épisode=9 ; Dies Irae}}
+
+{{autres projets|w=Personnages de Kaamelott#Merlin}}
+[[Catégorie:Kaamelott|Merlin]]</text>
+      <sha1>ch0ofdbxyplrx0hege8t85m5bpjrhzm</sha1>
+    </revision>
+  </page>
+</mediawiki>

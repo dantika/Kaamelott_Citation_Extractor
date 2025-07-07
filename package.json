@@ -1,0 +1,22 @@
+{
+  "name": "kaamelott-citation-extractor",
+  "version": "1.0.0",
+  "description": "An xml extractor to get all kaamelott quotes",
+  "main": "index.ts",
+  "scripts": {
+    "build": "tsc && cpx \"src/raw_html/**/*\" dist/raw_html",
+    "start": "npm run build && node dist/index.js"
+  },
+  "devDependencies": {
+    "typescript": "^5.0.0"
+  },
+  "keywords": [
+    "kaamelott",
+    "quotes",
+    "daily",
+    "humor",
+    "scrapper"
+  ],
+  "author": "Benjamin",
+  "license": "MIT"
+}

@@ -1,0 +1,808 @@
+<mediawiki xmlns="http://www.mediawiki.org/xml/export-0.11/" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:schemaLocation="http://www.mediawiki.org/xml/export-0.11/ http://www.mediawiki.org/xml/export-0.11.xsd" version="0.11" xml:lang="fr">
+  <siteinfo>
+    <sitename>Wikiquote</sitename>
+    <dbname>frwikiquote</dbname>
+    <base>https://fr.wikiquote.org/wiki/Wikiquote:Accueil</base>
+    <generator>MediaWiki 1.45.0-wmf.8</generator>
+    <case>first-letter</case>
+    <namespaces>
+      <namespace key="-2" case="first-letter">Média</namespace>
+      <namespace key="-1" case="first-letter">Spécial</namespace>
+      <namespace key="0" case="first-letter" />
+      <namespace key="1" case="first-letter">Discussion</namespace>
+      <namespace key="2" case="first-letter">Utilisateur</namespace>
+      <namespace key="3" case="first-letter">Discussion utilisateur</namespace>
+      <namespace key="4" case="first-letter">Wikiquote</namespace>
+      <namespace key="5" case="first-letter">Discussion Wikiquote</namespace>
+      <namespace key="6" case="first-letter">Fichier</namespace>
+      <namespace key="7" case="first-letter">Discussion fichier</namespace>
+      <namespace key="8" case="first-letter">MediaWiki</namespace>
+      <namespace key="9" case="first-letter">Discussion MediaWiki</namespace>
+      <namespace key="10" case="first-letter">Modèle</namespace>
+      <namespace key="11" case="first-letter">Discussion modèle</namespace>
+      <namespace key="12" case="first-letter">Aide</namespace>
+      <namespace key="13" case="first-letter">Discussion aide</namespace>
+      <namespace key="14" case="first-letter">Catégorie</namespace>
+      <namespace key="15" case="first-letter">Discussion catégorie</namespace>
+      <namespace key="100" case="first-letter">Portail</namespace>
+      <namespace key="101" case="first-letter">Discussion Portail</namespace>
+      <namespace key="102" case="first-letter">Projet</namespace>
+      <namespace key="103" case="first-letter">Discussion Projet</namespace>
+      <namespace key="104" case="first-letter">Référence</namespace>
+      <namespace key="105" case="first-letter">Discussion Référence</namespace>
+      <namespace key="108" case="first-letter">Transwiki</namespace>
+      <namespace key="109" case="first-letter">Discussion Transwiki</namespace>
+      <namespace key="710" case="first-letter">TimedText</namespace>
+      <namespace key="711" case="first-letter">TimedText talk</namespace>
+      <namespace key="828" case="first-letter">Module</namespace>
+      <namespace key="829" case="first-letter">Discussion module</namespace>
+      <namespace key="2600" case="first-letter">Sujet</namespace>
+    </namespaces>
+  </siteinfo>
+  <page>
+    <title>Kaamelott/Bandes dessinées</title>
+    <ns>0</ns>
+    <id>17587</id>
+    <revision>
+      <id>340444</id>
+      <parentid>283122</parentid>
+      <timestamp>2022-01-15T09:56:10Z</timestamp>
+      <contributor>
+        <username>Eunostos</username>
+        <id>1580</id>
+      </contributor>
+      <minor/>
+      <comment>+ [[Catégorie:Bande dessinée française]]</comment>
+      <origin>340444</origin>
+      <model>wikitext</model>
+      <format>text/x-wiki</format>
+      <text bytes="27136" sha1="qm7ngoz3cemroi9hiw6ucjdc7ydxe61" xml:space="preserve">Citations de la '''série de [[:Catégorie:Bande dessinée|bande dessinée]] Kaamelott''', adaptée de la série télévisée [[Kaamelott]].
+
+== T.2 : ''[[w:Les Sièges de Transport|Les Sièges de Transport]]'', 2007 ==
+
+{{citation|citation=&lt;poem&gt;
+{{Personnage|Perceval}} : On serait pas tombés sur du taré, des fois ?
+&lt;/poem&gt;}}
+{{Réf Livre
+|auteur=Alexandre Astier et Steven Dupré
+|éditeur=Casterman
+|collection=Kaamelott 
+|titre=Les Sièges de Transport
+|année=2007
+|page=9}}
+
+{{citation|citation=&lt;poem&gt;
+{{Personnage|Le vieillard}} : Finalement, j'aurais pu passer dix-sept ans à roupiller, ça aurait été pareil ! Pas une visite, pas une attaque ! Peau de balle !
+&lt;/poem&gt;}}
+{{Réf Livre
+|auteur=Alexandre Astier et Steven Dupré
+|éditeur=Casterman
+|collection=Kaamelott 
+|titre=Les Sièges de Transport
+|année=2007
+|page=9}}
+
+{{citation|citation=&lt;poem&gt;
+{{Personnage|Arthur}} :  "Transbahutez mon bureau à l'étage du dessus", j'ai dit ! J'ai jamais parlé de toucher au plumard !
+{{Personnage|Guenièvre}} : Surtout quand je suis encore dedans !
+&lt;/poem&gt;}}
+{{Réf Livre
+|auteur=Alexandre Astier et Steven Dupré
+|éditeur=Casterman
+|collection=Kaamelott 
+|titre=Les Sièges de Transport
+|année=2007
+|page=11}}
+
+{{citation|citation=&lt;poem&gt;
+{{Personnage|Le tavernier du Languedoc}} :  Et vous avez traversé les océans pour voir s'il y avait un objet magique dans ma cave ?
+&lt;/poem&gt;}}
+{{Réf Livre
+|auteur=Alexandre Astier et Steven Dupré
+|éditeur=Casterman
+|collection=Kaamelott 
+|titre=Les Sièges de Transport
+|année=2007
+|page=13}}
+
+{{citation|citation=&lt;poem&gt;
+{{Personnage|Léodagan}} : Et mes plans ?
+{{Personnage|Arthur}} : Vos plans, vous pouvez vous les coller…
+&lt;/poem&gt;}}
+{{Réf Livre
+|auteur=Alexandre Astier et Steven Dupré
+|éditeur=Casterman
+|collection=Kaamelott 
+|titre=Les Sièges de Transport
+|année=2007
+|page=15}}
+
+{{citation|citation=&lt;poem&gt;
+{{Personnage|Venec}} :  Et quand vous avez traversé la mer, ça vous a pas plus inquiété que ça ?
+&lt;/poem&gt;}}
+{{Réf Livre
+|auteur=Alexandre Astier et Steven Dupré
+|éditeur=Casterman
+|collection=Kaamelott 
+|titre=Les Sièges de Transport
+|année=2007
+|page=22}}
+
+{{citation|citation=&lt;poem&gt;
+{{Personnage|Haki}} : Allez, vous aussi ! Sautez !
+{{Personnage|Bjarni}} : Heu… Dans les poulpes ?
+&lt;/poem&gt;}}
+{{Réf Livre
+|auteur=Alexandre Astier et Steven Dupré
+|éditeur=Casterman
+|collection=Kaamelott 
+|titre=Les Sièges de Transport
+|année=2007
+|page=25}}
+
+{{citation|citation=&lt;poem&gt;
+{{Personnage|Bjarni}} : Ils ont dû se faufiler quelque part !
+{{Personnage|Haki}} : Se faufiler quelque part ? Mettez le port sens dessus dessous, par Modi ! Fouillez tous les bateaux s'il le faut mais trouvez-les !
+&lt;/poem&gt;}}
+{{Réf Livre
+|auteur=Alexandre Astier et Steven Dupré
+|éditeur=Casterman
+|collection=Kaamelott 
+|titre=Les Sièges de Transport
+|année=2007
+|page=26}}
+
+{{citation|citation=&lt;poem&gt;
+{{Personnage|Haki}} : Au lieu de faire des phrases, saute et va aider les autres.
+{{Personnage|Le Viking ''un poil plus âgé que les autres''}} : Dans les poulpes ?
+&lt;/poem&gt;}}
+{{Réf Livre
+|auteur=Alexandre Astier et Steven Dupré
+|éditeur=Casterman
+|collection=Kaamelott 
+|titre=Les Sièges de Transport
+|année=2007
+|page=26}}
+
+{{citation|citation=&lt;poem&gt;
+{{Personnage|Le tavernier}} : À propos de mobilier, qu'est-ce-que vous trimballez là ? Vous aviez peur de ne pas trouver de place assise ?
+&lt;/poem&gt;}}
+{{Réf Livre
+|auteur=Alexandre Astier et Steven Dupré
+|éditeur=Casterman
+|collection=Kaamelott 
+|titre=Les Sièges de Transport
+|année=2007
+|page=28}}
+
+{{citation|citation=&lt;poem&gt;
+{{Personnage|Le tavernier}} : C'est interdit de venir avec son manger mais avec ses meubles…
+&lt;/poem&gt;}}
+{{Réf Livre
+|auteur=Alexandre Astier et Steven Dupré
+|éditeur=Casterman
+|collection=Kaamelott 
+|titre=Les Sièges de Transport
+|année=2007
+|page=28}}
+
+{{citation|citation=&lt;poem&gt;
+{{Personnage|Un matelot}} : Ils nous suivent toujours, capitaine !
+{{Personnage|Venec}} : ÉVIDEMMENT QU'ILS NOUS SUIVENT !
+{{Personnage|Perceval}} : Ça pour nous suivre… Je sais pas ce que vous leur avez fait mais ils ont la rancune tenace !
+{{Personnage|Venec}} : Mais c'est vous, qui leur avez fait, nom de nom ! Je vous dis que je les ai jamais vus !
+{{Personnage|Le matelot}} : Capitaine, ils sont toujours là !
+{{Personnage|Venec}} : MAIS VOUS ALLEZ ME GONFLER JUSQU'À QUELLE HEURE, VOUS ? JE ME DOUTE BIEN QU'ILS SONT TOUJOURS LÀ ! ILS SE SONT PAS TRANSFORMÉS EN BANC DE SARDINES !
+&lt;/poem&gt;}}
+{{Réf Livre
+|auteur=Alexandre Astier et Steven Dupré
+|éditeur=Casterman
+|collection=Kaamelott 
+|titre=Les Sièges de Transport
+|année=2007
+|page=30}}
+
+{{citation|citation=&lt;poem&gt;
+{{Personnage|Léodagan}} : Je reprends mon souffle, parce qu'en ce moment, pour vous débusquer dans les locaux, il faut drôlement de l'endurance !
+{{Personnage|Arthur}} : Faut surtout pas avoir grand chose à fiche !
+{{Personnage|Léodagan}} : J'ai à fiche qu'il y a du boulot urgent ! Seulement quand je me pointe à votre bureau, c'est plus votre bureau !
+{{Personnage|Arthur}} : J'ai pas le temps, on verra demain !
+{{Personnage|Léodagan}} : Mais demain, vous aurez encore fait la malle !
+{{Personnage|Arthur}} : Et ben vous me chercherez ! Ça vous fera de l'exercice !
+{{Personnage|Léodagan}} : Je vais faire renifler vos calebards à une meute de chiens de chasse, c'est à vous que ça fera de l'exercice !
+&lt;/poem&gt;}}
+{{Réf Livre
+|auteur=Alexandre Astier et Steven Dupré
+|éditeur=Casterman
+|collection=Kaamelott 
+|titre=Les Sièges de Transport
+|année=2007
+|page=32}}
+
+{{citation|citation=&lt;poem&gt;
+{{Personnage|Karadoc}} : Et profitez pas de l'absence de Perceval pour me faire passer pour un analgésique !
+&lt;/poem&gt;}}
+{{Réf Livre
+|auteur=Alexandre Astier et Steven Dupré
+|éditeur=Casterman
+|collection=Kaamelott 
+|titre=Les Sièges de Transport
+|année=2007
+|page=33}}
+
+{{citation|citation=&lt;poem&gt;
+{{Personnage|Haki}} : Par quel prodige connaissez-vous l'existence des Sièges de Transport ? Parlez !
+{{Personnage|Venec}} : L'existence des… ?
+{{Personnage|Perceval}} : Je sais pas, j'écoutais pas…
+{{Personnage|Haki}} : Je vous signale que vous n'êtes pas vraiment en position de vous foutre de moi !
+&lt;/poem&gt;}}
+{{Réf Livre
+|auteur=Alexandre Astier et Steven Dupré
+|éditeur=Casterman
+|collection=Kaamelott 
+|titre=Les Sièges de Transport
+|année=2007
+|page=34}}
+
+{{citation|citation=&lt;poem&gt;
+{{Personnage|Bjarni}} : Haki ! Réfléchis ! Morts, ils ne nous servent à rien !
+{{Personnage|Haki}} : Parce que vivants ils nous servent à quelque chose ?
+&lt;/poem&gt;}}
+{{Réf Livre
+|auteur=Alexandre Astier et Steven Dupré
+|éditeur=Casterman
+|collection=Kaamelott 
+|titre=Les Sièges de Transport
+|année=2007
+|page=35}}
+
+{{citation|citation=&lt;poem&gt;
+{{Personnage|Arthur}} : Et si jamais vous apportez dans ce bureau ne serait-ce qu'un seul céleri-rave, je vous colle trente jours de cachot, c'est clair ?
+&lt;/poem&gt;}}
+{{Réf Livre
+|auteur=Alexandre Astier et Steven Dupré
+|éditeur=Casterman
+|collection=Kaamelott 
+|titre=Les Sièges de Transport
+|année=2007
+|page=36}}
+
+{{citation|citation=&lt;poem&gt;
+{{Personnage|La Dame du Lac}} : Pardon mais votre nouveau bureau est un peu exigu pour une apparition !
+{{Personnage|Arthur}} : C'est pour me dire ça que vous êtes venue ?
+&lt;/poem&gt;}}
+{{Réf Livre
+|auteur=Alexandre Astier et Steven Dupré
+|éditeur=Casterman
+|collection=Kaamelott 
+|titre=Les Sièges de Transport
+|année=2007
+|page=37}}
+
+{{citation|citation=&lt;poem&gt;
+{{Personnage|Karadoc}} : Vous êtes sûr que vous avez bien pris le jambon ?
+&lt;/poem&gt;}}
+{{Réf Livre
+|auteur=Alexandre Astier et Steven Dupré
+|éditeur=Casterman
+|collection=Kaamelott 
+|titre=Les Sièges de Transport
+|année=2007
+|page=41}}
+
+{{citation|citation=&lt;poem&gt;
+{{Personnage|Arthur}} : Donc en fait, pour résumer, vous m'avez ramené un machin qui permet aux Vikings de m'envahir plus vite qu'avant, c'est ça ?
+&lt;/poem&gt;}}
+{{Réf Livre
+|auteur=Alexandre Astier et Steven Dupré
+|éditeur=Casterman
+|collection=Kaamelott 
+|titre=Les Sièges de Transport
+|année=2007
+|page=42}}
+
+{{citation|citation=&lt;poem&gt;
+{{Personnage|Le tavernier}} : Comment ça, "il manque un tabouret" ? Et d'une, je pense que c'est quand même pas bien compliqué de jeter un œil avant de s'asseoir, et de deux, je vois pas pourquoi il manquerait un tabouret…
+&lt;/poem&gt;}}
+{{Réf Livre
+|auteur=Alexandre Astier et Steven Dupré
+|éditeur=Casterman
+|collection=Kaamelott 
+|titre=Les Sièges de Transport
+|année=2007
+|page=44}}
+
+{{citation|citation=&lt;poem&gt;
+{{Personnage|Léodagan}} : MÉFIEZ-VOUS ! SI JE ME FÂCHE ON VA RENTRER DANS UNE PHASE PAS MARRANTE !
+{{Personnage|Arthur}} : BAR-REZ VOUS ! VOUS VOYEZ BIEN QUE J'AI PAS LA PLACE DE RECEVOIR !
+{{Personnage|Léodagan}} : BOUGEZ PAS… ''(Il prend le tabouret)'' JE VAIS VOUS EN FAIRE DE LA PLACE ''(Il le balance sur Arthur, qui l'esquive)'' !
+{{Personnage|Arthur}} : RATÉ ! ''(Il prend son bureau)'' PUISQUE VOUS AIMEZ LES MEUBLES, VOUS ALLEZ BOUFFER CELUI-LÀ !
+&lt;/poem&gt;}}
+{{Réf Livre
+|auteur=Alexandre Astier et Steven Dupré
+|éditeur=Casterman
+|collection=Kaamelott 
+|titre=Les Sièges de Transport
+|année=2007
+|page=46}}
+
+== T.3 : ''[[w:L'Énigme du Coffre|L'Énigme du Coffre]]'', 2008 ==
+
+{{citation|citation=&lt;poem&gt;
+{{Personnage|Le chef Orque}} : Et vous, là ? On peut savoir ce que vous attendez pour lui courir après ?
+{{Personnage|Un villageois}} : C'est pas le tout de courir, mais…
+{{Personnage|Un autre villageois}} : Après qui ? On n'a rien vu !
+{{Personnage|Un troisième villageois}} : On picolait.
+&lt;/poem&gt;}}
+{{Réf Livre
+|auteur=Alexandre Astier et Steven Dupré
+|éditeur=Casterman
+|collection=Kaamelott 
+|titre=L'Énigme Du Coffre
+|année=2008
+|page=3}}
+
+{{citation|citation=&lt;poem&gt;
+{{Personnage|Karadoc}} : Seigneur Lancelot ? Pourquoi vous courez ?
+{{Personnage|Perceval}} : C'est vous qui avez volé un truc ?
+{{Personnage|Lancelot}} : Mais non, andouilles !
+&lt;/poem&gt;}}
+{{Réf Livre
+|auteur=Alexandre Astier et Steven Dupré
+|éditeur=Casterman
+|collection=Kaamelott 
+|titre=L'Énigme Du Coffre
+|année=2008
+|page=4}}
+
+{{citation|citation=&lt;poem&gt;
+{{Personnage|Perceval}} : Et voilà ! Il file des ordres et il y a même pas la fin !
+&lt;/poem&gt;}}
+{{Réf Livre
+|auteur=Alexandre Astier et Steven Dupré
+|éditeur=Casterman
+|collection=Kaamelott 
+|titre=L'Énigme Du Coffre
+|année=2008
+|page=4}}
+
+{{citation|citation=&lt;poem&gt;
+{{Personnage|Un villageois}} : Cyric, c'était mon copain, je vous ferais dire !
+{{Personnage|Un autre villageois}} : Et ben ton copain, c'était un beau salopard !
+{{Personnage|Un troisième villageois}} : Insultez pas les morts, nom de nom !
+{{Personnage|Le chef Orque}} : VOUS ALLEZ LA FERMER, BANDE DE DÉBILES !
+&lt;/poem&gt;}}
+{{Réf Livre
+|auteur=Alexandre Astier et Steven Dupré
+|éditeur=Casterman
+|collection=Kaamelott 
+|titre=L'Énigme Du Coffre
+|année=2008
+|page=6}}
+
+{{citation|citation=&lt;poem&gt;
+{{Personnage|Le chef Orque}} : Je suppose que c'est Kaamelott qui vous envoie !
+{{Personnage|Perceval}} : Tout juste !
+{{Personnage|Karadoc}} : Alors, elle est où, la révolte ?
+{{Personnage|Perceval}} : Parce que là, si on se met en quinconce, vous allez pas vous marrer !
+{{Personnage|Lancelot}} : Ce qu'on va faire : je vais parlementer un peu tout seul… Au moins au début.
+&lt;/poem&gt;}}
+{{Réf Livre
+|auteur=Alexandre Astier et Steven Dupré
+|éditeur=Casterman
+|collection=Kaamelott 
+|titre=L'Énigme Du Coffre
+|année=2008
+|page=11}}
+
+{{citation|citation=&lt;poem&gt;
+{{Personnage|Le chef Orque}} : Je suppose que je suis censé faire ce que vous demandez ?
+{{Personnage|Lancelot}} : Exactement. En revanche, rien ne vous oblige à nous remercier de courir après vos voleurs.
+&lt;/poem&gt;}}
+{{Réf Livre
+|auteur=Alexandre Astier et Steven Dupré
+|éditeur=Casterman
+|collection=Kaamelott 
+|titre=L'Énigme Du Coffre
+|année=2008
+|page=13}}
+
+{{citation|citation=&lt;poem&gt;
+{{Personnage|Perceval}} : Ça fait une heure qu'il répète ça, lui ! Plus loin ! Plus loin !
+{{Personnage|Karadoc}} : Encore plus loin ! Toujours plus loin ! 
+{{Personnage|Perceval}} : Vous voulez qu'on bousille nos pompes ? C'est ça le but de la manœuvre ?
+&lt;/poem&gt;}}
+{{Réf Livre
+|auteur=Alexandre Astier et Steven Dupré
+|éditeur=Casterman
+|collection=Kaamelott 
+|titre=L'Énigme Du Coffre
+|année=2008
+|page=14}}
+
+{{citation|citation=&lt;poem&gt;
+{{Personnage|Perceval}} : Sauf qu'en face on tombe que sur des amateurs de coups vicelards !
+&lt;/poem&gt;}}
+{{Réf Livre
+|auteur=Alexandre Astier et Steven Dupré
+|éditeur=Casterman
+|collection=Kaamelott 
+|titre=L'Énigme Du Coffre
+|année=2008
+|page=16}}
+
+{{citation|citation=&lt;poem&gt;
+{{Personnage|Arthur}} : Vous arrivez à remonter ou il faut qu'on s'y mette tous ?
+&lt;/poem&gt;}}
+{{Réf Livre
+|auteur=Alexandre Astier et Steven Dupré
+|éditeur=Casterman
+|collection=Kaamelott 
+|titre=L'Énigme Du Coffre
+|année=2008
+|page=17}}
+
+{{citation|citation=&lt;poem&gt;
+{{Personnage|Arthur}} : Bon, nous on pige rien, mais…
+&lt;/poem&gt;}}
+{{Réf Livre
+|auteur=Alexandre Astier et Steven Dupré
+|éditeur=Casterman
+|collection=Kaamelott 
+|titre=L'Énigme Du Coffre
+|année=2008
+|page=19}}
+
+{{citation|citation=&lt;poem&gt;
+{{Personnage|Karadoc}} : Et les autres, qu'est-ce-que vous en faites ? Des épouvantails ?
+&lt;/poem&gt;}}
+{{Réf Livre
+|auteur=Alexandre Astier et Steven Dupré
+|éditeur=Casterman
+|collection=Kaamelott 
+|titre=L'Énigme Du Coffre
+|année=2008
+|page=23}}
+
+{{citation|citation=&lt;poem&gt;
+{{Personnage|Le croque-mort}} : Je les balance, les cendres… Qu'est-ce que vous voulez que j'en fasse ?
+&lt;/poem&gt;}}
+{{Réf Livre
+|auteur=Alexandre Astier et Steven Dupré
+|éditeur=Casterman
+|collection=Kaamelott 
+|titre=L'Énigme Du Coffre
+|année=2008
+|page=24}}
+
+{{citation|citation=&lt;poem&gt;
+{{Personnage|Perceval}} : Il a les miquettes, le faisan ?
+&lt;/poem&gt;}}
+{{Réf Livre
+|auteur=Alexandre Astier et Steven Dupré
+|éditeur=Casterman
+|collection=Kaamelott 
+|titre=L'Énigme Du Coffre
+|année=2008
+|page=24}}
+
+{{citation|citation=&lt;poem&gt;
+{{Personnage|Léodagan}} : Votre grand-père ? Qu'est-ce qu'on s'en fout de votre grand-père ?
+&lt;/poem&gt;}}
+{{Réf Livre
+|auteur=Alexandre Astier et Steven Dupré
+|éditeur=Casterman
+|collection=Kaamelott 
+|titre=L'Énigme Du Coffre
+|année=2008
+|page=26}}
+
+{{citation|citation=&lt;poem&gt;
+{{Personnage|Lancelot}} : Vous accusez votre chef ?
+{{Personnage|Léodagan}} : Et alors ? Nous aussi, on accuse bien notre chef de temps en temps ? Ça fait pas de mal !
+&lt;/poem&gt;}}
+{{Réf Livre
+|auteur=Alexandre Astier et Steven Dupré
+|éditeur=Casterman
+|collection=Kaamelott 
+|titre=L'Énigme Du Coffre
+|année=2008
+|page=28}}
+
+{{citation|citation=&lt;poem&gt;
+{{Personnage|Léodagan}} : Elle était ouverte, cette porte ? C'est pas normal !
+{{Personnage|Perceval}} : Même une porte, ça fout les jetons, ici…
+&lt;/poem&gt;}}
+{{Réf Livre
+|auteur=Alexandre Astier et Steven Dupré
+|éditeur=Casterman
+|collection=Kaamelott 
+|titre=L'Énigme Du Coffre
+|année=2008
+|page=34}}
+
+{{citation|citation=&lt;poem&gt;
+{{Personnage|Karadoc}} : Heu… Vous allez peut-être nous dire qu'il faut monter là-dedans ? […]
+{{Personnage|Arthur}} : On va rien vous dire… On n'en sait pas plus que vous !
+&lt;/poem&gt;}}
+{{Réf Livre
+|auteur=Alexandre Astier et Steven Dupré
+|éditeur=Casterman
+|collection=Kaamelott 
+|titre=L'Énigme Du Coffre
+|année=2008
+|page=34}}
+
+{{citation|citation=&lt;poem&gt;
+{{Personnage|Léodagan}} : Eh, regardez ! On dirait que ça se vide !
+{{Personnage|Perceval}} : C'est moi ! C'est depuis que j'ai tourné ce truc !
+{{Personnage|Arthur}} : Mais qui vous a demandé de tourner des trucs, vous ?
+&lt;/poem&gt;}}
+{{Réf Livre
+|auteur=Alexandre Astier et Steven Dupré
+|éditeur=Casterman
+|collection=Kaamelott 
+|titre=L'Énigme Du Coffre
+|année=2008
+|page=37}}
+
+{{citation|citation=&lt;poem&gt;
+{{Personnage|Karadoc}} : Eh regardez ! Il y a un petit poisson dans mon casque !
+{{Personnage|Léodagan}} : Ah, vous vous sentez proches des problèmes, ça fait plaisir !
+{{Personnage|Karadoc}} : Attendez, quand je vais à la pêche, je touche jamais à rien, et là, je sors de l'eau, je demande rien à personne et j'ai un petit poisson dans mon casque !
+{{Personnage|Léodagan}} : Bouffez-le, votre poisson !
+{{Personnage|Lancelot}} : C'est ça ! Comme ça, vous là fermerez !
+[…]
+{{Personnage|Léodagan}} : Vous allez nous les râper jusqu'à quand, avec votre poisson ?
+&lt;/poem&gt;}}
+{{Réf Livre
+|auteur=Alexandre Astier et Steven Dupré
+|éditeur=Casterman
+|collection=Kaamelott 
+|titre=L'Énigme Du Coffre
+|année=2008
+|page=40-41}}
+
+{{citation|citation=&lt;poem&gt;
+{{Personnage|Perceval}} : C'est peut-être moi ! Je suis un faux maigre !
+&lt;/poem&gt;}}
+{{Réf Livre
+|auteur=Alexandre Astier et Steven Dupré
+|éditeur=Casterman
+|collection=Kaamelott 
+|titre=L'Énigme Du Coffre
+|année=2008
+|page=42}}
+
+{{citation|citation=&lt;poem&gt;
+{{Personnage|Léodagan}} : S'il y a pas l'or, je me casse, je vous préviens ! Ras le bol de vos acrobaties, moi !!
+&lt;/poem&gt;}}
+{{Réf Livre
+|auteur=Alexandre Astier et Steven Dupré
+|éditeur=Casterman
+|collection=Kaamelott 
+|titre=L'Énigme Du Coffre
+|année=2008
+|page=45}}
+
+== T.5 : ''{{w|Le Serpent géant du lac de l'ombre}}'', 2010 ==
+{{Fiche de références|Le Serpent géant du lac de l'ombre}}
+
+{{citation|citation=&lt;poem&gt;
+{{Personnage|Karadoc}} : Il [le sac d'or] était sous le coussin, je ne suis pas fou ! Il y avait un demi-pain de seigle, deux saucissons de sanglier dont un entamé, une terrine de pâté de foie de volaille et un sac de pièces ! Le demi-pain, les saucissons et la terrine, ils y étaient, mais pas le sac !
+&lt;/poem&gt;}}
+{{Réf Livre|référence=Le Serpent géant du lac de l'ombre/Casterman
+|page=4
+}}
+
+{{citation|citation=&lt;poem&gt;
+{{Personnage|Arthur}} : Qu'est-ce que c'est que cette histoire ? Avec tout le pognon qu'on vous a fait tomber l'autre fois, vous êtes déjà à sec ?
+{{Personnage|Karadoc}} : Ah oui mais, attention ! On l'a pas dépensé à des bêtises !
+{{Personnage|Perceval}} : Sûrement pas !
+{{Personnage|Karadoc}} : C'est pas notre genre !
+{{Personnage|Arthur}} : Et vous l'avez dépensé à quoi, sans indiscrétion ?
+{{Personnage|Karadoc}} : On l'a pas dépensé, on l'a paumé.
+{{Personnage|Perceval}} : Nuance !
+&lt;/poem&gt;}}
+{{Réf Livre|référence=Le Serpent géant du lac de l'ombre/Casterman
+|page=5
+}}
+
+{{citation|citation=&lt;poem&gt;
+{{Personnage|Père Blaise}} : [...] Vous êtes sûr que les villageois vous ont acclamés comme des héros ? Tout ça pour avoir estourbi une anguille ?
+{{Personnage|Perceval}} : Acclamés, acclamés... En tout cas ils étaient très satisfaits de nos services ! Ils nous ont même servi du potage. Ça veut rien dire, ça, peut-être ?
+{{Personnage|Père Blaise}} : Du potage ? Parce que si quelqu'un vous sauve d'un grand péril, vous, vous le remerciez avec du potage ?
+{{Personnage|Perceval}} : Mais d'habitude, quand on part faire une quête, les gars du coin nous remercient en nous balançant des gadins ! Quand ils nous envoient pas les chiens aux caleçons ! Alors, je suis désolé, mais le potage, c'est quand même un net progrès !
+&lt;/poem&gt;}}
+{{Réf Livre|référence=Le Serpent géant du lac de l'ombre/Casterman
+|page=6
+}}
+
+{{citation|citation=&lt;poem&gt;
+{{Personnage|Karadoc}} ''(à {{Personnage|Mevanwi}}, qui a raté une tourte au fromage)'' : Le fromage, ça se respecte, Madame !
+&lt;/poem&gt;}}
+{{Réf Livre|référence=Le Serpent géant du lac de l'ombre/Casterman
+|page=7
+}}
+
+{{citation|citation=&lt;poem&gt;
+{{Personnage|Perceval}} (à {{Personnage|Karadoc}}) : J'arriverai jamais à comprendre {{- -|intelligent comme vous l'êtes}} comment vous avez fait pour vous enticher d'une gourdasse pareille...
+&lt;/poem&gt;}}
+{{Réf Livre|référence=Le Serpent géant du lac de l'ombre/Casterman
+|page=8
+}}
+
+{{citation|citation=&lt;poem&gt;
+{{Personnage|Karadoc}} : Je sais bien que ça vous agace, mais en matière de bonne femme, comme vous en avez pas, il y a quand même quelques trucs qui vous échappent. Pardonnez-moi.
+{{Personnage|Perceval}} : J'ai pas besoin d'avoir de bonne femme pour comprendre que la vôtre est une grosse dinde malsaine.
+&lt;/poem&gt;}}
+{{Réf Livre|référence=Le Serpent géant du lac de l'ombre/Casterman
+|page=8
+}}
+
+{{citation|citation=&lt;poem&gt;
+''(Perceval et Karadoc avaient encore égaré un sac de pièces d'or)''
+{{Personnage|Karadoc}} : Ça y est ! Je l'ai retrouvé !
+{{Personnage|Venec}} ''(masqué, à la tête d'une troupe de brigands)'' : Vous nous en voyez ravis ! Ça va nous permettre de vous en débarrasser, vous serez plus légers pour la suite du voyage.
+&lt;/poem&gt;}}
+{{Réf Livre|référence=Le Serpent géant du lac de l'ombre/Casterman
+|page=9-10
+}}
+
+{{citation|citation=&lt;poem&gt;
+{{Personnage|Perceval}} : Vous allez voir qu'on va encore se prendre une danse en rentrant... J'en ai ras le pif...
+{{Personnage|Karadoc}} : Moi aussi. Déjà qu'on s'en était pris une en partant...
+&lt;/poem&gt;}}
+{{Réf Livre|référence=Le Serpent géant du lac de l'ombre/Casterman
+|page=11
+}}
+
+{{citation|citation=&lt;poem&gt;
+''(À peine arriver au village)''
+{{Personnage|Perceval}} : Je voudrais que vous arrêtiez de vous bâfrer, que vous leviez vos miches de votre chaise et qu'on s'occupe de nos affaires !
+{{Personnage|Karadoc}} : Le ventre vide ?
+&lt;/poem&gt;}}
+{{Réf Livre|référence=Le Serpent géant du lac de l'ombre/Casterman
+|page=12
+}}
+
+{{citation|citation=&lt;poem&gt;
+''(Aux ingénieurs Nains qui taxent Karadoc de raciste)''
+{{Personnage|Karadoc}} : Bon ! Écoutez-moi les petits cocos...
+{{Personnage|Perceval}} : Heu... "Les petits cocos", vous êtes sûr ?
+{{Personnage|Karadoc}} : Pardon... Écoutez-moi bien les petits amis...
+{{Personnage|Perceval}} : Non mais rien avec "petit" en fait.
+{{Personnage|Karadoc}} : Ah ouais... Écoutez-moi bien les comiques !
+{{Personnage|Perceval}} : Voilà. Ça, c'est bien.
+&lt;/poem&gt;}}
+{{Réf Livre|référence=Le Serpent géant du lac de l'ombre/Casterman
+|page=15
+}}
+
+{{citation|citation=&lt;poem&gt;
+{{Personnage|Perceval}} : C'est pas vrai ! Je vous avais dit de vous occuper des rames, gros salsifis ! Vous en avez laissé une sur le bord !
+{{Personnage|Karadoc}} : Mais il y en avait deux, de ces machins ?
+&lt;/poem&gt;}}
+{{Réf Livre|référence=Le Serpent géant du lac de l'ombre/Casterman
+|page=16
+}}
+
+{{citation|citation=&lt;poem&gt;
+{{Personnage|Perceval}} : Calogrenant ? Mais qu'est-ce que vous venez fiche ici ?
+{{Personnage|Karadoc}} (à un villageois) : Le roi ? Qu'est-ce qui vous prend de l'appeler "le roi", vous ? Ça va pas mieux ?
+{{Personnage|Calogrenant}} : Vous êtes en Calédonie, ici. Même si je suis sous l'autorité d'Arthur, je suis quand même le roi du coin !
+{{Personnage|Karadoc}} : Ah bon... Désolé, on savait pas.
+{{Personnage|Perceval}} : Quand vous veniez à Kaamelott, on se disait qu'Arthur avait accepté un pécore à la Table Ronde pour faire genre "je suis moderne, j'accepte aussi les clodos..."
+&lt;/poem&gt;}}
+{{Réf Livre|référence=Le Serpent géant du lac de l'ombre/Casterman
+|page=20
+}}
+
+{{citation|citation=&lt;poem&gt;
+{{Personnage|Karadoc}} : Une heure de boulot, une tranche de jambon. Retenez-moi ou je bute un client...
+&lt;/poem&gt;}}
+{{Réf Livre|référence=Le Serpent géant du lac de l'ombre/Casterman
+|page=22
+}}
+
+{{citation|citation=&lt;poem&gt;
+''(Le premier Nain répète le terme employé pour décrire le "racisme" de Karadoc)''
+{{Personnage|Nain à lunettes}} : Nanosinophobie.
+{{Personnage|Vieux Nain barbu}} : Concaténation des préfixes nano et sino et le suffixe phobie.
+{{Personnage|Karadoc}} : Ouais, c'est pas faux.
+&lt;/poem&gt;}}
+{{Réf Livre|référence=Le Serpent géant du lac de l'ombre/Casterman
+|page=23
+}}
+
+{{citation|citation=&lt;poem&gt;
+''(Perceval et Karadoc ont atterri dans un arbre, éjectés de leurs esquifs par le serpent géant)''
+{{Personnage|Perceval}} : Je réfléchissait un peu en vous attendant et je me disais qu'on avait peut-être sous-estimé le problème...
+&lt;/poem&gt;}}
+{{Réf Livre|référence=Le Serpent géant du lac de l'ombre/Casterman
+|page=25
+}}
+
+{{citation|citation=&lt;poem&gt;
+{{Personnage|Karadoc}} (venant de gouter la tourte au fromage d'une villageoise) : Si Dieu est fromage, cette tourte est le Graal.
+&lt;/poem&gt;}}
+{{Réf Livre|référence=Le Serpent géant du lac de l'ombre/Casterman
+|page=29
+}}
+
+{{citation|citation=&lt;poem&gt;
+''(Perceval et Karadoc viennent demander aux Nains de réparer la barque)''
+{{Personnage|Karadoc}} : On veut que vous vous mettiez au boulot sur la barque.
+{{Personnage|Perceval}} : Sauf qu'on n'a toujours pas un rond et qu'au lieu de vous payer, on va vous aider à bosser !
+{{Personnage|Le chef des Nains}} : Nous aider à bosser ? Parce que vous imaginez que vous pouvez vous improviser ingénieurs en claquant des doigts ?
+{{Personnage|Karadoc}} : Ça va ! Vous allez pas venir frimer sous prétexte que vous savez planter trois clous dans une planche !
+{{Personnage|Perceval}} : Nous, notre point fort, c'est le cervelas... Vous nous dites un truc une fois et hop ! c'est rentré !
+&lt;/poem&gt;}}
+{{Réf Livre|référence=Le Serpent géant du lac de l'ombre/Casterman
+|page=30
+}}
+
+{{citation|citation=&lt;poem&gt;
+{{Personnage|Perceval}} : Sortez les arcs au lieu de dire des âneries !
+{{Personnage|Karadoc}} : C'est bien gentil qu'on puisse utiliser que les arcs... Mais vous savez tirer à l'arc, vous ?
+{{Personnage|Perceval}} : Non, mais qu'est-ce que ça change puisqu'on peut pas utiliser autre chose ?
+&lt;/poem&gt;}}
+{{Réf Livre|référence=Le Serpent géant du lac de l'ombre/Casterman
+|page=32
+}}
+
+{{citation|citation=&lt;poem&gt;
+{{Personnage|Perceval}} (au serpent géant) : Prépare-toi à passer ton dernier quart d'heure, l'asticot !
+{{Personnage|Karadoc}} : La prochaine fois qu'on se pointe, ce sera pour la fête à tes miches ! Parole !
+&lt;/poem&gt;}}
+{{Réf Livre|référence=Le Serpent géant du lac de l'ombre/Casterman
+|page=35
+}}
+
+{{citation|citation=&lt;poem&gt;
+{{Personnage|Perceval}} (aux Nains) : On vous prévient, les petits zizis ! Vous allez retourner dans votre boutique là-derrière, et vous n'en sortirez que quand vous aurez fait du boulot propre !
+&lt;/poem&gt;}}
+{{Réf Livre|référence=Le Serpent géant du lac de l'ombre/Casterman
+|page=35
+}}
+
+{{citation|citation=&lt;poem&gt;
+{{Personnage|Karadoc}} : C'est dommage que le bateau puisse plus se retourner la tête en bas... On aurait pu tirer sous l'eau, du coup...
+&lt;/poem&gt;}}
+{{Réf Livre|référence=Le Serpent géant du lac de l'ombre/Casterman
+|page=39
+}}
+
+{{citation|citation=&lt;poem&gt;
+''(Le serpent géant a émergé et fait tanguer le bateau)''
+{{Personnage|Perceval}} : Arrêtez de faire bouger le bateau, nom d'un chien ! J'arrive pas à regarder dans le truc !
+{{Personnage|Karadoc}} : Je risque pas de faire bouger le bateau ! Je sais pas comment on fait !
+&lt;/poem&gt;}}
+{{Réf Livre|référence=Le Serpent géant du lac de l'ombre/Casterman
+|page=40
+}}
+
+{{citation|citation=&lt;poem&gt;
+{{Personnage|Perceval}} ou {{Personnage|Karadoc}} : On a tellement réfléchi que j'ai attrapé des plaques derrière les oreilles !
+&lt;/poem&gt;}}
+{{Réf Livre|référence=Le Serpent géant du lac de l'ombre/Casterman
+|page=42
+}}
+
+{{citation|citation=&lt;poem&gt;
+{{Personnage|Perceval}} : Le serpent géant, il a été optimisé !
+{{Personnage|Karadoc}} : Du travail d'orfèvre ! Tout au fil de plomb !
+&lt;/poem&gt;}}
+{{Réf Livre|référence=Le Serpent géant du lac de l'ombre/Casterman
+|page=48
+}}
+
+{{autres projets|w=Kaamelott (bande dessinée)}}
+
+[[Catégorie:Kaamelott| ]]
+[[Catégorie:Bande dessinée de fantasy]]
+[[Catégorie:Bande dessinée française]]</text>
+      <sha1>qm7ngoz3cemroi9hiw6ucjdc7ydxe61</sha1>
+    </revision>
+  </page>
+</mediawiki>

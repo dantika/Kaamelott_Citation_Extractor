@@ -1,0 +1,215 @@
+<mediawiki xmlns="http://www.mediawiki.org/xml/export-0.11/" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:schemaLocation="http://www.mediawiki.org/xml/export-0.11/ http://www.mediawiki.org/xml/export-0.11.xsd" version="0.11" xml:lang="fr">
+  <siteinfo>
+    <sitename>Wikiquote</sitename>
+    <dbname>frwikiquote</dbname>
+    <base>https://fr.wikiquote.org/wiki/Wikiquote:Accueil</base>
+    <generator>MediaWiki 1.45.0-wmf.8</generator>
+    <case>first-letter</case>
+    <namespaces>
+      <namespace key="-2" case="first-letter">Média</namespace>
+      <namespace key="-1" case="first-letter">Spécial</namespace>
+      <namespace key="0" case="first-letter" />
+      <namespace key="1" case="first-letter">Discussion</namespace>
+      <namespace key="2" case="first-letter">Utilisateur</namespace>
+      <namespace key="3" case="first-letter">Discussion utilisateur</namespace>
+      <namespace key="4" case="first-letter">Wikiquote</namespace>
+      <namespace key="5" case="first-letter">Discussion Wikiquote</namespace>
+      <namespace key="6" case="first-letter">Fichier</namespace>
+      <namespace key="7" case="first-letter">Discussion fichier</namespace>
+      <namespace key="8" case="first-letter">MediaWiki</namespace>
+      <namespace key="9" case="first-letter">Discussion MediaWiki</namespace>
+      <namespace key="10" case="first-letter">Modèle</namespace>
+      <namespace key="11" case="first-letter">Discussion modèle</namespace>
+      <namespace key="12" case="first-letter">Aide</namespace>
+      <namespace key="13" case="first-letter">Discussion aide</namespace>
+      <namespace key="14" case="first-letter">Catégorie</namespace>
+      <namespace key="15" case="first-letter">Discussion catégorie</namespace>
+      <namespace key="100" case="first-letter">Portail</namespace>
+      <namespace key="101" case="first-letter">Discussion Portail</namespace>
+      <namespace key="102" case="first-letter">Projet</namespace>
+      <namespace key="103" case="first-letter">Discussion Projet</namespace>
+      <namespace key="104" case="first-letter">Référence</namespace>
+      <namespace key="105" case="first-letter">Discussion Référence</namespace>
+      <namespace key="108" case="first-letter">Transwiki</namespace>
+      <namespace key="109" case="first-letter">Discussion Transwiki</namespace>
+      <namespace key="710" case="first-letter">TimedText</namespace>
+      <namespace key="711" case="first-letter">TimedText talk</namespace>
+      <namespace key="828" case="first-letter">Module</namespace>
+      <namespace key="829" case="first-letter">Discussion module</namespace>
+      <namespace key="2600" case="first-letter">Sujet</namespace>
+    </namespaces>
+  </siteinfo>
+  <page>
+    <title>Kaamelott/Le maître d’armes</title>
+    <ns>0</ns>
+    <id>17626</id>
+    <revision>
+      <id>415488</id>
+      <parentid>415434</parentid>
+      <timestamp>2025-04-19T12:52:19Z</timestamp>
+      <contributor>
+        <ip>2A01:E0A:3A:8400:F4B0:BCB3:EC2D:8241</ip>
+      </contributor>
+      <comment>/* Livre II */</comment>
+      <origin>415488</origin>
+      <model>wikitext</model>
+      <format>text/x-wiki</format>
+      <text bytes="6286" sha1="eui5fqjbowsbwf4eohc4827wglcjzzh" xml:space="preserve">Citations de '''[[w:Personnages de Kaamelott#Le maître d’armes|Le maître d’armes]]''' dans la [[:catégorie:série télévisée|série télévisée]] [[Kaamelott]].
+
+==Citations==
+
+=== Livre I ===
+{{citation|citation= HAHA, Sire ! Je vous attends ! À moins que vous préfériez que l’on dise partout que le roi est une petite pédale qui pisse dans son froc à l’idée de se battre !}}
+{{Réf Série|auteur=Alexandre Astier
+|acteur=Christian Bujeau
+|série=Kaamelott
+|saison=Livre I
+|épisode= 9 : ''Le maître d’armes''}}
+
+{{citation|citation= Sire ! Mon père est peut-être unijambiste, mais moi, ma femme n'a pas de moustache ! […] Alors ça vient? p'tite bite !}}
+{{Réf Série|auteur=Alexandre Astier
+|acteur=Christian Bujeau
+|série=Kaamelott
+|saison=Livre I
+|épisode= 9 : ''Le maître d'armes''}}
+
+{{citation|citation= En garde, espèce de vieille pute dégarnie !}}
+{{Réf Série|auteur=Alexandre Astier
+|acteur=Christian Bujeau
+|série=Kaamelott
+|saison=Livre I
+|épisode= 9 : ''Le maître d’armes''}} 
+
+=== Livre II ===
+{{citation|citation= JE NE MANGE PAS DE GRAINES !}}
+{{Réf Série|auteur=Alexandre Astier
+|acteur=Christian Bujeau
+|série=Kaamelott
+|saison=Livre II
+|épisode= 76 : ''Corpore sano''}}
+
+{{citation|citation= Je ne bouffe pas que des graines, Sire, mais j'estime que si on avale l'équivalent de son poids en viande deux fois par jour, il ne faut pas s'étonner de ne pas pouvoir mettre un pied devant l'autre sur un champ de bataille.}}
+{{Réf Série|auteur=Alexandre Astier
+|acteur=Christian Bujeau
+|série=Kaamelott
+|saison=Livre II
+|épisode= 76 : ''Corpore sano''}}
+
+{{citation|citation= Moi, une fois, j'étais soûl comme cochon, je me suis fait tatouer "J'aime le raisin de table" sur la miche droite, et ça y est toujours !}}
+{{Réf Série|auteur=Alexandre Astier
+|acteur=Christian Bujeau
+|série=Kaamelott
+|saison=Livre II
+|épisode= 31 : ''L'ivresse''}}
+
+{{Citation|citation=Non, je veux dire « malade mental », c'est votre maximum, comme insulte ? Non parce qu'il va falloir passer le cran au-dessus, mon vieux, parce que sinon, on y est encore demain !}}
+{{Réf Série|auteur=Alexandre Astier
+|acteur=Christian Bujeau
+|série=Kaamelott
+|saison=Livre II
+|épisode= 35 : ''Les classes de Bohort''}}
+
+{{citation|citation= En garde, ma biquette ! Je vais vous découper le gras du cul, ça vous fera ça de moins à trimbaler !}}
+{{Réf Série|auteur=Alexandre Astier
+|acteur=Christian Bujeau
+|série=Kaamelott
+|saison=Livre II
+|épisode= 52 : ''Excalibur et le Destin''}} 
+
+{{citation|citation= (''À Bohort'') Mais allez-y bon sang, magnez-vous le fion, espèce de grosse dinde !}}
+{{Réf Série|auteur=Alexandre Astier
+|acteur=Christian Bujeau
+|série=Kaamelott
+|saison=Livre II
+|épisode= 35 : ''Les classes de Bohort}}
+
+{{citation|citation= Seigneur Bohort ! Je commence à en avoir plein le dos de votre comportement de péteux ! Vous allez me faire le plaisir de me faire une bonne insulte et de vous foutre en rogne une bonne fois pour toutes !}}
+{{Réf Série|auteur=Alexandre Astier
+|acteur=Christian Bujeau
+|série=Kaamelott
+|saison=Livre II
+|épisode= 35 : ''Les classes de Bohort}}
+
+=== Livre III ===
+{{citation|citation= (À Grüdü) Quand on est idiot, on plante des carottes on ne s'occupe pas de sécurité !}}
+{{Réf Série|auteur=Alexandre Astier
+|acteur=Christian Bujeau
+|série=Kaamelott
+|saison=Livre III
+|épisode= 90 : ''L'assemblée des Rois 2e partie''}} 
+
+=== Livre IV ===
+{{citation|citation= (Sur l'air de "À la Volette") Le bon roi Arthur est une p'tite tapette. Le bon roi Arthur est une p'tite tapette. Est une p'tite à la volette, est une p'tite à la volette, est une p'tite tapette.}}
+{{Réf Série|auteur=Alexandre Astier
+|acteur=Christian Bujeau
+|série=Kaamelott
+|saison=Livre IV
+|épisode= 82 : ''Corpore sano II''}}
+
+{{citation|citation= Du nerf, mon lapinou !… Vous allez vous faire tailler le zizi en pointe !}}
+{{Réf Série|auteur=Alexandre Astier
+|acteur=Christian Bujeau
+|série=Kaamelott
+|saison=Livre IV
+|épisode= 82 : ''Corpore sano II''}}
+
+{{citation|citation= ALLEZ, EN GARDE GROSSE CONNE ! Non, ça va pas, ça va pas !}}
+{{Réf Série|auteur=Alexandre Astier
+|acteur=Christian Bujeau
+|série=Kaamelott
+|saison=Livre IV
+|épisode= 82 : ''Corpore Sano II''}}
+
+{{citation|citation= Non mais c'est à se coincer les parties dans une porte !}}
+{{Réf Série|auteur=Alexandre Astier
+|acteur=Christian Bujeau
+|série=Kaamelott
+|saison=Livre IV
+|épisode= 82 : ''Corpore sano II''}}
+
+{{citation|citation= Vous savez quoi, Sire ? On va commencer par se faire une saucisse grillée de trois pieds de long, avec un tonnelet de pinard chacun, et derrière, peut être bien qu'on se paiera des filles. Ah oui ! A un moment, vive la vie !}}
+{{Réf Série|auteur=Alexandre Astier
+|acteur=Christian Bujeau
+|série=Kaamelott
+|saison=Livre IV
+|épisode= 82 : ''Corpore sano II''}} 
+
+=== Livre V ===
+{{citation|citation= Vous êtes attendus aux archives. Vous, vous, vous je croyais que vous étiez mort, et vous ... me souviens plus ! Voilà ! Zut !}}
+{{Réf Série|auteur=Alexandre Astier
+|acteur=Christian Bujeau
+|série=Kaamelott
+|saison=Livre V
+|épisode= 5 : ''Le royaume sans tête''}}
+
+=== Livre VI ===
+{{citation|citation= Euh, juste une chose... Manquez encore une seule fois de respect au futur roi de Bretagne, et je vous coupe les boules ! Ca vous fera une jolie petite sacoche pour ranger vos dés à coudre.}}
+{{Réf Série|auteur=Alexandre Astier
+|acteur=Christian Bujeau
+|série=Kaamelott
+|saison=Livre VI
+|épisode= 6 : ''Nuptiæ''}} 
+
+{{citation|citation= (''Manilius : Et ben je suis euh...'') Je suis, je suis, je suis une petite tapette, qui parle à tort et à travers, sans que personne ne lui demande son avis, alors elle ferme son bec la poupoule... Et elle laisse parler les grands garçons.}}
+{{Réf Série|auteur=Alexandre Astier
+|acteur=Christian Bujeau
+|série=Kaamelott
+|saison=Livre VI
+|épisode= 6 : ''Nuptiæ''}}
+
+
+{{citation|citation= Regardez moi la jolie petite paire de fillettes, si c'est pas fragile!}}
+{{Réf Série|auteur=Alexandre Astier
+|acteur=Christian Bujeau
+|série=Kaamelott
+|saison=Livre VI
+|épisode= 7 : ''Arturus Rex''}}
+
+
+{{autres projets|w=Personnages de Kaamelott#Le maître d’armes}}
+
+[[Catégorie:Kaamelott|Maitre d armes, Le]]</text>
+      <sha1>eui5fqjbowsbwf4eohc4827wglcjzzh</sha1>
+    </revision>
+  </page>
+</mediawiki>
