@@ -1,14 +1,18 @@
-export const symboles = [
+export const SYMBOLES = [
   {
-    initial: "&lt;",
-    converted: "<"
+    regexp: "&lt;",
+    converted: "<",
   },
   {
-    initial: "&gt;",
-    converted: ">"
+    regexp: "&gt;",
+    converted: ">",
   },
   {
-    initial: "&nbsp;",
-    converted: " "
+    regexp: "&nbsp;",
+    converted: " ",
   },
-]
+  {
+    regexp: "[\\r\\n\\s]+",
+    converted: " ",
+  },
+];

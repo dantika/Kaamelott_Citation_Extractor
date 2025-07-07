@@ -1,38 +1,158 @@
-const CITATIONS_XML_PATHS = [
-  {fileName:"Yvain", url: "https://fr.wikiquote.org/wiki/Special:Export/Kaamelott/Yvain"},
-  {fileName:"Global", url: "https://fr.wikiquote.org/wiki/Special:Export/Kaamelott#Citations_des_personnages"},
-  {fileName:"Venec", url: "https://fr.wikiquote.org/wiki/Special:Export/Kaamelott/Venec"},
-  {fileName:"Urgan", url: "https://fr.wikiquote.org/wiki/Special:Export/Kaamelott/Urgan"},
-  {fileName:"Le_tavernier", url: "https://fr.wikiquote.org/wiki/Special:Export/Kaamelott/Le_tavernier"},
-  {fileName:"Seli", url: "https://fr.wikiquote.org/wiki/Special:Export/Kaamelott/S%C3%A9li"},
-  {fileName:"Roparzh", url: "https://fr.wikiquote.org/wiki/Special:Export/Kaamelott/Roparzh"},
-  {fileName:"Le_Repurgateur", url: "https://fr.wikiquote.org/wiki/Special:Export/Kaamelott/Le_R%C3%A9purgateur"},
-  {fileName:"Perceval", url: "https://fr.wikiquote.org/wiki/Special:Export/Kaamelott/Perceval"},
-  {fileName:"Merlin", url: "https://fr.wikiquote.org/wiki/Special:Export/Kaamelott/Merlin"},
-  {fileName:"Meleagan", url: "https://fr.wikiquote.org/wiki/Special:Export/Kaamelott/M%C3%A9l%C3%A9agant"},
-  {fileName:"Le_maitre_d_armes", url: "https://fr.wikiquote.org/wiki/Special:Export/Kaamelott/Le_ma%C3%AEtre_d%E2%80%99armes"},
-  {fileName:"Loth", url: "https://fr.wikiquote.org/wiki/Special:Export/Kaamelott/Loth"},
-  {fileName:"Leodagan", url: "https://fr.wikiquote.org/wiki/Special:Export/Kaamelott/L%C3%A9odagan"},
-  {fileName:"Lancelot", url: "https://fr.wikiquote.org/wiki/Special:Export/Kaamelott/Lancelot"},
-  {fileName:"Karadoc", url: "https://fr.wikiquote.org/wiki/Special:Export/Kaamelott/Karadoc"},
-  {fileName:"Kadoc", url: "https://fr.wikiquote.org/wiki/Special:Export/Kaamelott/Kadoc"},
-  {fileName:"Le_seigneur_Jacca", url: "https://fr.wikiquote.org/wiki/Special:Export/Kaamelott/Le_Seigneur_Jacca"},
-  {fileName:"Guethenoc", url: "https://fr.wikiquote.org/wiki/Special:Export/Kaamelott/Guethenoc"},
-  {fileName:"Guenievre", url: "https://fr.wikiquote.org/wiki/Special:Export/Kaamelott/Gueni%C3%A8vre"},
-  {fileName:"Gauvain", url: "https://fr.wikiquote.org/wiki/Special:Export/Kaamelott/Gauvain"},
-  {fileName:"Elias_de_Kelliwic_h", url: "https://fr.wikiquote.org/wiki/Special:Export/Kaamelott/%C3%89lias_de_Kelliwic%E2%80%9"},
-  {fileName:"Demetra", url: "https://fr.wikiquote.org/wiki/Special:Export/Kaamelott/Demetra"},
-  {fileName:"Caius_Camillus", url: "https://fr.wikiquote.org/wiki/Special:Export/Kaamelott/Caius_Camillus"},
-  {fileName:"Le_roi_burgonde", url: "https://fr.wikiquote.org/wiki/Special:Export/Kaamelott/Le_roi_burgonde"},
-  {fileName:"Bohort", url: "https://fr.wikiquote.org/wiki/Special:Export/Kaamelott/Bohort"},
-  {fileName:"Pere_Blaise", url: "https://fr.wikiquote.org/wiki/Special:Export/Kaamelott/P%C3%A8re_Blaise"},
-  {fileName:"Arthur", url: "https://fr.wikiquote.org/wiki/Special:Export/Kaamelott/Arthur"},
+export const CITATIONS_XML_URLS = [
+  {
+    fileName: "Global",
+    url: "https://fr.wikiquote.org/wiki/Special:Export/Kaamelott#Citations_des_personnages",
+    local: "dist/raw_extract/citations/Global.xml",
+  },
+  {
+    fileName: "Arthur",
+    url: "https://fr.wikiquote.org/wiki/Special:Export/Kaamelott/Arthur",
+    local: "dist/raw_extract/citations/Arthur.xml",
+  },
+  {
+    fileName: "Bohort",
+    url: "https://fr.wikiquote.org/wiki/Special:Export/Kaamelott/Bohort",
+    local: "dist/raw_extract/citations/Bohort.xml",
+  },
+  {
+    fileName: "Caius_Camillus",
+    url: "https://fr.wikiquote.org/wiki/Special:Export/Kaamelott/Caius_Camillus",
+    local: "dist/raw_extract/citations/Caius_Camillus.xml",
+  },
+  {
+    fileName: "Demetra",
+    url: "https://fr.wikiquote.org/wiki/Special:Export/Kaamelott/Demetra",
+    local: "dist/raw_extract/citations/Demetra.xml",
+  },
+  {
+    fileName: "Elias_de_Kelliwic_h",
+    url: "https://fr.wikiquote.org/wiki/Special:Export/Kaamelott/%C3%89lias_de_Kelliwic%E2%80%9",
+    local: "dist/raw_extract/citations/Elias_de_Kelliwic_h.xml",
+  },
+  {
+    fileName: "Gauvain",
+    url: "https://fr.wikiquote.org/wiki/Special:Export/Kaamelott/Gauvain",
+    local: "dist/raw_extract/citations/Gauvain.xml",
+  },
+  {
+    fileName: "Guethenoc",
+    url: "https://fr.wikiquote.org/wiki/Special:Export/Kaamelott/Guethenoc",
+    local: "dist/raw_extract/citations/Guethenoc.xml",
+  },
+  {
+    fileName: "Guenievre",
+    url: "https://fr.wikiquote.org/wiki/Special:Export/Kaamelott/Gueni%C3%A8vre",
+    local: "dist/raw_extract/citations/Guenievre.xml",
+  },
+  {
+    fileName: "Kadoc",
+    url: "https://fr.wikiquote.org/wiki/Special:Export/Kaamelott/Kadoc",
+    local: "dist/raw_extract/citations/Kadoc.xml",
+  },
+  {
+    fileName: "Karadoc",
+    url: "https://fr.wikiquote.org/wiki/Special:Export/Kaamelott/Karadoc",
+    local: "dist/raw_extract/citations/Karadoc.xml",
+  },
+  {
+    fileName: "Lancelot",
+    url: "https://fr.wikiquote.org/wiki/Special:Export/Kaamelott/Lancelot",
+    local: "dist/raw_extract/citations/Lancelot.xml",
+  },
+  {
+    fileName: "Le_maitre_d_armes",
+    url: "https://fr.wikiquote.org/wiki/Special:Export/Kaamelott/Le_ma%C3%AEtre_d%E2%80%99armes",
+    local: "dist/raw_extract/citations/Le_maitre_d_armes.xml",
+  },
+  {
+    fileName: "Le_Repurgateur",
+    url: "https://fr.wikiquote.org/wiki/Special:Export/Kaamelott/Le_R%C3%A9purgateur",
+    local: "dist/raw_extract/citations/Le_Repurgateur.xml",
+  },
+  {
+    fileName: "Le_roi_burgonde",
+    url: "https://fr.wikiquote.org/wiki/Special:Export/Kaamelott/Le_roi_burgonde",
+    local: "dist/raw_extract/citations/Le_roi_burgonde.xml",
+  },
+  {
+    fileName: "Le_seigneur_Jacca",
+    url: "https://fr.wikiquote.org/wiki/Special:Export/Kaamelott/Le_Seigneur_Jacca",
+    local: "dist/raw_extract/citations/Le_seigneur_Jacca.xml",
+  },
+  {
+    fileName: "Le_tavernier",
+    url: "https://fr.wikiquote.org/wiki/Special:Export/Kaamelott/Le_tavernier",
+    local: "dist/raw_extract/citations/Le_tavernier.xml",
+  },
+  {
+    fileName: "Leodagan",
+    url: "https://fr.wikiquote.org/wiki/Special:Export/Kaamelott/L%C3%A9odagan",
+    local: "dist/raw_extract/citations/Leodagan.xml",
+  },
+  {
+    fileName: "Loth",
+    url: "https://fr.wikiquote.org/wiki/Special:Export/Kaamelott/Loth",
+    local: "dist/raw_extract/citations/Loth.xml",
+  },
+  {
+    fileName: "Meleagant",
+    url: "https://fr.wikiquote.org/wiki/Special:Export/Kaamelott/M%C3%A9l%C3%A9agant",
+    local: "dist/raw_extract/citations/Meleagant.xml",
+  },
+  {
+    fileName: "Merlin",
+    url: "https://fr.wikiquote.org/wiki/Special:Export/Kaamelott/Merlin",
+    local: "dist/raw_extract/citations/Merlin.xml",
+  },
+  {
+    fileName: "Perceval",
+    url: "https://fr.wikiquote.org/wiki/Special:Export/Kaamelott/Perceval",
+    local: "dist/raw_extract/citations/Perceval.xml",
+  },
+  {
+    fileName: "Pere_Blaise",
+    url: "https://fr.wikiquote.org/wiki/Special:Export/Kaamelott/P%C3%A8re_Blaise",
+    local: "dist/raw_extract/citations/Pere_Blaise.xml",
+  },
+  {
+    fileName: "Roparzh",
+    url: "https://fr.wikiquote.org/wiki/Special:Export/Kaamelott/Roparzh",
+    local: "dist/raw_extract/citations/Roparzh.xml",
+  },
+  {
+    fileName: "Seli",
+    url: "https://fr.wikiquote.org/wiki/Special:Export/Kaamelott/S%C3%A9li",
+    local: "dist/raw_extract/citations/Seli.xml",
+  },
+  {
+    fileName: "Urgan",
+    url: "https://fr.wikiquote.org/wiki/Special:Export/Kaamelott/Urgan",
+    local: "dist/raw_extract/citations/Urgan.xml",
+  },
+  {
+    fileName: "Venec",
+    url: "https://fr.wikiquote.org/wiki/Special:Export/Kaamelott/Venec",
+    local: "dist/raw_extract/citations/Venec.xml",
+  },
+  {
+    fileName: "Yvain",
+    url: "https://fr.wikiquote.org/wiki/Special:Export/Kaamelott/Yvain",
+    local: "dist/raw_extract/citations/Yvain.xml",
+  },
 ];
 
-const DIALOGS_XML_PATHS = [
-  {fileName:"Dialogs", url: "https://fr.wikiquote.org/wiki/Sp%C3%A9cial:Exporter/Kaamelott/Dialogues"},
+export const DIALOGS_XML_URLS = [
+  {
+    fileName: "Dialogs",
+    url: "https://fr.wikiquote.org/wiki/Sp%C3%A9cial:Exporter/Kaamelott/Dialogues",
+    local: "dist/raw_extract/dialogs/Dialogs.xml",
+  },
 ];
 
-const COMICS_XML_PATHS = [
-  {fileName:"Comics", url: "https://fr.wikiquote.org/wiki/Sp%C3%A9cial:Exporter/Kaamelott/Bandes_dessin%C3%A9es"},
+export const COMICS_XML_URLS = [
+  {
+    fileName: "Comics",
+    url: "https://fr.wikiquote.org/wiki/Sp%C3%A9cial:Exporter/Kaamelott/Bandes_dessin%C3%A9es",
+    local: "dist/raw_extract/comics/Comics.xml",
+  },
 ];
