@@ -16,16 +16,6 @@ export class FetchingService {
     return response;
   }
 
-  cleanText(text: string): string {
-    let res = text;
-    SYMBOLES.forEach((symbol, i) => {
-      i < 1
-        ? (res = text.replace(new RegExp(symbol.regexp, "g"), symbol.converted))
-        : (res = res.replace(new RegExp(symbol.regexp, "g"), symbol.converted));
-    });
-    return res.trim();
-  }
-
   getMatch(el: String, regex: RegExp): string {
     const extraction = el.match(regex);
     return extraction ? extraction[1] : "";
