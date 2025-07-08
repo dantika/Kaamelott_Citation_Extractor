@@ -8,7 +8,15 @@ export const CLEANING_REGEXP = [
     converted: ">",
   },
   {
+    regexp: new RegExp(/<&gt;>/, "g"),
+    converted: ">",
+  },
+  {
     regexp: new RegExp(/&nbsp;/, "g"),
+    converted: " ",
+  },
+  {
+    regexp: new RegExp(/<\s*br\s*\/?\s*>/, "gi"),
     converted: " ",
   },
   {
@@ -18,6 +26,14 @@ export const CLEANING_REGEXP = [
   {
     regexp: new RegExp(/''/, "g"),
     converted: "",
+  },
+  {
+    regexp: new RegExp(/\\/, "g"),
+    converted: "",
+  },
+  {
+    regexp: new RegExp(/\s{2,}/, "g"),
+    converted: " ",
   },
   {
     regexp: new RegExp(/\{\{formatnum:(\d+)\}\}/, "g"),

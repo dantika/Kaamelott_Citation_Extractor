@@ -1,5 +1,7 @@
 export const CITATIONS_EXTRACT = {
   global: /<title>Kaamelott<\/title>/g,
+  citations_divider:
+    /\{\{\s*[Cc]itation\b[\s\S]*?(?=(\{\{\s*[Cc]itation\b|^===|\[\[\s*Catégorie\s*:\s*Kaamelott|$))/gmi,
   linkToSpecific: /\{\{\s*[Ll]oupe\b/,
 
   global_character_isolation:
@@ -18,5 +20,5 @@ export const CITATIONS_EXTRACT = {
   show: /\|[sS][eé]rie=\s*(?:\[\[)?\s*([^\|\]\n\r]+?)\s*(?:\]\])?(?=\s*\|)/g,
   season: /\|[sS]aison=\s*(?:\[\[)?\s*([^\|\]\n\r]+?)\s*(?:\]\])?(?=\s*\|)/g,
   episode:
-    /\|[eéE]pisode\s*=\s*(?:[eéE]pisode\s*)?(?:(\d+)(?:\/\d+)?\s*[:;\-]?\s*)?(.+?)\s*\}\}/g,
+    /\|\s*(?:[eéE]p(?:isode)?\.?)\s*=\s*(?:(\d+)(?:\/\d+)?\s*[:;\-]?\s*)?(.+?)\s*\}\}/g,
 };

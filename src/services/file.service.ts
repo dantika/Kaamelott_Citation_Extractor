@@ -1,7 +1,10 @@
 import * as fs from "fs";
 import * as path from "path";
+import { CitationModel } from "../models/citation.model";
 
 export class FileService {
+  baseDir = path.join(__dirname, "../");
+
   constructor() {}
 
   private ensureDirectory(dirPath: string): void {
@@ -27,34 +30,53 @@ export class FileService {
     fs.writeFileSync(filePath, JSON.stringify(data, null, space), "utf-8");
   }
 
-  private isDuplicate<T>(array: T[], obj: T): boolean {
+  private isDuplicate<T>(array: T[], obj: CitationModel): boolean {
     const objStr = JSON.stringify(obj);
     return array.some((item) => JSON.stringify(item) === objStr);
   }
 
-  public appendToDataJsonFile<T>(
-    destinationFolder: string,
-    fileName: string,
-    obj: T
-  ): void {
-    const baseDir = path.join(__dirname, "../", destinationFolder);
+  writeXmlFile(outputDir: string, fileName: string, content: string): void {
+    const dir = path.join(this.baseDir, outputDir);
+
     try {
-      this.ensureDirectory(baseDir);
+      this.ensureDirectory(dir);
     } catch {
-      console.error(
-        `[WARN] Chemin d'accès corrompu ou inexistant : ${baseDir}.`
-      );
+      console.error(`[WARN] Chemin d'accès corrompu ou inexistant : ${dir}.`);
       return;
     }
 
-    const filePath = path.join(baseDir, `${fileName}.json`);
+    const filePath = `${dir}/${fileName}.xml`;
+
+    if (!this.fileExists(filePath)) {
+      fs.writeFileSync(filePath, content, {
+        encoding: "utf8",
+      });
+      console.info(`[INFO] Création : ${fileName}.xml`);
+    }
+  }
+
+  appendToDataJsonFile(
+    destinationFolder: string,
+    fileName: string,
+    obj: CitationModel[]
+  ): void {
+    const dir = path.join(this.baseDir, destinationFolder);
+
+    try {
+      this.ensureDirectory(dir);
+    } catch {
+      console.error(`[WARN] Chemin d'accès corrompu ou inexistant : ${dir}.`);
+      return;
+    }
+
+    const filePath = path.join(dir, `${fileName}.json`);
 
     if (!this.fileExists(filePath)) {
       this.createJsonFile(filePath);
       console.info(`[INFO] Création : ${fileName}.json`);
     }
 
-    let data: T[] = [];
+    let data: CitationModel[] = [];
     try {
       const raw = this.readFile(filePath);
       const parsed = JSON.parse(raw);
@@ -66,14 +88,18 @@ export class FileService {
       data = [];
     }
 
-    if (!this.isDuplicate(data, obj)) {
-      data.push(obj);
-      this.writeFile(filePath, data);
-      console.info(`[INFO] Ajout : objet ajouté dans ${fileName}.json`);
-    } else {
-      console.warn(
-        `[WARN] Doublon détecté dans ${fileName}.json — aucun ajout effectué.`
-      );
-    }
+    obj.forEach((el) => {
+      if (!this.isDuplicate(data, el)) {
+        data.push(el);
+        this.writeFile(filePath, data);
+        console.info(`[INFO] Ajout : objet ajouté dans ${fileName}.json`);
+      } else {
+        console.warn(
+          `[WARN] Doublon détecté dans ${fileName}.json — aucun ajout effectué.\n\r${JSON.stringify(
+            el
+          )}`
+        );
+      }
+    });
   }
 }

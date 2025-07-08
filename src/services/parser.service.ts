@@ -1,6 +1,10 @@
 import { CITATIONS_EXTRACT } from "../contants/citations-extract.constants";
 import { MEDIA_TYPE } from "../contants/media.enum";
-import { CitationBuilder } from "./../models/citation.model";
+import {
+  CitationBuilder,
+  CitationMetadata,
+  CitationModel,
+} from "./../models/citation.model";
 
 export class ParserService {
   constructor() {}
@@ -40,31 +44,46 @@ export class ParserService {
     return [...rawData.matchAll(regexp)].map((e) => e[1])[0] || "";
   }
 
+  completeCitationData(rawData: string, citation: CitationMetadata) {
+    citation.actor = this.extractContent(rawData, CITATIONS_EXTRACT.actor);
+    citation.author = this.extractContent(rawData, CITATIONS_EXTRACT.author);
+    citation.description = this.extractContent(
+      rawData,
+      CITATIONS_EXTRACT.description
+    );
+    citation.media = this.extractContent(rawData, CITATIONS_EXTRACT.media);
+
+    if (citation.media === MEDIA_TYPE.movie) {
+      citation.title = this.extractContent(rawData, CITATIONS_EXTRACT.title);
+      citation.date = this.extractContent(rawData, CITATIONS_EXTRACT.date);
+    } else {
+      citation.season = this.extractContent(rawData, CITATIONS_EXTRACT.season);
+      citation.show = this.extractContent(rawData, CITATIONS_EXTRACT.show);
+      citation.episode = this.extractEpisodeContent(
+        rawData,
+        CITATIONS_EXTRACT.episode
+      );
+    }
+
+    return citation;
+  }
+
   extractInfosFromRawData(rawData: string, isGlobalFile = false) {
+    const completedCitationsList: CitationModel[] = [];
     const isALinkToSpecific = CITATIONS_EXTRACT.linkToSpecific.test(rawData);
     if (!isALinkToSpecific) {
-      const citation = new CitationBuilder().build();
-      citation.character_name = this.extractCharacterName(
-        rawData,
-        isGlobalFile
-      );
+      const list = [
+        ...rawData.matchAll(CITATIONS_EXTRACT.citations_divider),
+      ].map((e) => e[0]);
 
-      // TODO Extraire la liste des citations car là je n'en ai que une à chaque fois et redéfinir les entrée suivante
-      citation.actor = this.extractContent(rawData, CITATIONS_EXTRACT.actor);
-      citation.author = this.extractContent(rawData, CITATIONS_EXTRACT.author);
-      citation.description = this.extractContent(rawData, CITATIONS_EXTRACT.description);
-      citation.media = this.extractContent(rawData, CITATIONS_EXTRACT.media);
-      
-      if (citation.media === MEDIA_TYPE.movie) {
-        citation.title = this.extractContent(rawData, CITATIONS_EXTRACT.title);
-        citation.date = this.extractContent(rawData, CITATIONS_EXTRACT.date);
-      } else {
-        citation.season = this.extractContent(rawData,CITATIONS_EXTRACT.season);
-        citation.show = this.extractContent(rawData, CITATIONS_EXTRACT.show);
-        citation.episode = this.extractEpisodeContent(rawData,CITATIONS_EXTRACT.episode);
-      }
-
-      console.log("XXXXXXXXXXXXX", citation);
+      const characterName = this.extractCharacterName(rawData, isGlobalFile);
+      list.forEach((el) => {
+        let citation = new CitationBuilder().build();
+        citation.character_name = characterName;
+        citation = this.completeCitationData(el, citation);
+        completedCitationsList.push(citation);
+      });
     }
+    return completedCitationsList;
   }
 }
