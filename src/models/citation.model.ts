@@ -1,19 +1,15 @@
-import { MEDIA_TYPE } from "../contants/media.enum";
-
+import { Episode } from "./episode.model";
 export interface CitationModel {
   character_name: string;
   author: string;
   actor: string;
   description: string;
   media: string;
-  season: string;
-  episode: {
-    name: string;
-    number: string | number;
-  };
   title: string;
-  show: string;
   date: string;
+  show: string;
+  season: string;
+  episode: Episode;
 }
 
 export class CitationMetadata {
@@ -34,11 +30,11 @@ export class CitationMetadata {
     this._actor = data.actor;
     this._description = data.description;
     this._media = data.media;
+    this._title = data.title;
+    this._date = data.date;
+    this._show = data.show;
     this._season = data.season;
     this._episode = data.episode;
-    this._title = data.title;
-    this._show = data.show;
-    this._date = data.date;
   }
 
   get character_name() {
@@ -176,11 +172,11 @@ export class CitationBuilder {
       actor: this._actor,
       description: this._description,
       media: this._media,
+      title: this._title,
+      date: this._date,
+      show: this._show,
       season: this._season,
       episode: this._episode,
-      title: this._title,
-      show: this._show,
-      date: this._date,
     };
 
     return new CitationMetadata(citation);
