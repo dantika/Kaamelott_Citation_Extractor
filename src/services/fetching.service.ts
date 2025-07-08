@@ -1,5 +1,4 @@
 import { readFileSync } from "fs";
-import { SYMBOLES } from "../contants/symbol-conversions.constants";
 
 export class FetchingService {
   // date = new Date();

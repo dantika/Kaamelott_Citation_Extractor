@@ -1,12 +1,12 @@
-import { SYMBOLES } from "./../contants/symbol-conversions.constants";
+import { CLEANING_REGEXP } from "../contants/cleaning-regexp.constants";
 export class CommonService {
   constructor() {}
   cleanText(text: string): string {
     let res = text;
-    SYMBOLES.forEach((symbol, i) => {
+    CLEANING_REGEXP.forEach((symbol, i) => {
       i < 1
-        ? (res = text.replace(new RegExp(symbol.regexp, "g"), symbol.converted))
-        : (res = res.replace(new RegExp(symbol.regexp, "g"), symbol.converted));
+        ? (res = text.replace(symbol.regexp, symbol.converted))
+        : (res = res.replace(symbol.regexp, symbol.converted));
     });
     return res.trim();
   }
