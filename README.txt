@@ -1,21 +1,22 @@
-Kaamelott Citation Extractor
+# Kaamelott Citation Extractor
 
-🛠️ An XML parser to extract and structure quotes from the Kaamelott Wikiquote pages.
+> 🛠️ An XML parser to extract and structure quotes from the Kaamelott Wikiquote pages.
 
-🚀 Features
+---
 
-Extract quotes ("citations") from XML dump of Wikiquote - Kaamelott
+## 🚀 Features
 
-Support for multiple quote formats
+* Extract quotes ("citations") from XML dump of [Wikiquote - Kaamelott](https://fr.wikiquote.org/wiki/Kaamelott)
+* Support for multiple quote formats
+* Regex-based content extraction
+* Handles both global and specific character citations
+* Generates structured output in JSON format
 
-Regex-based content extraction
+---
 
-Handles both global and specific character citations
+## 📁 Project Structure
 
-Generates structured output in JSON format
-
-📁 Project Structure
-
+```bash
 ├── src/
 │   ├── contants/
 │   │   ├── cleaning-regexp.constants.ts      # Regex for cleaning
@@ -36,37 +37,48 @@ Generates structured output in JSON format
 ├── package.json
 ├── tsconfig.json
 └── .gitignore
+```
 
-📦 Installation
+---
 
+## 📦 Installation
+
+```bash
 git clone https://github.com/yourusername/kaamelott-citation-extractor.git
 cd kaamelott-citation-extractor
 npm install
+```
 
-🛠️ Usage
+---
 
-1. Build the project
+## 🛠️ Usage
 
+### 1. Build the project
+
+```bash
 npm run build
+```
 
-2. Run the extractor
+### 2. Run the extractor
 
+```bash
 npm start
+```
 
 This will:
 
-Compile TypeScript into dist/
+* Compile TypeScript into `dist/`
+* Run `dist/index.js`
+* Parse and extract quotes
+* Output structured data into a JSON file (e.g. `data.json`)
 
-Run dist/index.js
+---
 
-Parse and extract quotes
-
-Output structured data into a JSON file (e.g. data.json)
-
-📑 Output Format
+## 📑 Output Format
 
 Each quote is saved as a structured object:
 
+```ts
 {
   character_name: string;
   author: string;
@@ -79,39 +91,44 @@ Each quote is saved as a structured object:
   show: string;
   date: string;
 }
+```
 
-🧪 Development
+---
 
-Use src/citations.parser.ts to tweak how citations are detected, cleaned, and structured.
-Regex rules are defined in:
+## 🧪 Development
 
-citations-extract.constants.ts
+Use `src/citations.parser.ts` to tweak how citations are detected, cleaned, and structured. Regex rules are defined in:
 
-cleaning-regexp.constants.ts
+* `citations-extract.constants.ts`
+* `cleaning-regexp.constants.ts`
 
-🧩 Dependencies
+---
 
-TypeScript
+## 🧩 Dependencies
 
-cpx – Copy files after build
+* [TypeScript](https://www.typescriptlang.org/)
+* [cpx](https://www.npmjs.com/package/cpx) – Copy files after build
 
-📄 License
+---
 
-This project is released under a custom non-commercial license.
+## 📄 License
 
-You are free to use, modify and distribute this code for personal or non-commercial use only.
+This project is released under a **custom non-commercial license**.
 
-🚫 Commercial Use Restriction
+You are **free to use, modify and distribute** this code **for personal or non-commercial use only**.
 
-Commercial use (including in proprietary software, SaaS products, paid platforms or integrations) is not permitted without prior written consent from the author.
+### 🚫 Commercial Use Restriction
+
+Commercial use (including in proprietary software, SaaS products, paid platforms or integrations) is **not permitted** without **prior written consent** from the author.
 
 If you are interested in using this project in a commercial context, please contact:
 
-📧 Benjamin Bats – bats.benjamin.dev@gmail.com
+📧 **Benjamin Bats** – [bats.benjamin@gmail.com](mailto:bats.benjamin@gmail.com)
 
 All rights reserved unless explicitly granted in writing.
 
-🧙‍♂️ Author
+---
+
+## 🧙‍♂️ Author
 
 Benjamin Bats
-
