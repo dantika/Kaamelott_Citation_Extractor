@@ -1,0 +1,301 @@
+<mediawiki xmlns="http://www.mediawiki.org/xml/export-0.11/" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:schemaLocation="http://www.mediawiki.org/xml/export-0.11/ http://www.mediawiki.org/xml/export-0.11.xsd" version="0.11" xml:lang="fr">
+  <siteinfo>
+    <sitename>Wikiquote</sitename>
+    <dbname>frwikiquote</dbname>
+    <base>https://fr.wikiquote.org/wiki/Wikiquote:Accueil</base>
+    <generator>MediaWiki 1.45.0-wmf.9</generator>
+    <case>first-letter</case>
+    <namespaces>
+      <namespace key="-2" case="first-letter">Média</namespace>
+      <namespace key="-1" case="first-letter">Spécial</namespace>
+      <namespace key="0" case="first-letter" />
+      <namespace key="1" case="first-letter">Discussion</namespace>
+      <namespace key="2" case="first-letter">Utilisateur</namespace>
+      <namespace key="3" case="first-letter">Discussion utilisateur</namespace>
+      <namespace key="4" case="first-letter">Wikiquote</namespace>
+      <namespace key="5" case="first-letter">Discussion Wikiquote</namespace>
+      <namespace key="6" case="first-letter">Fichier</namespace>
+      <namespace key="7" case="first-letter">Discussion fichier</namespace>
+      <namespace key="8" case="first-letter">MediaWiki</namespace>
+      <namespace key="9" case="first-letter">Discussion MediaWiki</namespace>
+      <namespace key="10" case="first-letter">Modèle</namespace>
+      <namespace key="11" case="first-letter">Discussion modèle</namespace>
+      <namespace key="12" case="first-letter">Aide</namespace>
+      <namespace key="13" case="first-letter">Discussion aide</namespace>
+      <namespace key="14" case="first-letter">Catégorie</namespace>
+      <namespace key="15" case="first-letter">Discussion catégorie</namespace>
+      <namespace key="100" case="first-letter">Portail</namespace>
+      <namespace key="101" case="first-letter">Discussion Portail</namespace>
+      <namespace key="102" case="first-letter">Projet</namespace>
+      <namespace key="103" case="first-letter">Discussion Projet</namespace>
+      <namespace key="104" case="first-letter">Référence</namespace>
+      <namespace key="105" case="first-letter">Discussion Référence</namespace>
+      <namespace key="108" case="first-letter">Transwiki</namespace>
+      <namespace key="109" case="first-letter">Discussion Transwiki</namespace>
+      <namespace key="710" case="first-letter">TimedText</namespace>
+      <namespace key="711" case="first-letter">TimedText talk</namespace>
+      <namespace key="828" case="first-letter">Module</namespace>
+      <namespace key="829" case="first-letter">Discussion module</namespace>
+      <namespace key="2600" case="first-letter">Sujet</namespace>
+    </namespaces>
+  </siteinfo>
+  <page>
+    <title>Kaamelott/Kadoc</title>
+    <ns>0</ns>
+    <id>17588</id>
+    <revision>
+      <id>381406</id>
+      <parentid>292641</parentid>
+      <timestamp>2024-05-09T19:43:33Z</timestamp>
+      <contributor>
+        <ip>93.30.202.27</ip>
+      </contributor>
+      <comment>/* Citations */</comment>
+      <origin>381406</origin>
+      <model>wikitext</model>
+      <format>text/x-wiki</format>
+      <text bytes="7148" sha1="7zdyj9cfhyeihfuojfmflb1thhqocle" xml:space="preserve">==Citations==
+
+{{citation|citation= Pour savoir s’y a du vent, il faut mettre son doigt dans le cul du coq.}}
+{{Réf Série|auteur=Alexandre Astier
+|acteur=Brice Fournier
+|série=Kaamelott
+|saison=Livre II
+|épisode= 41 : ''O’Brother''}}
+{{Choisie citation du jour
+|puce=*
+|année=2014
+|mois=Décembre
+|jour=12
+}}
+
+
+{{citation|citation= On met du beurre dans le fond du plat pour pas que le gratin colle.}}
+{{Réf Série|auteur=Alexandre Astier
+|acteur=Brice Fournier
+|série=Kaamelott
+|saison=Livre II
+|épisode= 41 : ''O'Brother''}}
+
+{{citation|citation= Y'a des méchants ?}}
+{{Réf Série|auteur=Alexandre Astier
+|acteur=Brice Fournier
+|série=Kaamelott
+|saison=Livre II
+|épisode= 41 : ''O'Brother''}}
+
+{{citation|citation= Je présente vos hommages au roi Arthur.}}
+{{Réf Série|auteur=Alexandre Astier
+|acteur=Brice Fournier
+|série=Kaamelott
+|saison=Livre II
+|épisode= 41 : ''O'Brother''}}
+
+{{citation|citation= J'ai le droit d'être 4 jours pas chez moi, et après chez moi. Mais y a du voyage qui se prépare, et pour soigner les bêtes, y a pas que ma tante, y a moi aussi.}}
+{{Réf Série|auteur=Alexandre Astier
+|acteur=Brice Fournier
+|série=Kaamelott
+|saison=Livre II
+|épisode= 41 : ''O'Brother''}}
+
+{{citation|citation= Pourquoi je peux pas avoir un chien moi ? […] Mais c'est juste pour mettre des coups de pied dedans ! […] Moi j'en ai marre de toujours donner des coups de pied aux poules !}}
+{{Réf Série|auteur=Alexandre Astier
+|acteur=Brice Fournier
+|série=Kaamelott
+|saison=Livre II
+|épisode= 49 : ''Les chiens de guerre''}}
+
+{{citation|citation= À Kadoc ! À Kadoc !}}
+{{Réf Série|auteur=Alexandre Astier
+|acteur=Brice Fournier
+|série=Kaamelott
+|saison=Livre II
+|épisode= 60 : ''Le Jeu du caillou''}}
+
+{{citation|citation= Tatan, elle fait des flans.}}
+{{Réf Série|auteur=Alexandre Astier
+|acteur=Brice Fournier
+|série=Kaamelott
+|saison=Livre II
+|épisode= 60 : ''Le Jeu du caillou''}}
+
+{{citation|citation= Les pattes de canaaaaaaaaaaaaaaaaaaaaaaaaaaaaard !}}
+{{Réf Série|auteur=Alexandre Astier
+|acteur=Brice Fournier
+|série=Kaamelott
+|saison=Livre II
+|épisode= 60 : ''Le Jeu du caillou''}}
+
+{{citation|citation= Elle est où la poulette ?}}
+{{Réf Série|auteur=Alexandre Astier
+|acteur=Brice Fournier
+|série=Kaamelott
+|saison=Livre II
+|épisode= 60 : ''Le Jeu du caillou''}}
+
+{{citation|citation= Mooordu! Mooordu! Mordu mordu mordu mordu la ligne !!!!}}
+{{Réf Série|auteur=Alexandre Astier
+|acteur=Brice Fournier
+|série=Kaamelott
+|saison=Livre II
+|épisode= 60 : ''Le Jeu du caillou''}}
+
+{{citation|citation= Karadoc il s'occupe, mais c'est pas ma Tatan !}}
+{{Réf Série|auteur=Alexandre Astier
+|acteur=Brice Fournier
+|série=Kaamelott
+|saison=Livre II
+|épisode= 60 : ''Le Jeu du caillou''}}
+
+{{citation|citation= (à propos du père Blaise) Il ressemble à Tatan !}}
+{{Réf Série|auteur=Alexandre Astier
+|acteur=Brice Fournier
+|série=Kaamelott
+|saison=Livre II
+|épisode= 60 : ''Le Jeu du caillou''}}
+
+{{citation|citation= Le caca des pigeons c'est caca, faut pas manger.}}
+{{Réf Série|auteur=Alexandre Astier
+|acteur=Brice Fournier
+|série=Kaamelott
+|saison=Livre III
+|épisode= 24 : ''Les Suppléants''}}
+
+
+{{citation|citation= (''Sur l'air de Promenons-nous dans les bois'')&lt;br /&gt; 
+Pas du tout, les lapins, les lapins, c'est gentil !&lt;br /&gt; 
+Le poissooon ! Le petit poissooon !}}
+{{Réf Série|auteur=Alexandre Astier
+|acteur=Brice Fournier
+|série=Kaamelott
+|saison=Livre III
+|épisode= 24 : ''Les Suppléants''}}
+
+{{citation|citation= Des fois on n'a pas le choix faut sacrifier des jeunes, c'est le grand qu'a dit.}}
+{{Réf Série|auteur=Alexandre Astier
+|acteur=Brice Fournier
+|série=Kaamelott
+|saison=Livre III
+|épisode= 82 : ''Witness''}}
+
+{{citation|citation= Dans trois jours, ma tata elle m’emmène à la mer pour me noyer.}}
+{{Réf Série|auteur=Alexandre Astier
+|acteur=Brice Fournier
+|série=Kaamelott
+|saison=Livre IV
+|épisode= 70 : ''Le Paladin''}}
+
+{{citation|citation= (''Sur l'air de Promenons-nous dans les bois'')&lt;br /&gt; 
+Y' vont faire des beignets !}}
+{{Réf Série|auteur=Alexandre Astier
+|acteur=Brice Fournier
+|série=Kaamelott
+|saison=Livre V
+|épisode= 27 : ''Le Jurisconsulte''}}
+
+{{citation|citation= Quand y'a plus de roi, c'est caca.}}
+{{Réf Série|auteur=Alexandre Astier
+|acteur=Brice Fournier
+|série=Kaamelott
+|saison=Livre V
+|épisode= 27 : ''Le Jurisconsulte''}}
+
+{{citation|citation= Ça suffit ! Elle est où la poulette ? Elle est bien cachée ?}}
+{{Réf Série|auteur=Alexandre Astier
+|acteur=Brice Fournier
+|série=Kaamelott
+|saison=Livre V
+|épisode= 33 : ''Domi Nostræ''}}
+
+{{citation|citation= Vous rendez la poulette sinon c'est plus vous qui donnez à manger aux lapins !}}
+{{Réf Série|auteur=Alexandre Astier
+|acteur=Brice Fournier
+|série=Kaamelott
+|saison=Livre V
+|épisode= 33 : ''Domi Nostræ''}}
+
+{{citation|citation= Ça suffit !!! Ça suffit !!! Ça suffiiiiiiiit !!!}}
+{{Réf Série|auteur=Alexandre Astier
+|acteur=Brice Fournier
+|série=Kaamelott
+|saison=Livre V
+|épisode= 33 : ''Domi Nostræ''}}
+
+{{citation|citation= Vous rendez la poulette ou c'est tout nus dans les orties !}}
+{{Réf Série|auteur=Alexandre Astier
+|acteur=Brice Fournier
+|série=Kaamelott
+|saison=Livre V
+|épisode= 33 : ''Domi Nostræ''}}
+
+{{citation|citation= Le caca des canards c'est caca.}}
+{{Réf Série|auteur=Alexandre Astier
+|acteur=Brice Fournier
+|série=Kaamelott
+|saison=Livre V
+|épisode= 33 : ''Domi Nostræ''}}
+
+{{citation|citation= Il est où Kadoc ? Il est bien caché ?}}
+{{Réf Série|auteur=Alexandre Astier
+|acteur=Brice Fournier
+|série=Kaamelott
+|saison=Livre V
+|épisode= 39 : ''Unagi V''}}
+
+{{citation|citation= Camouflage caca...}}
+{{Réf Série|auteur=Alexandre Astier
+|acteur=Brice Fournier
+|série=Kaamelott
+|saison=Livre V
+|épisode= 39 : ''Unagi V''}} 
+
+{{citation|citation= Il faut pas respirer la compote, ça fait tousser.}}
+{{Réf Série|auteur=Alexandre Astier
+|acteur=Brice Fournier
+|série=Kaamelott
+|saison=Livre V
+|épisode= 42 : ''Le Destitué''}}
+
+{{citation|citation= Caca.}}
+{{Réf Série|auteur=Alexandre Astier
+|acteur=Brice Fournier
+|série=Kaamelott
+|saison=Livre V
+|épisode= 42 : ''Le Destitué''}}
+
+{{citation|citation= Ça suffit, vous rendez la poulette, sinon papi va se mettre en colère.}} 
+{{Réf Série|auteur=Alexandre Astier
+|acteur=Brice Fournier
+|série=Kaamelott
+|saison=Livre V
+|épisode= 49 : ''Le Retour du Roi''}}
+
+{{citation|citation= Si Kadoc il surveille bien, il aura des p'tits cubes de fromage.}}
+{{Réf Série|auteur=Alexandre Astier
+|acteur=Brice Fournier
+|série=Kaamelott
+|saison=Livre VI
+|épisode= 4 : ''Arturi Inquisitio''}}
+
+{{citation|citation= Y sont où les quignons à Kadoc ? Y sont dans la poche? Y sont bien cachés ?}}
+{{Réf Série|auteur=Alexandre Astier
+|acteur=Brice Fournier
+|série=Kaamelott
+|saison=Livre VI
+|épisode= 8 : ''Lacrimosa''}}
+
+{{citation|citation= Kadoc il peut mettre trente-sept mirabelles dans ses fesses !}}
+{{Réf Série|auteur=Alexandre Astier
+|acteur=Brice Fournier
+|série=Kaamelott
+|saison=Premier volet
+|épisode= ''Sequence souterraine''}}
+
+
+{{autres projets|w=Personnages de Kaamelott#Kadoc}}
+
+[[Catégorie:Kaamelott|Kadoc]]</text>
+      <sha1>7zdyj9cfhyeihfuojfmflb1thhqocle</sha1>
+    </revision>
+  </page>
+</mediawiki>

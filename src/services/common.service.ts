@@ -1,8 +1,12 @@
 import { CLEANING_REGEXP } from "../contants/cleaning-regexp.constants";
+import { logger } from "./logger.service";
+
 export class CommonService {
+  private loggerContext = "CommonService";
   constructor() {}
   cleanText(text: string): string {
     let res = text;
+    logger.info(`Cleaning raw text`, this.loggerContext);
     CLEANING_REGEXP.forEach((symbol, i) => {
       i < 1
         ? (res = text.replace(symbol.regexp, symbol.converted))
@@ -10,4 +14,15 @@ export class CommonService {
     });
     return res.trim();
   }
+
+  safeExecute<T>(fn: () => T, errorMsg: string, fallback?: T): T {
+    try {
+      return fn();
+    } catch (err) {
+      logger.error(errorMsg, this.loggerContext);
+      return fallback as T;
+    }
+  }
 }
+
+export const commonService = new CommonService();

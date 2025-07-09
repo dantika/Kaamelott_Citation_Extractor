@@ -1,0 +1,342 @@
+<mediawiki xmlns="http://www.mediawiki.org/xml/export-0.11/" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:schemaLocation="http://www.mediawiki.org/xml/export-0.11/ http://www.mediawiki.org/xml/export-0.11.xsd" version="0.11" xml:lang="fr">
+  <siteinfo>
+    <sitename>Wikiquote</sitename>
+    <dbname>frwikiquote</dbname>
+    <base>https://fr.wikiquote.org/wiki/Wikiquote:Accueil</base>
+    <generator>MediaWiki 1.45.0-wmf.9</generator>
+    <case>first-letter</case>
+    <namespaces>
+      <namespace key="-2" case="first-letter">Média</namespace>
+      <namespace key="-1" case="first-letter">Spécial</namespace>
+      <namespace key="0" case="first-letter" />
+      <namespace key="1" case="first-letter">Discussion</namespace>
+      <namespace key="2" case="first-letter">Utilisateur</namespace>
+      <namespace key="3" case="first-letter">Discussion utilisateur</namespace>
+      <namespace key="4" case="first-letter">Wikiquote</namespace>
+      <namespace key="5" case="first-letter">Discussion Wikiquote</namespace>
+      <namespace key="6" case="first-letter">Fichier</namespace>
+      <namespace key="7" case="first-letter">Discussion fichier</namespace>
+      <namespace key="8" case="first-letter">MediaWiki</namespace>
+      <namespace key="9" case="first-letter">Discussion MediaWiki</namespace>
+      <namespace key="10" case="first-letter">Modèle</namespace>
+      <namespace key="11" case="first-letter">Discussion modèle</namespace>
+      <namespace key="12" case="first-letter">Aide</namespace>
+      <namespace key="13" case="first-letter">Discussion aide</namespace>
+      <namespace key="14" case="first-letter">Catégorie</namespace>
+      <namespace key="15" case="first-letter">Discussion catégorie</namespace>
+      <namespace key="100" case="first-letter">Portail</namespace>
+      <namespace key="101" case="first-letter">Discussion Portail</namespace>
+      <namespace key="102" case="first-letter">Projet</namespace>
+      <namespace key="103" case="first-letter">Discussion Projet</namespace>
+      <namespace key="104" case="first-letter">Référence</namespace>
+      <namespace key="105" case="first-letter">Discussion Référence</namespace>
+      <namespace key="108" case="first-letter">Transwiki</namespace>
+      <namespace key="109" case="first-letter">Discussion Transwiki</namespace>
+      <namespace key="710" case="first-letter">TimedText</namespace>
+      <namespace key="711" case="first-letter">TimedText talk</namespace>
+      <namespace key="828" case="first-letter">Module</namespace>
+      <namespace key="829" case="first-letter">Discussion module</namespace>
+      <namespace key="2600" case="first-letter">Sujet</namespace>
+    </namespaces>
+  </siteinfo>
+  <page>
+    <title>Kaamelott/Yvain</title>
+    <ns>0</ns>
+    <id>17590</id>
+    <revision>
+      <id>293167</id>
+      <parentid>277605</parentid>
+      <timestamp>2020-05-04T15:31:15Z</timestamp>
+      <contributor>
+        <ip>78.213.174.80</ip>
+      </contributor>
+      <comment>/* Citations */ n° des épisodes</comment>
+      <origin>293167</origin>
+      <model>wikitext</model>
+      <format>text/x-wiki</format>
+      <text bytes="10475" sha1="rucyiu956649y5qp6rmnvbrfo2il2s1" xml:space="preserve">Citations de '''[[w:Personnages de Kaamelott#Yvain|Yvain]]''' dans la [[:catégorie:série télévisée|série télévisée]] [[Kaamelott]].
+
+==Citations==
+
+{{citation|citation= Je refuse d’aller me battre pour soutenir une politique d’expansion territoriale dont je ne reconnais pas la légitimité.}}
+{{Réf Série|auteur=Alexandre Astier
+|acteur=Simon Astier
+|série=Kaamelott
+|saison=Livre I
+|épisode= 39 : ''Le Cas Yvain''}}
+
+
+{{citation|citation= (À Séli) Je peux pas y aller j’ai une otite.}}
+{{Réf Série|auteur=Alexandre Astier
+|acteur=Simon Astier
+|série=Kaamelott
+|saison=Livre I
+|épisode= 39 : ''Le cas Yvain''}}
+
+{{citation|citation= Est-ce qu’on a le droit de boire du cidre ?}}
+{{Réf Série|auteur=Alexandre Astier
+|acteur=Simon Astier
+|série=Kaamelott
+|saison=Livre I
+|épisode= 50 : ''Les Nouveaux Frères''}}
+
+{{citation|citation= Je le prends pas le bouclier, ça fait trop nul !}}
+{{Réf Série|auteur=Alexandre Astier
+|acteur=Simon Astier
+|série=Kaamelott
+|saison=Livre I
+|épisode= 50 : ''Les Nouveaux Frères''}}
+
+{{citation|citation= Mon père, y dit toujours qu'on arrive jamais en prison par hasard.}}
+{{Réf Série|auteur=Alexandre Astier
+|acteur=Simon Astier
+|série=Kaamelott
+|saison=Livre II
+|épisode= 24 : ''Sous les verrous''}}
+
+{{citation|citation= Moi, je m'en fous, si on me force à y retourner, je retiens ma respiration jusqu'à qu'on arrête de me forcer à y retourner.}}
+{{Réf Série|auteur=Alexandre Astier
+|acteur=Simon Astier
+|série=Kaamelott
+|saison=Livre II
+|épisode= 16 : ''Les tuteurs''}}
+
+{{citation|citation= Quand il a ouvert le ventre du troll, j'ai reçu un jet d'acide qui m'a pratiquement acidifié !}}
+{{Réf Série|auteur=Alexandre Astier
+|acteur=Simon Astier
+|série=Kaamelott
+|saison=Livre II
+|épisode= 16 : ''Les tuteurs''}}
+
+{{citation|citation= Moi, je me suis fait dérober de l'alimentation tout le long du voyage ! Une véritable dérobade !}}
+{{Réf Série|auteur=Alexandre Astier
+|acteur=Simon Astier
+|série=Kaamelott
+|saison=Livre II
+|épisode= 16 : ''Les tuteurs''}}
+
+{{citation|citation= Et moi, j'ai sympathisé avec un crémier qui m'a expliqué les tenants et les aboutissants de sa profession avec beaucoup de simplicité !}}
+{{Réf Série|auteur=Alexandre Astier
+|acteur=Simon Astier
+|série=Kaamelott
+|saison=Livre II
+|épisode= 16 : ''Les tuteurs''}}
+
+{{citation|citation= J’étais tellement en colère, je leur ai lancé un de ces regards… Ils ne sont pas venus chercher la monnaie de leur pièce.}}
+{{Réf Série|auteur=Alexandre Astier
+|acteur=Simon Astier
+|série=Kaamelott
+|saison=Livre II
+|épisode= 29 : ''Les Mauvaises Graines''}}
+
+{{citation|citation= Ben Gauvain il est revenu, il s'était planté une écharde comme ça dans le doigt… N’empêche, si ça s’infecte, on peut en mourir, j’vous f'rais dire.}}
+{{Réf Série|auteur=Alexandre Astier
+|acteur=Simon Astier
+|série=Kaamelott
+|saison=Livre II
+|épisode= 40 : ''Le Guet''}}
+
+{{citation|citation= La colombe blanche et sèche,&lt;br&gt;
+Retombe souvent sur sa poitrine,&lt;br&gt;
+Elle vole quand même... c'est très bien,&lt;br&gt;
+Et finit sa course dans la prairie de notre enfance.
+[…]&lt;br&gt;
+Là sire j'avoue que c'est pour que ça rime avec blanche et sèche. […]&lt;br&gt;
+Ben oui c'est une rime triple : Blanche et sèche, poitrine et prairie de notre enfance. }}
+{{Réf Série|auteur=Alexandre Astier
+|acteur=Simon Astier
+|série=Kaamelott
+|saison=Livre II
+|épisode= 86 : ''Les félicitations''}}
+
+{{citation|citation= J’estime ne pas avoir à subir les fantasmes carriéristes d’une entité générationnelle réactionnaire et oppressive !}}
+{{Réf Série|auteur=Alexandre Astier
+|acteur=Simon Astier
+|série=Kaamelott
+|saison=Livre II
+|épisode= 71 : .''Le Pédagogue''}}
+
+{{citation|citation= Si je fais mon tour pas dans le même sens que vous, ça annule. Mais si je le fais dans le même sens que vous, ça le double !}}
+{{Réf Série|auteur=Alexandre Astier
+|acteur=Simon Astier
+|série=Kaamelott
+|saison=Livre II
+|épisode= 97 : ''Trois Cent Soixante Degrés''}}
+
+
+{{citation|citation= C'est sûr que si y'a une dame à sauver et qu'il fait froid, on y va quand même, mais juste avant de sauver la dame, on enlève le lainage qu'on a mis, et comme ça ça montre qu'on craint pas le froid, et ça fait plaisir.  }}
+{{Réf Série|auteur=Alexandre Astier
+|acteur=Simon Astier
+|série=Kaamelott
+|saison=Livre III
+|épisode= 91 : ''La Chevalerie''}}
+
+{{citation|citation= [Arthur: Pour faire simple: on peut douter de tout sauf de la nécessité de se trouver du côté des opprimés]&lt;br /&gt;
+Ah bon! C'est marrant parce que mon père, il a une phrase presque pareil: "On peut douter de tout sauf de la nécessité de se trouver du côté de celui qui a le pognon".}}
+{{Réf Série|auteur=Alexandre Astier
+|acteur=Simon Astier
+|série=Kaamelott
+|saison=Livre III
+|épisode= 91 : ''La Chevalerie''}}
+
+{{citation|citation= La chevalerie, c'est pas là où on range les chevaux ?}}
+{{Réf Série|auteur=Alexandre Astier
+|acteur=Simon Astier
+|série=Kaamelott
+|saison=Livre III
+|épisode= 91 : ''La Chevalerie''}}
+
+{{citation|citation= (Gauvain: Excusez nous mon oncle, notre vocabulaire n'est pas tres fourni)}}
+{{citation|citation= Ouais bah vous encore ça va, moi, même le mot vocabulaire je suis pas sûr à 100% !}}
+{{Réf Série|auteur=Alexandre Astier
+|acteur=Simon Astier
+|série=Kaamelott
+|saison=Livre III
+|épisode= 91 : ''La Chevalerie''}}
+
+
+{{citation|citation= (''À propos d'une catapulte'') Est-ce qu'on peut s'en servir pour donner de l'élan à un pigeon ?}}
+{{Réf Série|auteur=Alexandre Astier
+|acteur=Simon Astier
+|série=Kaamelott
+|saison=Livre III
+|épisode= 88 : ''L'étudiant''}}
+
+{{citation|citation= En revanche, je suis triste pour un autre truc mais ça m'embête d'en parler... J'estime que chacun a le droit à son jardin secret.}}
+{{Réf Série|auteur=Alexandre Astier
+|acteur=Simon Astier
+|série=Kaamelott
+|saison=Livre IV
+|épisode= 04 : ''La tarte aux fraises''}}
+
+{{citation|citation= Je crois que je me suis coupé la gencive avec un grumeau cuit. C'est possible ou pas ?}}
+{{Réf Série|auteur=Alexandre Astier
+|acteur=Simon Astier
+|série=Kaamelott
+|saison=Livre IV
+|épisode= 04 : ''La tarte aux fraises''}}
+
+{{citation|citation= Dans ma chambre c'est le bordel, ça pue et y a des charançons.}}
+{{Réf Série|auteur=Alexandre Astier
+|acteur=Simon Astier
+|série=Kaamelott
+|saison=Livre IV
+|épisode= 22 : ''Seigneur Caïus''}}
+
+{{citation|citation= Et si on envoyait quelqu’un qui se faufile dans leur camp sans se faire repérer pour observer leurs faits et gestes ? […] Ou alors, ça fait doublon avec l’espionnage ? Je me rends pas compte.}}
+{{Réf Série|auteur=Alexandre Astier
+|acteur=Simon Astier
+|série=Kaamelott
+|saison=Livre IV
+|épisode= 32 : ''Le Rapport''}}
+
+{{citation|citation=Parce que en fait dans notre langue, il y a que deux mots qui riment avec complète : c'est quiquette et biseautée. Alors ça va être chaud !}}
+{{Réf Série|auteur=Alexandre Astier
+|acteur=Simon Astier
+|série=Kaamelott
+|saison=Livre IV
+|épisode= 73 : ''Le Oud II''}}
+
+{{citation|citation= Ne vous laissez pas embobiner… Ils cherchent à vous rembobiner !}}
+{{Réf Série|auteur=Alexandre Astier
+|acteur=Simon Astier
+|série=Kaamelott
+|saison=Livre IV
+|épisode= 78 : ''Le Choix de Gauvain''}}
+
+{{citation|citation= Il s'est acharné sur moi avec une sauvagerie mêlée de férocité. […] Celui qu'avait qu'une jambe. […] Oui, bah du coup, c'était le plus hargneux. C'était comme s'il se vengeait sur moi de sa jambe euh... Avec une sauvagerie mêlée de férocité.}}
+{{Réf Série|auteur=Alexandre Astier
+|acteur=Simon Astier
+|série=Kaamelott
+|saison=Livre IV
+|épisode= 81 : ''La Blessure d'Yvain''}}
+
+{{citation|citation= Ça pique trop de la vie, quoi : ça pique, ça lance, et derrière, comment ça re-pique trop.}}
+{{Réf Série|auteur=Alexandre Astier
+|acteur=Simon Astier
+|série=Kaamelott
+|saison=Livre IV
+|épisode= 81 : ''La Blessure d'Yvain''}}
+
+{{citation|citation= Vous pouvez pas savoir comment on est trop jouasse d’être là !}}
+{{Réf Série|auteur=Alexandre Astier
+|acteur=Simon Astier
+|série=Kaamelott
+|saison=Livre V
+|épisode= 4 : ''Les Nouveaux Clans''}}
+
+{{citation|citation= Ouais, alors là où je vois que je suis vraiment à cran, c'est que quand vous avez dit malédiction, j'ai fait une série de tout petits pets comme ça : pft pft pft pft pft pft.}}
+{{Réf Série|auteur=Alexandre Astier
+|acteur=Simon Astier
+|série=Kaamelott
+|saison=Livre V
+|épisode= 11 : ''Hurlements''}}
+
+{{citation|citation= Ah bah ouais mais là euh... Le voile noir, le chaos... J'ai passé un cap hein.}}
+{{Réf Série|auteur=Alexandre Astier
+|acteur=Simon Astier
+|série=Kaamelott
+|saison=Livre V
+|épisode= 11 : ''Hurlements''}}
+
+
+
+{{citation|citation= Mais c'est trop sur votre route quoi ! Bon y'a une colline, deux collines du coup bi-collines et après c'est carrément votre route !}}
+{{Réf Série|auteur=Alexandre Astier
+|acteur=Simon Astier
+|série=Kaamelott
+|saison=Livre V
+|épisode= 40 : ''Les Pionniers''}}
+
+
+{{citation|citation= Femme, cesse donc de nous esbaudir les oreilles ! Olala, il suffit !}}
+{{Réf Série|auteur=Alexandre Astier
+|acteur=Simon Astier
+|série=Kaamelott
+|saison=Livre V
+|épisode= 40 : ''Les Pionniers''}}
+
+
+{{citation|citation=Ah bravo femme. Ce repas fut des plus roboratifs !}}
+{{Réf Série|auteur=Alexandre Astier
+|acteur=Simon Astier
+|série=Kaamelott
+|saison=Livre V
+|épisode= 40 : ''Les pionniers''}}
+
+{{citation|citation=Femme, comme je le disais tantôt,tu nous a roboré. Mais sauras tu nous régaler d'un dessert de ton choix ?}}
+{{Réf Série|auteur=Alexandre Astier
+|acteur=Simon Astier
+|série=Kaamelott
+|saison=Livre V
+|épisode= 40 : ''Les pionniers''}}
+
+
+{{citation|citation=Allez femme, robore nous donc de quelques fruits bien sucrés. Il s'agit d'une régalade !}}
+{{Réf Série|auteur=Alexandre Astier
+|acteur=Simon Astier
+|série=Kaamelott
+|saison=Livre V
+|épisode= 40 : ''Les pionniers''}}
+
+{{citation|citation= Femme ! Tu nous esbaubis les oreilles ! Rabats un peu ta casquette !}}
+{{Réf Série|auteur=Alexandre Astier
+|acteur=Simon Astier
+|série=Kaamelott
+|saison=Livre V
+|épisode= 40 : ''Les Pionniers''}}
+
+{{citation|citation=Oh l'Irlande !}}
+{{Réf Série|auteur=Alexandre Astier
+|acteur=Simon Astier
+|série=Kaamelott
+|saison=Livre V
+|épisode=  21: ''Aux Yeux De Tous III''}}
+
+{{autres projets|w=Personnages de Kaamelott#Yvain}}
+
+[[Catégorie:Kaamelott|Yvain]]</text>
+      <sha1>rucyiu956649y5qp6rmnvbrfo2il2s1</sha1>
+    </revision>
+  </page>
+</mediawiki>

@@ -4,7 +4,7 @@
   "description": "An xml extractor to get all kaamelott quotes",
   "main": "index.ts",
   "scripts": {
-    "build": "tsc && cpx \"src/raw_extract/**/*\" dist/raw_extract",
+    "build": "tsc && cpx \"src/local_extracts/**/*\" dist/local_extracts",
     "start": "npm run build && node dist/index.js"
   },
   "devDependencies": {
