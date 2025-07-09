@@ -12,6 +12,7 @@ import { CommonService } from "./services/common.service";
 import { FetchingService } from "./services/fetching.service";
 import { FileService } from "./services/file.service";
 import { ParserService } from "./services/parser.service";
+import { logger } from "./services/logger.service";
 export class CitationsParser {
   parserService = new ParserService();
   fetchingService = new FetchingService();
@@ -33,7 +34,7 @@ export class CitationsParser {
           data
         );
       }
-      this.fetchingService.localFetch(localFilePath);
+      data = this.fetchingService.localFetch(localFilePath);
       data = this.commonService.cleanText(data);
 
       let citationsList: CitationModel[] = [];

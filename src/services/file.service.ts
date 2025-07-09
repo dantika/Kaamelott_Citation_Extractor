@@ -1,105 +1,108 @@
 import * as fs from "fs";
 import * as path from "path";
 import { CitationModel } from "../models/citation.model";
+import { logger } from "./logger.service";
 
 export class FileService {
-  baseDir = path.join(__dirname, "../");
+  private baseDir = path.join(__dirname, "../");
+  private loggerContext = "FileService";
 
-  constructor() {}
+  private safeExecute<T>(fn: () => T, errorMsg: string, fallback?: T): T {
+    try {
+      return fn();
+    } catch (err) {
+      logger.error(errorMsg, this.loggerContext);
+      return fallback as T;
+    }
+  }
 
   private ensureDirectory(dirPath: string): void {
     if (!fs.existsSync(dirPath)) {
       fs.mkdirSync(dirPath, { recursive: true });
-      console.info(`[INFO] Création directory : ${dirPath}`);
+      logger.info(`Directory created: ${dirPath}`, this.loggerContext);
     }
   }
 
-  private fileExists(filePath: string): boolean {
-    return fs.existsSync(filePath);
+  private readJson<T>(filePath: string): T | undefined {
+    const raw = this.safeExecute(
+      () => fs.readFileSync(filePath, "utf-8"),
+      `Could not read file: ${filePath}`
+    );
+    if (typeof raw !== "string") return;
+    return this.safeExecute(
+      () => JSON.parse(raw) as T,
+      `Invalid JSON in file: ${filePath}`
+    );
   }
 
-  private createJsonFile(filePath: string, space: number = 2): void {
-    fs.writeFileSync(filePath, JSON.stringify([], null, space), "utf-8");
+  private writeJson(filePath: string, data: unknown, space = 2): void {
+    this.safeExecute(
+      () =>
+        fs.writeFileSync(filePath, JSON.stringify(data, null, space), "utf-8"),
+      `Could not write to file: ${filePath}`
+    );
+    logger.info(`File updated: ${filePath}`, this.loggerContext);
   }
 
-  private readFile(filePath: string): string {
-    return fs.readFileSync(filePath, "utf-8");
-  }
-
-  private writeFile(filePath: string, data: unknown, space: number = 2): void {
-    fs.writeFileSync(filePath, JSON.stringify(data, null, space), "utf-8");
-  }
-
-  private isDuplicate<T>(array: T[], obj: CitationModel): boolean {
-    const objStr = JSON.stringify(obj);
-    return array.some((item) => JSON.stringify(item) === objStr);
+  private createFileIfMissing(filePath: string, initializer: () => void): void {
+    if (!fs.existsSync(filePath)) {
+      this.safeExecute(initializer, `Could not create file: ${filePath}`);
+    }
   }
 
   writeXmlFile(outputDir: string, fileName: string, content: string): void {
     const dir = path.join(this.baseDir, outputDir);
+    this.safeExecute(
+      () => this.ensureDirectory(dir),
+      `Invalid or inaccessible path: ${dir}`
+    );
 
-    try {
-      this.ensureDirectory(dir);
-    } catch {
-      console.error(`[WARN] Chemin d'accès corrompu ou inexistant : ${dir}.`);
-      return;
-    }
-
-    const filePath = `${dir}/${fileName}.xml`;
-
-    if (!this.fileExists(filePath)) {
-      fs.writeFileSync(filePath, content, {
-        encoding: "utf8",
-      });
-      console.info(`[INFO] Création : ${fileName}.xml`);
-    }
+    const xmlPath = path.join(dir, `${fileName}.xml`);
+    this.createFileIfMissing(xmlPath, () =>
+      fs.writeFileSync(xmlPath, content, { encoding: "utf8" })
+    );
+    logger.info(`Created: ${fileName}.xml`, this.loggerContext);
   }
 
   appendToDataJsonFile(
     destinationFolder: string,
     fileName: string,
-    obj: CitationModel[]
+    items: CitationModel[]
   ): void {
     const dir = path.join(this.baseDir, destinationFolder);
+    this.safeExecute(
+      () => this.ensureDirectory(dir),
+      `Invalid or inaccessible path: ${dir}`
+    );
 
-    try {
-      this.ensureDirectory(dir);
-    } catch {
-      console.error(`[WARN] Chemin d'accès corrompu ou inexistant : ${dir}.`);
-      return;
-    }
+    const jsonPath = path.join(dir, `${fileName}.json`);
+    this.createFileIfMissing(jsonPath, () =>
+      fs.writeFileSync(jsonPath, JSON.stringify([], null, 2), "utf-8")
+    );
 
-    const filePath = path.join(dir, `${fileName}.json`);
+    const existing = this.readJson<CitationModel[]>(jsonPath) ?? [];
+    let added = 0;
 
-    if (!this.fileExists(filePath)) {
-      this.createJsonFile(filePath);
-      console.info(`[INFO] Création : ${fileName}.json`);
-    }
-
-    let data: CitationModel[] = [];
-    try {
-      const raw = this.readFile(filePath);
-      const parsed = JSON.parse(raw);
-      data = Array.isArray(parsed) ? parsed : [];
-    } catch {
-      console.warn(
-        `[WARN] Fichier corrompu ou format inattendu : ${filePath}. Réinitialisation.`
+    for (const item of items) {
+      const isDup = existing.some(
+        (e) => JSON.stringify(e) === JSON.stringify(item)
       );
-      data = [];
+      if (isDup) {
+        logger.warn(
+          `Duplicate skipped: ${JSON.stringify(item)}`,
+          this.loggerContext
+        );
+        continue;
+      }
+      existing.push(item);
+      added++;
+      logger.info(
+        `Added ${added} item(s) to ${fileName}.json`,
+        this.loggerContext,
+        true
+      );
     }
 
-    obj.forEach((el) => {
-      if (!this.isDuplicate(data, el)) {
-        data.push(el);
-        this.writeFile(filePath, data);
-        console.info(`[INFO] Ajout : objet ajouté dans ${fileName}.json`);
-      } else {
-        console.warn(
-          `[WARN] Doublon détecté dans ${fileName}.json — aucun ajout effectué.\n\r${JSON.stringify(
-            el
-          )}`
-        );
-      }
-    });
+    this.writeJson(jsonPath, existing);
   }
 }
