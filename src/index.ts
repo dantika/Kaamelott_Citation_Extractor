@@ -1,9 +1,14 @@
-import { CitationsParser } from "./citations.parser";
+import { citationsParser } from "./citations.parser";
+import { logger } from "./services/logger.service";
 
-export const DEBUG_MODE = true;
+export const LOCAL_MODE = true;
 
-const citationsParserService = new CitationsParser();
+LOCAL_MODE
+  ? logger.warn(`/!\\ LOCAL_MODE /!\\`)
+  : logger.warn(
+      `/!\\ PRODUCTION_MODE /!\\ Be carefull, it will request the official wikiquotes website !`
+    );
 
-citationsParserService.extractCitations();
+citationsParser.extractCitations();
 // TODO Dialog parser
 // TODO Comics parser

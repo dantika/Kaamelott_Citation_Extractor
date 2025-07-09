@@ -1,7 +1,5 @@
-// src/logger.ts
 import { stdout } from "process";
-
-export type LogLevel = "INFO" | "WARN" | "ERROR";
+import { LogLevel } from "../models/log-level.type";
 
 export class Logger {
   private timestamp(): string {
@@ -19,7 +17,7 @@ export class Logger {
       stdout.cursorTo(0);
       stdout.write(line);
     } else {
-      stdout.write("\n" + line + "\n");
+      stdout.write("\n" + line);
     }
   }
 

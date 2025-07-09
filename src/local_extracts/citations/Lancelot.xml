@@ -3,7 +3,7 @@
     <sitename>Wikiquote</sitename>
     <dbname>frwikiquote</dbname>
     <base>https://fr.wikiquote.org/wiki/Wikiquote:Accueil</base>
-    <generator>MediaWiki 1.45.0-wmf.8</generator>
+    <generator>MediaWiki 1.45.0-wmf.9</generator>
     <case>first-letter</case>
     <namespaces>
       <namespace key="-2" case="first-letter">Média</namespace>

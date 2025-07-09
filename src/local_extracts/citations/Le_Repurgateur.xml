@@ -3,7 +3,7 @@
     <sitename>Wikiquote</sitename>
     <dbname>frwikiquote</dbname>
     <base>https://fr.wikiquote.org/wiki/Wikiquote:Accueil</base>
-    <generator>MediaWiki 1.45.0-wmf.8</generator>
+    <generator>MediaWiki 1.45.0-wmf.9</generator>
     <case>first-letter</case>
     <namespaces>
       <namespace key="-2" case="first-letter">Média</namespace>
@@ -40,85 +40,93 @@
     </namespaces>
   </siteinfo>
   <page>
-    <title>Kaamelott/Gauvain</title>
+    <title>Kaamelott/Le Répurgateur</title>
     <ns>0</ns>
-    <id>17643</id>
+    <id>17647</id>
     <revision>
-      <id>251224</id>
-      <parentid>251221</parentid>
-      <timestamp>2017-02-01T15:45:50Z</timestamp>
+      <id>291573</id>
+      <parentid>262996</parentid>
+      <timestamp>2020-04-06T13:57:43Z</timestamp>
       <contributor>
-        <username>Lykos</username>
-        <id>1639</id>
+        <ip>92.184.97.125</ip>
       </contributor>
-      <minor/>
-      <comment>Révocation des modifications de [[Special:Contributions/195.141.11.66|195.141.11.66]] ([[User talk:195.141.11.66|discussion]]) vers la dernière version de [[User:JackBot|JackBot]]</comment>
-      <origin>251224</origin>
+      <comment>/* Citations */</comment>
+      <origin>291573</origin>
       <model>wikitext</model>
       <format>text/x-wiki</format>
-      <text bytes="2247" sha1="jc2x1x4nwe6o8apbwg8bh17xb5k4wlq" xml:space="preserve">Citations de '''[[w:Personnages de Kaamelott#Gauvain|Gauvain]]''' dans la [[:catégorie:série télévisée|série télévisée]] [[Kaamelott]].
+      <text bytes="3199" sha1="t5kij1r1ex0rqskvl1b70uotpzg5j5r" xml:space="preserve">Citations du '''[[w:Personnages de Kaamelott#Le Répurgateur|Répurgateur]]''' dans la [[:catégorie:série télévisée|série télévisée]] [[Kaamelott]].
 
 ==Citations==
 
-{{citation|citation= Mon oncle, mon cœur est empli de la noblesse de cette quête !}}
+{{citation|citation= (''En hurlant'') MAGIE NOIRE ! MAGIE NOIRE ! Tais-toi, tais-toi, tais-toi la patte de poulet Satan hérétique ! !}}
 {{Réf Série|auteur=Alexandre Astier
-|acteur=Aurélien Portehaut
-|série=Kaamelott
-|saison=décembre 2004
-|épisode=promotion de la série}}
-
-{{citation|citation= Je me sens la fureur de l’ours ! […]&lt;br /&gt;
-Je me sens le courage de l’oiseau ! […]&lt;br /&gt;
-Je suis sautillant comme le mulot ! […]&lt;br /&gt;
-Je frétille comme une p’tite truite ! […]&lt;br /&gt;
-J’ai la vigueur d’un insecte !}}
-{{Réf Série|auteur=Alexandre Astier
-|acteur=Aurélien Portehaut
-|série=Kaamelott
-|saison=épisodes pilotes
-|épisode= 1 : ''Le Duel''}}
-
-{{citation|citation= Et à un moment... Le sorcier s'est mis à nous menacer, avec ses parties génitales.}}
-{{Réf Série|auteur=Alexandre Astier
-|acteur=Aurélien Portehaut
+|acteur=Élie Semoun
 |série=Kaamelott
 |saison=Livre I
-|épisode= 86 : ''Le prodige du fakir''}}
+|épisode= 79 :''L’Expurgation de Merlin''}}
 
-
-{{citation|citation= Mon oncle, n'est-ce pas vous même qui m'avez dit que rien ne remplaçait une véritable amitié et qu'en cas d'urgence c'était la seule corde à laquelle on pouvait vraiment se raccrocher ?.}}
+{{citation|citation=Oui eh ben ça a été dit et re-dit et re-re-dit, la magie est une activité démoniaque, il faut brûler cette personne. On va brûler. AU BÛCHER.}}
 {{Réf Série|auteur=Alexandre Astier
-|acteur=Aurélien Portehaut
+|acteur=Élie Semoun
 |série=Kaamelott
 |saison=Livre I
-|épisode= ''Les Nouveaux Frères''}}
+|épisode= 79 : ''L’Expurgation de Merlin''}}
 
-{{citation|citation= Noblesse bien remisée ne trouve jamais l'hiver à sa porte... Non, porte close...}}
+{{citation|citation=Mon activité dans ce gouvernement est de brûler les personnes démoniaques, je VEUX BRÛLER CETTE PERSONNE !}}
 {{Réf Série|auteur=Alexandre Astier
-|acteur=Aurélien Portehaut
+|acteur=Élie Semoun
 |série=Kaamelott
-|saison=Livre III
-|épisode= 86 : ''La Chevalerie''}}
+|saison=Livre I
+|épisode= 79 : ''L’Expurgation de Merlin''}}
 
-{{citation|citation= Nous sommes jeunes, nous marchons à pieds… J’opterai donc pour un surnom en rapport : "les Petits Pédestres".}}
+{{citation|citation=Ah, non, pour moi les femmes, j'aime pas ça… C'est de la saloperie !}}
 {{Réf Série|auteur=Alexandre Astier
-|acteur=Aurélien Portehaut
+|acteur=Élie Semoun
+|série=Kaamelott
+|saison=Livre I
+|épisode= 14 : ''Monogame''}}
+
+{{citation|citation=Vous venez me voir en confession... […] Ça prend cinq minutes et puis après on est tranquille, on peut faire ce qu'on veut.}}
+{{Réf Série|auteur=Alexandre Astier
+|acteur=Élie Semoun
+|série=Kaamelott
+|saison=Livre I
+|épisode= 14 : ''Monogame''}}
+
+{{citation|citation=(''En parlant à Kadoc'') Simplet ! Le démon a vidé ton cerveau, y'a plus rien dedans. Tu périras par la main de Dieu, tu comprends ça ?}}
+{{Réf Série|auteur=Alexandre Astier
+|acteur=Élie Semoun
 |série=Kaamelott
 |saison=Livre IV
-|épisode= 39 : ''Le Grand Départ''}}
+|épisode= 75 : ''Le Paladin''}}
 
-{{citation|citation= Seigneur Bohort, pouvons-nous nous retirer afin d'aller prendre notre goûter ?}}
+{{citation|citation=(''En parlant à Kadoc'') Oh Regarde, Simplet, Regarde ! Il y a un morceau de charcuterie qui arrive ! Regarde le, Regarde ! (il attaque avec son épée) AU BÛCHER !}}
 {{Réf Série|auteur=Alexandre Astier
-|acteur=Aurélien Portehaut
+|acteur=Élie Semoun
+|série=Kaamelott
+|saison=Livre IV
+|épisode= 70 : ''Le Paladin''}}
+
+{{citation|citation=(''En criant à Lancelot'') Ce n'est pas notre affaire ! (''Faisant semblant de pleurnicher'') Alors voilà, j'ai un enfant de 4 ans et puis je vole des vêtements, je vole de la viande et puis personne ne me dit rien. Hunhun mon petit enfant de 4 ans, il n'a rien à manger.
+(''En criant'') S'il n'a rien à manger, il ne mange rien voilà ! La sentence est prononcée, voilà c'est fini !}}
+{{Réf Série|auteur=Alexandre Astier
+|acteur=Élie Semoun
+|série=Kaamelott
+|saison=Épisode pilote
+|épisode= 9 : ''Le Répurgateur''}}
+
+{{citation|citation=Sire, qu'est-ce que j'apprends de manière inopinée ? La rumeur colporte que vous ne vous êtes jamais confessé ! […] La confession, sire ! Sans confession, point de salut ! Sans salut, point... point ne sert de... à rien qui ne sait partir.}}
+{{Réf Série|auteur=Alexandre Astier
+|acteur=Élie Semoun
 |série=Kaamelott
 |saison=Livre II
-|épisode= 24 : ''Les Tuteurs''}}
+|épisode= 73 : ''L'Absolution''}}
 
 
-{{autres projets|w=Personnages de Kaamelott#Gauvain}}
+{{autres projets|w=Personnages de Kaamelott#Le Répurgateur}}
 
-[[Catégorie:Kaamelott|Gauvain]]</text>
-      <sha1>jc2x1x4nwe6o8apbwg8bh17xb5k4wlq</sha1>
+[[Catégorie:Kaamelott|Repurgateur, Le]]</text>
+      <sha1>t5kij1r1ex0rqskvl1b70uotpzg5j5r</sha1>
     </revision>
   </page>
 </mediawiki>

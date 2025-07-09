@@ -1,20 +1,12 @@
 import * as fs from "fs";
 import * as path from "path";
 import { CitationModel } from "../models/citation.model";
+import { commonService } from "./common.service";
 import { logger } from "./logger.service";
 
 export class FileService {
   private baseDir = path.join(__dirname, "../");
   private loggerContext = "FileService";
-
-  private safeExecute<T>(fn: () => T, errorMsg: string, fallback?: T): T {
-    try {
-      return fn();
-    } catch (err) {
-      logger.error(errorMsg, this.loggerContext);
-      return fallback as T;
-    }
-  }
 
   private ensureDirectory(dirPath: string): void {
     if (!fs.existsSync(dirPath)) {
@@ -24,19 +16,19 @@ export class FileService {
   }
 
   private readJson<T>(filePath: string): T | undefined {
-    const raw = this.safeExecute(
+    const raw = commonService.safeExecute(
       () => fs.readFileSync(filePath, "utf-8"),
       `Could not read file: ${filePath}`
     );
     if (typeof raw !== "string") return;
-    return this.safeExecute(
+    return commonService.safeExecute(
       () => JSON.parse(raw) as T,
       `Invalid JSON in file: ${filePath}`
     );
   }
 
   private writeJson(filePath: string, data: unknown, space = 2): void {
-    this.safeExecute(
+    commonService.safeExecute(
       () =>
         fs.writeFileSync(filePath, JSON.stringify(data, null, space), "utf-8"),
       `Could not write to file: ${filePath}`
@@ -46,13 +38,16 @@ export class FileService {
 
   private createFileIfMissing(filePath: string, initializer: () => void): void {
     if (!fs.existsSync(filePath)) {
-      this.safeExecute(initializer, `Could not create file: ${filePath}`);
+      commonService.safeExecute(
+        initializer,
+        `Could not create file: ${filePath}`
+      );
     }
   }
 
   writeXmlFile(outputDir: string, fileName: string, content: string): void {
     const dir = path.join(this.baseDir, outputDir);
-    this.safeExecute(
+    commonService.safeExecute(
       () => this.ensureDirectory(dir),
       `Invalid or inaccessible path: ${dir}`
     );
@@ -70,7 +65,7 @@ export class FileService {
     items: CitationModel[]
   ): void {
     const dir = path.join(this.baseDir, destinationFolder);
-    this.safeExecute(
+    commonService.safeExecute(
       () => this.ensureDirectory(dir),
       `Invalid or inaccessible path: ${dir}`
     );
@@ -106,3 +101,5 @@ export class FileService {
     this.writeJson(jsonPath, existing);
   }
 }
+
+export const fileService = new FileService();

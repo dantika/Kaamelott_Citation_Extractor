@@ -3,7 +3,7 @@
     <sitename>Wikiquote</sitename>
     <dbname>frwikiquote</dbname>
     <base>https://fr.wikiquote.org/wiki/Wikiquote:Accueil</base>
-    <generator>MediaWiki 1.45.0-wmf.8</generator>
+    <generator>MediaWiki 1.45.0-wmf.9</generator>
     <case>first-letter</case>
     <namespaces>
       <namespace key="-2" case="first-letter">Média</namespace>
@@ -40,93 +40,85 @@
     </namespaces>
   </siteinfo>
   <page>
-    <title>Kaamelott/Le Répurgateur</title>
+    <title>Kaamelott/Demetra</title>
     <ns>0</ns>
-    <id>17647</id>
+    <id>17642</id>
     <revision>
-      <id>291573</id>
-      <parentid>262996</parentid>
-      <timestamp>2020-04-06T13:57:43Z</timestamp>
+      <id>299478</id>
+      <parentid>299477</parentid>
+      <timestamp>2020-12-13T13:56:18Z</timestamp>
       <contributor>
-        <ip>92.184.97.125</ip>
+        <ip>93.22.37.206</ip>
       </contributor>
-      <comment>/* Citations */</comment>
-      <origin>291573</origin>
+      <comment>/* Citations */Erreur de frappe</comment>
+      <origin>299478</origin>
       <model>wikitext</model>
       <format>text/x-wiki</format>
-      <text bytes="3199" sha1="t5kij1r1ex0rqskvl1b70uotpzg5j5r" xml:space="preserve">Citations du '''[[w:Personnages de Kaamelott#Le Répurgateur|Répurgateur]]''' dans la [[:catégorie:série télévisée|série télévisée]] [[Kaamelott]].
+      <text bytes="2144" sha1="78m94rj7jpcsn4pssb0ecdna5vb1eli" xml:space="preserve">Citations de '''[[w:Personnages de Kaamelott#Demetra|Demetra]]''' dans la [[:catégorie:série télévisée|série télévisée]] [[Kaamelott]].
 
 ==Citations==
 
-{{citation|citation= (''En hurlant'') MAGIE NOIRE ! MAGIE NOIRE ! Tais-toi, tais-toi, tais-toi la patte de poulet Satan hérétique ! !}}
+{{citation|citation= Est-ce que je suis votre maîtresse préférée ?}}
 {{Réf Série|auteur=Alexandre Astier
-|acteur=Élie Semoun
+|acteur=Caroline Pascal
 |série=Kaamelott
 |saison=Livre I
-|épisode= 79 :''L’Expurgation de Merlin''}}
+|épisode= 98 : ''Le Tourment''}}
 
-{{citation|citation=Oui eh ben ça a été dit et re-dit et re-re-dit, la magie est une activité démoniaque, il faut brûler cette personne. On va brûler. AU BÛCHER.}}
+{{citation|citation= Vous vous rendez compte que vous amenez des boucs dans ma chambre ?}}
 {{Réf Série|auteur=Alexandre Astier
-|acteur=Élie Semoun
-|série=Kaamelott
-|saison=Livre I
-|épisode= 79 : ''L’Expurgation de Merlin''}}
-
-{{citation|citation=Mon activité dans ce gouvernement est de brûler les personnes démoniaques, je VEUX BRÛLER CETTE PERSONNE !}}
-{{Réf Série|auteur=Alexandre Astier
-|acteur=Élie Semoun
-|série=Kaamelott
-|saison=Livre I
-|épisode= 79 : ''L’Expurgation de Merlin''}}
-
-{{citation|citation=Ah, non, pour moi les femmes, j'aime pas ça… C'est de la saloperie !}}
-{{Réf Série|auteur=Alexandre Astier
-|acteur=Élie Semoun
-|série=Kaamelott
-|saison=Livre I
-|épisode= 14 : ''Monogame''}}
-
-{{citation|citation=Vous venez me voir en confession... […] Ça prend cinq minutes et puis après on est tranquille, on peut faire ce qu'on veut.}}
-{{Réf Série|auteur=Alexandre Astier
-|acteur=Élie Semoun
-|série=Kaamelott
-|saison=Livre I
-|épisode= 14 : ''Monogame''}}
-
-{{citation|citation=(''En parlant à Kadoc'') Simplet ! Le démon a vidé ton cerveau, y'a plus rien dedans. Tu périras par la main de Dieu, tu comprends ça ?}}
-{{Réf Série|auteur=Alexandre Astier
-|acteur=Élie Semoun
-|série=Kaamelott
-|saison=Livre IV
-|épisode= 75 : ''Le Paladin''}}
-
-{{citation|citation=(''En parlant à Kadoc'') Oh Regarde, Simplet, Regarde ! Il y a un morceau de charcuterie qui arrive ! Regarde le, Regarde ! (il attaque avec son épée) AU BÛCHER !}}
-{{Réf Série|auteur=Alexandre Astier
-|acteur=Élie Semoun
-|série=Kaamelott
-|saison=Livre IV
-|épisode= 70 : ''Le Paladin''}}
-
-{{citation|citation=(''En criant à Lancelot'') Ce n'est pas notre affaire ! (''Faisant semblant de pleurnicher'') Alors voilà, j'ai un enfant de 4 ans et puis je vole des vêtements, je vole de la viande et puis personne ne me dit rien. Hunhun mon petit enfant de 4 ans, il n'a rien à manger.
-(''En criant'') S'il n'a rien à manger, il ne mange rien voilà ! La sentence est prononcée, voilà c'est fini !}}
-{{Réf Série|auteur=Alexandre Astier
-|acteur=Élie Semoun
-|série=Kaamelott
-|saison=Épisode pilote
-|épisode= 9 : ''Le Répurgateur''}}
-
-{{citation|citation=Sire, qu'est-ce que j'apprends de manière inopinée ? La rumeur colporte que vous ne vous êtes jamais confessé ! […] La confession, sire ! Sans confession, point de salut ! Sans salut, point... point ne sert de... à rien qui ne sait partir.}}
-{{Réf Série|auteur=Alexandre Astier
-|acteur=Élie Semoun
+|acteur=Caroline Pascal
 |série=Kaamelott
 |saison=Livre II
-|épisode= 73 : ''L'Absolution''}}
+|épisode= 46 : ''Le Cadeau''}}
+
+{{citation|citation= On vous offre des boucs, à vous, maintenant ?}}
+{{Réf Série|auteur=Alexandre Astier
+|acteur=Caroline Pascal
+|série=Kaamelott
+|saison=Livre II
+|épisode= 46 : ''Le Cadeau''}}
+
+{{citation|citation= Parce que j'ai le même type que les Jumelles maintenant ? }}
+{{Réf Série|auteur=Alexandre Astier
+|acteur=Caroline Pascal
+|série=Kaamelott
+|saison=Livre III
+|épisode= 46 : ''Les Cheveux Noirs''}}
+
+{{citation|citation= Votre père, il a les cheveux noirs. Alors on continue de traiter tout le monde de bâtard ou on se calme ? }}
+{{Réf Série|auteur=Alexandre Astier
+|acteur=Caroline Pascal
+|série=Kaamelott
+|saison=Livre III
+|épisode= 46 : ''Les Cheveux Noirs''}}
+
+{{citation|citation= C'est vexant de me ressembler ? C'est pour ça qu'on vous a choisi et qu'on vous a sorti de votre cambrousse, alors du respect ! }}
+{{Réf Série|auteur=Alexandre Astier
+|acteur=Caroline Pascal
+|série=Kaamelott
+|saison=Livre III
+|épisode= 46 : ''Les Cheveux Noirs''}}
+
+{{citation|citation= Et surtout : pensez POUVOIR ! }}
+{{Réf Série|auteur=Alexandre Astier
+|acteur=Caroline Pascal
+|série=Kaamelott
+|saison=Livre IV
+|épisode= 15 : ''Les Liaisons Dangereuses''}}
+
+{{citation|citation= Par exemple, je trouve que quand elle est partie du jour au lendemain sans prévenir, elle s'est conduite comme la reine des putes. }}
+{{Réf Série|auteur=Alexandre Astier
+|acteur=Caroline Pascal
+|série=Kaamelott
+|saison=Livre IV
+|épisode= 21 : ''La Parade''}}
 
 
-{{autres projets|w=Personnages de Kaamelott#Le Répurgateur}}
+{{autres projets|w=Personnages de Kaamelott#Demetra}}
 
-[[Catégorie:Kaamelott|Repurgateur, Le]]</text>
-      <sha1>t5kij1r1ex0rqskvl1b70uotpzg5j5r</sha1>
+[[Catégorie:Kaamelott|Demetra]]</text>
+      <sha1>78m94rj7jpcsn4pssb0ecdna5vb1eli</sha1>
     </revision>
   </page>
 </mediawiki>

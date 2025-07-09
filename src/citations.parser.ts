@@ -1,63 +1,77 @@
 import path from "path";
-import { DEBUG_MODE } from ".";
+import { LOCAL_MODE } from ".";
 import { CITATIONS_EXTRACT } from "./contants/citations-extract.constants";
 import {
   CITATIONS,
   CLEANED_EXTRACT_FOLDER,
-  RAW_EXTRACT_FOLDER,
+  FETCHED_EXTRACT,
 } from "./contants/filenames.constant";
 import { CITATIONS_XML_URLS } from "./contants/xml-urls.constant";
 import { CitationModel } from "./models/citation.model";
-import { CommonService } from "./services/common.service";
-import { FetchingService } from "./services/fetching.service";
-import { FileService } from "./services/file.service";
-import { ParserService } from "./services/parser.service";
+import { commonService } from "./services/common.service";
+import { fetchingService } from "./services/fetching.service";
+import { fileService } from "./services/file.service";
 import { logger } from "./services/logger.service";
+import { parserService } from "./services/parser.service";
+
 export class CitationsParser {
-  parserService = new ParserService();
-  fetchingService = new FetchingService();
-  commonService = new CommonService();
-  fileService = new FileService();
+  private loggerContext = "CitationsParser";
 
   constructor() {}
   async extractCitations() {
+    logger.info("Start extracting citations", this.loggerContext);
     CITATIONS_XML_URLS.forEach(async (url) => {
-      let data = "";
-      let localFilePath = DEBUG_MODE ? url.localDebug : url.local;
+      logger.info(`Processing file: ${url.fileName}`, this.loggerContext);
+      let data;
+      let filePath = LOCAL_MODE ? url.localDebug : url.fetched;
 
-      if (!DEBUG_MODE) {
-        localFilePath = url.local;
-        data = await this.fetchingService.fetch(url.url);
-        this.fileService.writeXmlFile(
-          path.join(RAW_EXTRACT_FOLDER, CITATIONS),
+      if (!LOCAL_MODE) {
+        data = await fetchingService.fetch(url.url);
+        fileService.writeXmlFile(
+          path.join(FETCHED_EXTRACT, CITATIONS),
           url.fileName,
           data
         );
       }
-      data = this.fetchingService.localFetch(localFilePath);
-      data = this.commonService.cleanText(data);
+      data = fetchingService.localFetch(filePath);
 
-      let citationsList: CitationModel[] = [];
-      const globalCitations = [...data.matchAll(CITATIONS_EXTRACT.global)];
+      if (data) {
+        data = commonService.cleanText(data);
 
-      if (globalCitations.length > 0) {
-        const globalCharactersList =
-          this.parserService.isolateCharactersFromGlobal(globalCitations);
+        let citationsList: CitationModel[] = [];
+        const globalCitations = [...data.matchAll(CITATIONS_EXTRACT.global)];
 
-        globalCharactersList.forEach((e, i) => {
-          const results = this.parserService.extractInfosFromRawData(e, true);
+        if (globalCitations.length > 0) {
+          const globalCharactersList =
+            parserService.isolateCharactersFromGlobal(globalCitations);
+
+          globalCharactersList.forEach((e, i) => {
+            const results = parserService.extractInfosFromRawData(e, true);
+            citationsList.push(...results);
+          });
+        } else {
+          const results = parserService.extractInfosFromRawData(data);
           citationsList.push(...results);
-        });
-      } else {
-        const results = this.parserService.extractInfosFromRawData(data);
-        citationsList.push(...results);
-      }
+        }
 
-      this.fileService.appendToDataJsonFile(
-        CLEANED_EXTRACT_FOLDER,
-        CITATIONS,
-        citationsList
-      );
+        fileService.appendToDataJsonFile(
+          CLEANED_EXTRACT_FOLDER,
+          CITATIONS,
+          citationsList
+        );
+        logger.info(
+          `Citations of ${url.fileName} extracted`,
+          this.loggerContext
+        );
+      } else {
+        logger.warn(
+          "Citations parsing ended on an unsuspected event. Look at the logs.\n",
+          this.loggerContext
+        );
+      }
     });
+    logger.info("Citations parsing finished\n", this.loggerContext);
   }
 }
+
+export const citationsParser = new CitationsParser();

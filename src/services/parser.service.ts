@@ -87,3 +87,5 @@ export class ParserService {
     return completedCitationsList;
   }
 }
+
+export const parserService = new ParserService();

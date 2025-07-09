@@ -14,7 +14,7 @@
   },
   "include": [
     "src/index.ts",
-    "src/raw_extract/**/*"
+    "src/fetched_extract/**/*"
   ],
   "exclude": [
     "node_modules"

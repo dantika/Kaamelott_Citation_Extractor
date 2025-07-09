@@ -3,7 +3,7 @@
     <sitename>Wikiquote</sitename>
     <dbname>frwikiquote</dbname>
     <base>https://fr.wikiquote.org/wiki/Wikiquote:Accueil</base>
-    <generator>MediaWiki 1.45.0-wmf.8</generator>
+    <generator>MediaWiki 1.45.0-wmf.9</generator>
     <case>first-letter</case>
     <namespaces>
       <namespace key="-2" case="first-letter">Média</namespace>
@@ -40,85 +40,64 @@
     </namespaces>
   </siteinfo>
   <page>
-    <title>Kaamelott/Demetra</title>
+    <title>Kaamelott/Le Seigneur Jacca</title>
     <ns>0</ns>
-    <id>17642</id>
+    <id>17645</id>
     <revision>
-      <id>299478</id>
-      <parentid>299477</parentid>
-      <timestamp>2020-12-13T13:56:18Z</timestamp>
+      <id>227347</id>
+      <parentid>187248</parentid>
+      <timestamp>2015-11-04T17:27:35Z</timestamp>
       <contributor>
-        <ip>93.22.37.206</ip>
+        <ip>80.223.90.115</ip>
       </contributor>
-      <comment>/* Citations */Erreur de frappe</comment>
-      <origin>299478</origin>
+      <comment>/* Citations */</comment>
+      <origin>227347</origin>
       <model>wikitext</model>
       <format>text/x-wiki</format>
-      <text bytes="2144" sha1="78m94rj7jpcsn4pssb0ecdna5vb1eli" xml:space="preserve">Citations de '''[[w:Personnages de Kaamelott#Demetra|Demetra]]''' dans la [[:catégorie:série télévisée|série télévisée]] [[Kaamelott]].
+      <text bytes="2062" sha1="q1w6rzi3diex5g95eh9s57f1q96etga" xml:space="preserve">{{article principal|Kaamelott}}
+
+Citations du '''Seigneur Jacca''' dans la [[:catégorie:série télévisée|série télévisée]] [[Kaamelott]].
 
 ==Citations==
 
-{{citation|citation= Est-ce que je suis votre maîtresse préférée ?}}
+{{citation|citation= Ca fait deux cent ans qu'il y a que les paysans qui payent les taxes, alors je vois pas pourquoi aujourd'hui ça change, comme ça d'un seul coup et ça me tombe dessus comme une merde sur une planche !}}
 {{Réf Série|auteur=Alexandre Astier
-|acteur=Caroline Pascal
+|acteur=Georges Beller
 |série=Kaamelott
 |saison=Livre I
-|épisode= 98 : ''Le Tourment''}}
+|épisode= 21 : ''La taxe militaire''}}
 
-{{citation|citation= Vous vous rendez compte que vous amenez des boucs dans ma chambre ?}}
+{{citation|citation= 2500 pièces d'or ???! Eh... eh... C'est une blague? 2500 pièces d'or, mais où voulez vous que je trouve 2500 pièces d'or, dans le cul d'une vache ?!}}
 {{Réf Série|auteur=Alexandre Astier
-|acteur=Caroline Pascal
+|acteur=Georges Beller
 |série=Kaamelott
-|saison=Livre II
-|épisode= 46 : ''Le Cadeau''}}
+|saison=Livre I
+|épisode= 21 : ''La taxe militaire''}}
 
-{{citation|citation= On vous offre des boucs, à vous, maintenant ?}}
+{{citation|citation= Excusez moi Sire, c'est sur le coup du...''[dit à plusieurs reprises]''}}
 {{Réf Série|auteur=Alexandre Astier
-|acteur=Caroline Pascal
+|acteur=Georges Beller
 |série=Kaamelott
-|saison=Livre II
-|épisode= 46 : ''Le Cadeau''}}
+|saison=Livre I
+|épisode= 21 : ''La taxe militaire''}}
 
-{{citation|citation= Parce que j'ai le même type que les Jumelles maintenant ? }}
+{{citation|citation= Et le seigneur Lothar, il paye pas, lui, je sais il me l'a dit ...[Léodagan : non il paye pas, parce qu'il participe au combat]... Mais vous vous foutez de moi?! Il a au moins 95 ans, il a une jambe raide, il est tellement bigleux qu'il trouverait même pas sa bite pour pisser !}}
 {{Réf Série|auteur=Alexandre Astier
-|acteur=Caroline Pascal
+|acteur=Georges Beller
 |série=Kaamelott
-|saison=Livre III
-|épisode= 46 : ''Les Cheveux Noirs''}}
+|saison=Livre I
+|épisode= 21 : ''La taxe militaire''}}
 
-{{citation|citation= Votre père, il a les cheveux noirs. Alors on continue de traiter tout le monde de bâtard ou on se calme ? }}
-{{Réf Série|auteur=Alexandre Astier
-|acteur=Caroline Pascal
+{{citation|citation= Attendez, ça fait combien de dizaines d'années que je leur laisse cultiver mes terres, à ces connards ? En plus de ça ils sont même pas polis, ils sont cons... Comme des tables ! Ils font un pain dégueulasse - on s'pète les dents dessus - non, là, j'ai besoin d'un peu de pognon, alors j'aime autant vous dire qu'ils vont passer à la caisse, les pécores !}}
+{{Réf Série
+|auteur=Alexandre Astier
+|acteur=Georges Beller
 |série=Kaamelott
-|saison=Livre III
-|épisode= 46 : ''Les Cheveux Noirs''}}
+|saison=Livre I
+|épisode= 21 : ''La taxe militaire}}
 
-{{citation|citation= C'est vexant de me ressembler ? C'est pour ça qu'on vous a choisi et qu'on vous a sorti de votre cambrousse, alors du respect ! }}
-{{Réf Série|auteur=Alexandre Astier
-|acteur=Caroline Pascal
-|série=Kaamelott
-|saison=Livre III
-|épisode= 46 : ''Les Cheveux Noirs''}}
-
-{{citation|citation= Et surtout : pensez POUVOIR ! }}
-{{Réf Série|auteur=Alexandre Astier
-|acteur=Caroline Pascal
-|série=Kaamelott
-|saison=Livre IV
-|épisode= 15 : ''Les Liaisons Dangereuses''}}
-
-{{citation|citation= Par exemple, je trouve que quand elle est partie du jour au lendemain sans prévenir, elle s'est conduite comme la reine des putes. }}
-{{Réf Série|auteur=Alexandre Astier
-|acteur=Caroline Pascal
-|série=Kaamelott
-|saison=Livre IV
-|épisode= 21 : ''La Parade''}}
-
-
-{{autres projets|w=Personnages de Kaamelott#Demetra}}
-
-[[Catégorie:Kaamelott|Demetra]]</text>
-      <sha1>78m94rj7jpcsn4pssb0ecdna5vb1eli</sha1>
+[[Catégorie:Kaamelott|Jacca]]</text>
+      <sha1>q1w6rzi3diex5g95eh9s57f1q96etga</sha1>
     </revision>
   </page>
 </mediawiki>
