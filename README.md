@@ -14,6 +14,14 @@
 
 ---
 
+## 🚀 Todo
+
+* [ ] Add more errors handlers
+* [ ] Parsing Dialogs page
+* [ ] Parsing Comics page
+
+---
+
 ## 📁 Project Structure
 
 ```bash
