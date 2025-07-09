@@ -17,6 +17,7 @@
 ## 🚀 Todo
 
 * [ ] Add more errors handlers
+* [ ] Adding tests
 * [ ] Parsing Dialogs page
 * [ ] Parsing Comics page
 
