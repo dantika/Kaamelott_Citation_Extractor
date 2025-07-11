@@ -44,17 +44,17 @@
     <ns>0</ns>
     <id>7911</id>
     <revision>
-      <id>383391</id>
-      <parentid>369710</parentid>
-      <timestamp>2024-06-15T12:57:44Z</timestamp>
+      <id>422564</id>
+      <parentid>422563</parentid>
+      <timestamp>2025-07-11T08:52:45Z</timestamp>
       <contributor>
-        <ip>2A01:CB09:E06A:4CA4:0:49:60C:7401</ip>
+        <ip>2A02:8428:1E7E:F901:C5A8:6098:53E2:CD01</ip>
       </contributor>
-      <comment>/* Kaamelott : Premier Volet */</comment>
-      <origin>383391</origin>
+      <comment>/* Livre VI */</comment>
+      <origin>422564</origin>
       <model>wikitext</model>
       <format>text/x-wiki</format>
-      <text bytes="31759" sha1="5jifalk4zkll5u6i3xgnepl733vjmf8" xml:space="preserve">Citations de '''{{w|Perceval_(Kaamelott)|Perceval}}''' dans la {{cat|série télévisée}} [[Kaamelott]].
+      <text bytes="31775" sha1="etp2tvqz790uqygiyoawfp0ydyb8050" xml:space="preserve">Citations de '''{{w|Perceval_(Kaamelott)|Perceval}}''' dans la {{cat|série télévisée}} [[Kaamelott]].
 
 ==Citations==
 
@@ -840,7 +840,7 @@ Comparés aux vôtres, ils sont pourris mes rêves, ou pas?&lt;br /&gt;}}
 |acteur=Franck Pitiot
 |série=Kaamelott
 |saison=Livre VI
-|épisode=9
+|épisode= 9 :''Dies Irae''
 }}
 
 === Kaamelott : Premier Volet ===
@@ -882,7 +882,7 @@ Comparés aux vôtres, ils sont pourris mes rêves, ou pas?&lt;br /&gt;}}
 
 
 C’est pas parce que le tunnel va de notre quartier général à Kaamelott qu’elle va de Kaamelott à notre quartier général !</text>
-      <sha1>5jifalk4zkll5u6i3xgnepl733vjmf8</sha1>
+      <sha1>etp2tvqz790uqygiyoawfp0ydyb8050</sha1>
     </revision>
   </page>
 </mediawiki>

@@ -44,18 +44,17 @@
     <ns>0</ns>
     <id>17644</id>
     <revision>
-      <id>371374</id>
-      <parentid>294868</parentid>
-      <timestamp>2023-10-11T08:40:02Z</timestamp>
+      <id>422580</id>
+      <parentid>371374</parentid>
+      <timestamp>2025-07-11T09:24:36Z</timestamp>
       <contributor>
-        <username>Laurent Dug</username>
-        <id>26560</id>
+        <ip>2A02:8428:1E7E:F901:C5A8:6098:53E2:CD01</ip>
       </contributor>
-      <minor/>
-      <origin>371374</origin>
+      <comment>/* Citations */</comment>
+      <origin>422580</origin>
       <model>wikitext</model>
       <format>text/x-wiki</format>
-      <text bytes="4297" sha1="lw2vcqfqm47lvjnkx6znk5cdda9cs1c" xml:space="preserve">Citations de '''[[w:Personnages de Kaamelott#Guethenoc|Guethenoc]]''' dans la [[:catégorie:série télévisée|série télévisée]] [[Kaamelott]].
+      <text bytes="4297" sha1="of79nez9h8s41i5x70uf9xkqsj7w63k" xml:space="preserve">Citations de '''[[w:Personnages de Kaamelott#Guethenoc|Guethenoc]]''' dans la [[:catégorie:série télévisée|série télévisée]] [[Kaamelott]].
 
 ==Citations==
 
@@ -134,14 +133,14 @@
 {{Réf Série
 |auteur= Alexandre Astier
 |acteur= Serge Papagalli
-|série= kaamelott
+|série= Kaamelott
 |saison= Livre VI
 |épisode= 7 : Arturus rex}}
 
 {{autres projets|w=Personnages de Kaamelott#Guethenoc}}
 
 [[Catégorie:Kaamelott|Guethenoc]]</text>
-      <sha1>lw2vcqfqm47lvjnkx6znk5cdda9cs1c</sha1>
+      <sha1>of79nez9h8s41i5x70uf9xkqsj7w63k</sha1>
     </revision>
   </page>
 </mediawiki>

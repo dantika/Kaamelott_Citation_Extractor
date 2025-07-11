@@ -44,17 +44,17 @@
     <ns>0</ns>
     <id>17617</id>
     <revision>
-      <id>342284</id>
-      <parentid>342283</parentid>
-      <timestamp>2022-02-16T20:13:11Z</timestamp>
+      <id>422579</id>
+      <parentid>422576</parentid>
+      <timestamp>2025-07-11T09:24:07Z</timestamp>
       <contributor>
-        <ip>2A04:CEC0:1119:C48D:F176:CD2D:7928:C24B</ip>
+        <ip>2A02:8428:1E7E:F901:C5A8:6098:53E2:CD01</ip>
       </contributor>
       <comment>/* Citations */</comment>
-      <origin>342284</origin>
+      <origin>422579</origin>
       <model>wikitext</model>
       <format>text/x-wiki</format>
-      <text bytes="7443" sha1="3ot67u18yy51r9cph2m7iq12mey5n3a" xml:space="preserve">Citations de '''[[w:Personnages de Kaamelott#Roparzh|Roparzh]]''' dans la [[:catégorie:série télévisée|série télévisée]] [[Kaamelott]].
+      <text bytes="7444" sha1="8nn6vs2ht6f7e99dl17ufbjmhiwnbxc" xml:space="preserve">Citations de '''[[w:Personnages de Kaamelott#Roparzh|Roparzh]]''' dans la [[:catégorie:série télévisée|série télévisée]] [[Kaamelott]].
 
 ==Citations==
 
@@ -62,7 +62,7 @@
 {{Réf Série
 |auteur= Alexandre Astier
 |acteur= Gilles Graveleau
-|série= kaamelott
+|série= Kaamelott
 |saison= Livre I
 |épisode= 62 : ''Feu l'âne de Guethenoc''}}
 
@@ -77,7 +77,7 @@
 {{Réf Série
 |auteur= Alexandre Astier
 |acteur= Gilles Graveleau
-|série= kaamelott
+|série= Kaamelott
 |saison= Livre II
 |épisode= 69 ''Feue la vache de Roparzh''}}
 
@@ -91,8 +91,8 @@
 {{Citation|citation= Oui bien sûr, C'est au sujet de quoi t'est-ce ?}}
 {{Réf Série
 |auteur= Alexandre Astier
-|acteur= Gilles Gravleau
-|série= kaamelott
+|acteur= Gilles Graveleau
+|série= Kaamelott
 |saison= Livre III
 |épisode= 36 : ''Feue la poule de Guethenoc''}}
 
@@ -100,7 +100,7 @@
 {{Réf Série
 |auteur= Alexandre Astier
 |acteur= Gilles Graveleau
-|série= kaamelott
+|série= Kaamelott
 |saison= Livre III
 |épisode= 36 ''Feue la poule de Guethenoc''}}
 
@@ -108,7 +108,7 @@
 {{Réf Série
 |auteur= Alexandre Astier
 |acteur= Gilles Graveleau
-|série= kaamelott
+|série= Kaamelott
 |saison= Livre III
 |épisode= 36 : ''Feue la poule de Guethenoc''}}
 
@@ -151,7 +151,7 @@
 {{Réf Série
 |auteur= Alexandre Astier
 |acteur= Gilles Graveleau
-|série= kaamelott
+|série= Kaamelott
 |saison= Livre IV
 |épisode= 55 : ''Le refuge''}}
 
@@ -217,14 +217,14 @@
 {{Réf Série
 |auteur= Alexandre Astier
 |acteur= Gilles Graveleau
-|série= kaamelott
+|série= Kaamelott
 |saison= Livre VI
 |épisode= 7 : ''arturus rex''}}
 
 {{autres projets|w=Personnages de Kaamelott#Roparzh}}
 
 [[Catégorie:Kaamelott|Roparzh]]</text>
-      <sha1>3ot67u18yy51r9cph2m7iq12mey5n3a</sha1>
+      <sha1>8nn6vs2ht6f7e99dl17ufbjmhiwnbxc</sha1>
     </revision>
   </page>
 </mediawiki>
