@@ -1,9 +1,9 @@
 import path from "path";
 import { LOCAL_MODE } from ".";
-import { CITATIONS_EXTRACT } from "./contants/citations-extract.constants";
+import { CITATIONS_EXTRACT } from "./contants/citations-extract.constant";
 import {
   CITATIONS,
-  CLEANED_EXTRACT_FOLDER,
+  CLEANED_EXTRACT,
   FETCHED_EXTRACT,
 } from "./contants/filenames.constant";
 import { CITATIONS_XML_URLS } from "./contants/xml-urls.constant";
@@ -13,6 +13,7 @@ import { fetchingService } from "./services/fetching.service";
 import { fileService } from "./services/file.service";
 import { logger } from "./services/logger.service";
 import { parserService } from "./services/parser.service";
+import { FILE_EXTENSION } from "./contants/file-extension.enum";
 
 export class CitationsParser {
   private loggerContext = "CitationsParser";
@@ -27,9 +28,10 @@ export class CitationsParser {
 
       if (!LOCAL_MODE) {
         data = await fetchingService.fetch(url.url);
-        fileService.writeXmlFile(
+        fileService.fileCreation(
           path.join(FETCHED_EXTRACT, CITATIONS),
           url.fileName,
+          FILE_EXTENSION.XML,
           data
         );
       }
@@ -54,11 +56,7 @@ export class CitationsParser {
           citationsList.push(...results);
         }
 
-        fileService.appendToDataJsonFile(
-          CLEANED_EXTRACT_FOLDER,
-          CITATIONS,
-          citationsList
-        );
+        fileService.appendToDataJson(CLEANED_EXTRACT, CITATIONS, citationsList);
         logger.info(
           `Citations of ${url.fileName} extracted`,
           this.loggerContext

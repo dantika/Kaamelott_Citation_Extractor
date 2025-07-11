@@ -44,18 +44,17 @@
     <ns>0</ns>
     <id>7915</id>
     <revision>
-      <id>384683</id>
-      <parentid>381466</parentid>
-      <timestamp>2024-07-15T11:55:06Z</timestamp>
+      <id>422588</id>
+      <parentid>422578</parentid>
+      <timestamp>2025-07-11T09:35:57Z</timestamp>
       <contributor>
-        <username>Actarus Prince d'Euphor</username>
-        <id>4796</id>
+        <ip>2A02:8428:1E7E:F901:C5A8:6098:53E2:CD01</ip>
       </contributor>
-      <comment>/* Citations */ orthographe</comment>
-      <origin>384683</origin>
+      <comment>/* Citations */</comment>
+      <origin>422588</origin>
       <model>wikitext</model>
       <format>text/x-wiki</format>
-      <text bytes="21433" sha1="04icvrnrw3r50v5k82puwtf891w0y6t" xml:space="preserve">Citations de '''[[w:Personnages de Kaamelott#Loth_d%E2%80%99Orcanie|Loth d'Orcanie]]''' dans la [[:catégorie:série télévisée|série télévisée]] [[Kaamelott]].
+      <text bytes="21435" sha1="br0kv7a33z3gwev5vlyxtd6r0ekc2f2" xml:space="preserve">Citations de '''[[w:Personnages de Kaamelott#Loth_d%E2%80%99Orcanie|Loth d'Orcanie]]''' dans la [[:catégorie:série télévisée|série télévisée]] [[Kaamelott]].
 
 ==Citations==
 {{citation|citation= ''Ave Cesar, rosae rosam, et spiritus rex !'' Ah non, parce que là, j’en ai marre !}}
@@ -267,7 +266,7 @@ Attendre, et se tenir prêts ! Prêts à se faufiler dans le moindre interstice 
 |acteur=François Rollin
 |série=Kaamelott
 |saison=Livre V
-|épisode=''4. Le dernier jour''}}
+|épisode= 4 : ''Le dernier jour''}}
 
 
 {{citation|citation= Vous entendez ça ? Il parait que je suis malpoli ! Qu'est-ce que vous en pensez, bande de trous-du-cul ?}}
@@ -426,19 +425,19 @@ Oui, alors, pourquoi ? Pourquoi trahir sans arrêt les gens avec qui je collabor
 |épisode=''Lacrimosa''}}
 
 {{citation|citation= Absque argento... Et j'ai plus la suite... Ce qu'est dommage parce que, il y a argento, on se dit le gars est bon, il y a pognon, et patatrac il en a une sous le coude.}}
-{{Réf film|titre=kaamelott premier volet
+{{Réf Film|titre=Kaamelott premier volet
 |auteur=Alexandre Astier
 |acteur=François Rollin
 |date=2021}}
 
 {{citation|citation= Libido sciendi ! Le désir de savoir ! Oui bon un peu tiré par les cheveux dans le contexte.}}
-{{Réf film|titre=kaamelott premier volet
+{{Réf Film|titre=Kaamelott premier volet
 |auteur=Alexandre Astier
 |acteur=François Rollin
 |date=2021}}
 
 {{citation|citation= Argumentum baculenum ! L'argument du bâton. Ah bah zut qui est a la fois correct et dans le propos... Donc on va lui préférer "Delenda Cartago", il faut détruire Carthage, qui est juste très con.}}
-{{Réf film|titre=kaamelott premier volet
+{{Réf Film|titre=Kaamelott premier volet
 |auteur=Alexandre Astier
 |acteur=François Rollin
 |date=2021}}
@@ -446,7 +445,7 @@ Oui, alors, pourquoi ? Pourquoi trahir sans arrêt les gens avec qui je collabor
 {{autres projets|w=Personnages de Kaamelott#Loth}}
 
 [[Catégorie:Kaamelott|Loth]]</text>
-      <sha1>04icvrnrw3r50v5k82puwtf891w0y6t</sha1>
+      <sha1>br0kv7a33z3gwev5vlyxtd6r0ekc2f2</sha1>
     </revision>
   </page>
 </mediawiki>

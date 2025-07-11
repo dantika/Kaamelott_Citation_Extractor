@@ -44,18 +44,17 @@
     <ns>0</ns>
     <id>7908</id>
     <revision>
-      <id>341983</id>
-      <parentid>294031</parentid>
-      <timestamp>2022-02-05T03:44:31Z</timestamp>
+      <id>422567</id>
+      <parentid>341983</parentid>
+      <timestamp>2025-07-11T09:00:01Z</timestamp>
       <contributor>
-        <username>Natsuko410</username>
-        <id>67835</id>
+        <ip>2A02:8428:1E7E:F901:C5A8:6098:53E2:CD01</ip>
       </contributor>
-      <comment>/* Livre IV */</comment>
-      <origin>341983</origin>
+      <comment>/* Livre V */</comment>
+      <origin>422567</origin>
       <model>wikitext</model>
       <format>text/x-wiki</format>
-      <text bytes="11226" sha1="ilwjxyfymghl4w0fqsnph3zf230grlc" xml:space="preserve">Citations de '''[[w:Personnages de Kaamelott#Karadoc|Karadoc]]''' dans la [[:catégorie:série télévisée|série télévisée]] [[Kaamelott]].
+      <text bytes="11211" sha1="6nr5e3e0bs7j6mew7bn9mu8945jlt0v" xml:space="preserve">Citations de '''[[w:Personnages de Kaamelott#Karadoc|Karadoc]]''' dans la [[:catégorie:série télévisée|série télévisée]] [[Kaamelott]].
 
 ==Citations==
 
@@ -337,7 +336,7 @@
 |acteur=Jean-Christophe Hembert
 |série=Kaamelott
 |saison=Livre V
-|épisode=''Le dernier recours'' (DVD 00:16:00)
+|épisode=''Le dernier recours''
 }}
 
 {{citation|citation=C’est compliqué mais c’est compliqué !}}
@@ -368,7 +367,7 @@ Ouais. Ou alors le mec qu'on dirait qu'il marche normalement mais en fait il mar
 {{autres projets|w=Personnages de Kaamelott#Karadoc}}
 
 [[Catégorie:Kaamelott|Karadoc]]</text>
-      <sha1>ilwjxyfymghl4w0fqsnph3zf230grlc</sha1>
+      <sha1>6nr5e3e0bs7j6mew7bn9mu8945jlt0v</sha1>
     </revision>
   </page>
 </mediawiki>

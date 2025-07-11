@@ -44,19 +44,17 @@
     <ns>0</ns>
     <id>17623</id>
     <revision>
-      <id>381946</id>
-      <parentid>316802</parentid>
-      <timestamp>2024-05-24T15:36:20Z</timestamp>
+      <id>422590</id>
+      <parentid>422570</parentid>
+      <timestamp>2025-07-11T09:38:10Z</timestamp>
       <contributor>
-        <username>Laurent Dug</username>
-        <id>26560</id>
+        <ip>2A02:8428:1E7E:F901:C5A8:6098:53E2:CD01</ip>
       </contributor>
-      <minor/>
       <comment>/* Citations */</comment>
-      <origin>381946</origin>
+      <origin>422590</origin>
       <model>wikitext</model>
       <format>text/x-wiki</format>
-      <text bytes="4979" sha1="ay9b14vf94po2k02ybpm9i2vbqonvzk" xml:space="preserve">Citations de '''[[w:Personnages de Kaamelott#Père Blaise|Père Blaise]]''' dans la [[:catégorie:série télévisée|série télévisée]] [[Kaamelott]].
+      <text bytes="4975" sha1="ghdqg0wpktx10sv1q8mo8nhjbeuceip" xml:space="preserve">Citations de '''[[w:Personnages de Kaamelott#Père Blaise|Père Blaise]]''' dans la [[:catégorie:série télévisée|série télévisée]] [[Kaamelott]].
 
 ==Citations==
 {{citation|citation= (attendez, je mange avec le pape tous les midis moi.) Ah ouais ? Eh bien moi je mange avec mon tonton Gethenoc et ton pape TU PEUX TE LE FOUTRE DANS LE CUL !}}
@@ -92,14 +90,14 @@
 |acteur=Jean-Robert Lombard
 |série=Kaamelott
 |saison=Livre I
-|épisode= : ''La jupe de calogrenant''}}
+|épisode= ''La jupe de calogrenant''}}
 
 {{citation|citation=(''a propos de la tenue de calogrenant'') C'est chaste mais c'est pas officiel, et la Table Ronde c'est pas un bal costumé, merde !}}
 {{Réf Série|auteur=Alexandre Astier
 |acteur=Jean-Robert Lombard
 |série=Kaamelott
 |saison=Livre I
-|épisode= : ''La jupe de calogrenant''}}
+|épisode= ''La jupe de calogrenant''}}
 
 {{Citation|citation=&lt;poem&gt;
 {{personnage|Père Blaise}} : Non, je suis désolé, moi je peux pas faire une légende avec un fakir qui enroule sa bite autour d'un bâton. En plus, je sais même pas comment ça se dit en latin.
@@ -110,7 +108,7 @@
 {{Réf Série|auteur=Alexandre Astier
 |acteur=Jean-Robert Lombard
 |série=Kaamelott
-|saison=Livre 1
+|saison=Livre I
 |épisode= 60 : ''Le prodige du fakir''}}
 
 
@@ -179,7 +177,7 @@
 {{autres projets|w=Personnages de Kaamelott#Père Blaise}}
 
 [[Catégorie:Kaamelott|Blaise, Pere]]</text>
-      <sha1>ay9b14vf94po2k02ybpm9i2vbqonvzk</sha1>
+      <sha1>ghdqg0wpktx10sv1q8mo8nhjbeuceip</sha1>
     </revision>
   </page>
 </mediawiki>

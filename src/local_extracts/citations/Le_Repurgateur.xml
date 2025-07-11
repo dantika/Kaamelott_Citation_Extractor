@@ -44,17 +44,17 @@
     <ns>0</ns>
     <id>17647</id>
     <revision>
-      <id>291573</id>
-      <parentid>262996</parentid>
-      <timestamp>2020-04-06T13:57:43Z</timestamp>
+      <id>422593</id>
+      <parentid>422589</parentid>
+      <timestamp>2025-07-11T09:42:38Z</timestamp>
       <contributor>
-        <ip>92.184.97.125</ip>
+        <ip>2A02:8428:1E7E:F901:C5A8:6098:53E2:CD01</ip>
       </contributor>
       <comment>/* Citations */</comment>
-      <origin>291573</origin>
+      <origin>422593</origin>
       <model>wikitext</model>
       <format>text/x-wiki</format>
-      <text bytes="3199" sha1="t5kij1r1ex0rqskvl1b70uotpzg5j5r" xml:space="preserve">Citations du '''[[w:Personnages de Kaamelott#Le Répurgateur|Répurgateur]]''' dans la [[:catégorie:série télévisée|série télévisée]] [[Kaamelott]].
+      <text bytes="3201" sha1="cwmpqllanrgps2vbmws573e29htaars" xml:space="preserve">Citations du '''[[w:Personnages de Kaamelott#Le Répurgateur|Répurgateur]]''' dans la [[:catégorie:série télévisée|série télévisée]] [[Kaamelott]].
 
 ==Citations==
 
@@ -112,7 +112,7 @@
 {{Réf Série|auteur=Alexandre Astier
 |acteur=Élie Semoun
 |série=Kaamelott
-|saison=Épisode pilote
+|saison=épisodes pilotes
 |épisode= 9 : ''Le Répurgateur''}}
 
 {{citation|citation=Sire, qu'est-ce que j'apprends de manière inopinée ? La rumeur colporte que vous ne vous êtes jamais confessé ! […] La confession, sire ! Sans confession, point de salut ! Sans salut, point... point ne sert de... à rien qui ne sait partir.}}
@@ -126,7 +126,7 @@
 {{autres projets|w=Personnages de Kaamelott#Le Répurgateur}}
 
 [[Catégorie:Kaamelott|Repurgateur, Le]]</text>
-      <sha1>t5kij1r1ex0rqskvl1b70uotpzg5j5r</sha1>
+      <sha1>cwmpqllanrgps2vbmws573e29htaars</sha1>
     </revision>
   </page>
 </mediawiki>

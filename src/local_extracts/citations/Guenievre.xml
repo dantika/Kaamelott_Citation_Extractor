@@ -44,18 +44,17 @@
     <ns>0</ns>
     <id>17614</id>
     <revision>
-      <id>371301</id>
-      <parentid>360629</parentid>
-      <timestamp>2023-10-10T15:06:34Z</timestamp>
+      <id>422566</id>
+      <parentid>371301</parentid>
+      <timestamp>2025-07-11T08:59:16Z</timestamp>
       <contributor>
-        <username>Laurent Dug</username>
-        <id>26560</id>
+        <ip>2A02:8428:1E7E:F901:C5A8:6098:53E2:CD01</ip>
       </contributor>
-      <minor/>
-      <origin>371301</origin>
+      <comment>/* Citations */</comment>
+      <origin>422566</origin>
       <model>wikitext</model>
       <format>text/x-wiki</format>
-      <text bytes="10083" sha1="namqk1ia051l61ewmmryv3v5614tf36" xml:space="preserve">Citations de '''[[w:Personnages de Kaamelott#Guenièvre|Guenièvre]]''' dans la [[:catégorie:série télévisée|série télévisée]] [[Kaamelott]].
+      <text bytes="10081" sha1="o7rchv7tlw1ew8fiqaja6ksoclwx2zr" xml:space="preserve">Citations de '''[[w:Personnages de Kaamelott#Guenièvre|Guenièvre]]''' dans la [[:catégorie:série télévisée|série télévisée]] [[Kaamelott]].
 
 ==Citations==
 
@@ -89,7 +88,7 @@ Guenièvre: Mais avant ma vie, c’était de la merde vous entendez ?  Recevoir 
 |acteur= Alexandre Astier et Anne Girouard
 |série= Kaamelott
 |saison= Livre I
-|épisode= 25 : "La pâte d'amande"}}
+|épisode= 25 : La pâte d'amande}}
   
 {{citation|citation=Ils n'ont pas de bras les oiseaux, c'est affreux, j'ai toujours l'impression qu'il vont culbuter vers l'avant, ça n'a aucun sens.}}
 {{Réf Série|auteur=Alexandre Astier
@@ -273,7 +272,7 @@ Le sang qui vous manque, moi je l'ai vu, hein. […] Le sang qui vous manque, je
 {{autres projets|w=Personnages de Kaamelott#Guenièvre}}
 
 [[Catégorie:Kaamelott|Guenievre]]</text>
-      <sha1>namqk1ia051l61ewmmryv3v5614tf36</sha1>
+      <sha1>o7rchv7tlw1ew8fiqaja6ksoclwx2zr</sha1>
     </revision>
   </page>
 </mediawiki>

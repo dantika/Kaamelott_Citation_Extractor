@@ -44,17 +44,17 @@
     <ns>0</ns>
     <id>17588</id>
     <revision>
-      <id>381406</id>
-      <parentid>292641</parentid>
-      <timestamp>2024-05-09T19:43:33Z</timestamp>
+      <id>422592</id>
+      <parentid>381406</parentid>
+      <timestamp>2025-07-11T09:40:38Z</timestamp>
       <contributor>
-        <ip>93.30.202.27</ip>
+        <ip>2A02:8428:1E7E:F901:C5A8:6098:53E2:CD01</ip>
       </contributor>
       <comment>/* Citations */</comment>
-      <origin>381406</origin>
+      <origin>422592</origin>
       <model>wikitext</model>
       <format>text/x-wiki</format>
-      <text bytes="7148" sha1="7zdyj9cfhyeihfuojfmflb1thhqocle" xml:space="preserve">==Citations==
+      <text bytes="7148" sha1="fzf4ql8fk5uvx8pub12wfhpyoddl154" xml:space="preserve">==Citations==
 
 {{citation|citation= Pour savoir s’y a du vent, il faut mettre son doigt dans le cul du coq.}}
 {{Réf Série|auteur=Alexandre Astier
@@ -288,14 +288,14 @@ Y' vont faire des beignets !}}
 {{Réf Série|auteur=Alexandre Astier
 |acteur=Brice Fournier
 |série=Kaamelott
-|saison=Premier volet
+|saison=Premier Volet
 |épisode= ''Sequence souterraine''}}
 
 
 {{autres projets|w=Personnages de Kaamelott#Kadoc}}
 
 [[Catégorie:Kaamelott|Kadoc]]</text>
-      <sha1>7zdyj9cfhyeihfuojfmflb1thhqocle</sha1>
+      <sha1>fzf4ql8fk5uvx8pub12wfhpyoddl154</sha1>
     </revision>
   </page>
 </mediawiki>

@@ -44,19 +44,17 @@
     <ns>0</ns>
     <id>7914</id>
     <revision>
-      <id>389666</id>
-      <parentid>388499</parentid>
-      <timestamp>2024-09-19T14:11:35Z</timestamp>
+      <id>422568</id>
+      <parentid>389666</parentid>
+      <timestamp>2025-07-11T09:01:23Z</timestamp>
       <contributor>
-        <username>Laurent Dug</username>
-        <id>26560</id>
+        <ip>2A02:8428:1E7E:F901:C5A8:6098:53E2:CD01</ip>
       </contributor>
-      <minor/>
-      <comment>coquilles, accords, espaces</comment>
-      <origin>389666</origin>
+      <comment>/* KV1 */</comment>
+      <origin>422568</origin>
       <model>wikitext</model>
       <format>text/x-wiki</format>
-      <text bytes="27346" sha1="j1p5ruvi3fwopzpykwak2wx0hl6gt9r" xml:space="preserve">[[Fichier:Lionnel ASTIER - Geekopolis 2014 - Paris.jpg|vignette|droite|Lionnel Astier (ici au festival Geekopolis, à Paris, en 2014) incarne Léodagan dans la série.]]
+      <text bytes="27350" sha1="oc0ngztgw3ungfrpc2fm87zjo6395de" xml:space="preserve">[[Fichier:Lionnel ASTIER - Geekopolis 2014 - Paris.jpg|vignette|droite|Lionnel Astier (ici au festival Geekopolis, à Paris, en 2014) incarne Léodagan dans la série.]]
 Citations de '''[[w:Personnages de Kaamelott#Léodagan|Léodagan]]''' dans la [[:catégorie:série télévisée|série télévisée]] [[Kaamelott]].
 
 ==Citations==
@@ -734,25 +732,25 @@ Parce que bon, mettons là heu... on s'pose, on analyse le truc. Le crin-crin, �
 === KV1 ===
 
 {{citation|citation=(''a calogrenant'') Je vous ai déjà expliqué, les gens s'ennuient a votre contact. Donc ils vous disent rien sur eux. Oui j'ai une soeur, et tout un tas d'autres trucs que je vois pas l'intérêt de vous confier. Alors arrêtez d'en être surpris.}}
-{{Réf Film|titre=Kamelott premier volet
+{{Réf Film|titre=Kaamelott premier volet
 |auteur=Alexandre Astier
 |date=2021
 |acteur=Lionnel Astier}}
 
 {{citation|citation=...Le fils Pendragon est de retour. Eh bah qu'il vienne ! On le collera au bêchage tiens ! Comme ça il sera pas venu pour rien.}}
-{{Réf Film|titre=Kamelott premier volet
+{{Réf Film|titre=Kaamelott premier volet
 |auteur=Alexandre Astier
 |date=2021
 |acteur=Lionnel Astier}}
 
 {{citation|citation=(Maclou : il y a quelque chose au fond) De la merde ? (Maclou : ça fait des traces) Des traces de merde ?}}
-{{Réf Film|titre=Kamelott premier volet
+{{Réf Film|titre=Kaamelott premier volet
 |auteur=Alexandre Astier
 |date=2021
 |acteur=Lionnel Astier}}
 
 {{citation|citation=Je lève mon verre au retour de ma fille, et du cornichon pesteux qu'on croyait canné qui l'a délivré.}}
-{{Réf Film|titre=Kamelott premier volet
+{{Réf Film|titre=Kaamelott premier volet
 |auteur=Alexandre Astier
 |date=2021
 |acteur=Lionnel Astier}}
@@ -761,7 +759,7 @@ Parce que bon, mettons là heu... on s'pose, on analyse le truc. Le crin-crin, �
 {{autres projets|w=Personnages de Kaamelott#Léodagan}}
 
 [[Catégorie:Kaamelott|Leodagan]]</text>
-      <sha1>j1p5ruvi3fwopzpykwak2wx0hl6gt9r</sha1>
+      <sha1>oc0ngztgw3ungfrpc2fm87zjo6395de</sha1>
     </revision>
   </page>
 </mediawiki>
