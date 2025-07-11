@@ -16,7 +16,6 @@
 
 ## 👨‍💻 Todo
 
-* More data cleaning, there is too much variations of the same input _(Livre1, livre I, livre1, ...)_
 * Adding tests
 * Parsing Dialogs page
 * Parsing Comics page
