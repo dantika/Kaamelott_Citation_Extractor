@@ -44,19 +44,17 @@
     <ns>0</ns>
     <id>7907</id>
     <revision>
-      <id>377565</id>
-      <parentid>376585</parentid>
-      <timestamp>2024-02-05T14:18:34Z</timestamp>
+      <id>422591</id>
+      <parentid>377565</parentid>
+      <timestamp>2025-07-11T09:39:53Z</timestamp>
       <contributor>
-        <username>Laurent Dug</username>
-        <id>26560</id>
+        <ip>2A02:8428:1E7E:F901:C5A8:6098:53E2:CD01</ip>
       </contributor>
-      <minor/>
-      <comment>coquilles, accords, ponctuation</comment>
-      <origin>377565</origin>
+      <comment>/* Livre II */</comment>
+      <origin>422591</origin>
       <model>wikitext</model>
       <format>text/x-wiki</format>
-      <text bytes="46396" sha1="7vd86kvonwjtavjag0ymyf1o3oez8v8" xml:space="preserve">[[Fichier:Alexandreastier.JPG|vignette|Le roi Arthur est joué par [[Alexandre Astier]] (photographié ici en 2008).]]
+      <text bytes="46396" sha1="6m5wq3tqf9hukot735nqwwi5svkbvcx" xml:space="preserve">[[Fichier:Alexandreastier.JPG|vignette|Le roi Arthur est joué par [[Alexandre Astier]] (photographié ici en 2008).]]
 Citations d’'''[[w:Personnages de Kaamelott#Arthur|Arthur]]''' dans la [[:catégorie:série télévisée|série télévisée]] [[Kaamelott]].
 
 == ''Dies iræ'' ==
@@ -579,7 +577,7 @@ C'est bon vous pouvez débarrasser...}}
 |auteur=Alexandre Astier
 |acteur=Alexandre Astier
 |série=Kaamelott
-|saison=livre II
+|saison=Livre II
 |épisode= ''Le secret d'Arthur''}}
 
 {{citation|citation= ('' parlant tout seul, ivre'') On y voit comme à travers un pelle là-dedans... Hé lumière !!! Pff bande de fainéants... Ah ça, pour roupiller, vous êtes fortiches (''s'esclaffe'') Les chevaliers de la Table Ronde... CHEVALIERS DE MES DEUX !!! Chuis p... chuis pas roi, moi ? C'est p..., c'est pas moi le roi ?! (''dégainant Excalibur'') Et ça, c'est du nougat ??? Tout seul, je vais le chercher le Graal, moi, et la vie éternelle, c'est pour bibi !!! Et vous, vous irez vous gratter !!!}}
@@ -587,7 +585,7 @@ C'est bon vous pouvez débarrasser...}}
 |auteur=Alexandre Astier
 |acteur=Alexandre Astier
 |série=Kaamelott
-|saison=livre II
+|saison=Livre II
 |épisode= ''L'ivresse''}}
 
 {{citation|citation= (''à Demetra'') Vous savez quelle est la différence entre la chèvre et vous ? &lt;br&gt;(''Demetra, énervée'' : Je ne sais pas, mais je sens que ça ne va pas me plaire.) &lt;br&gt;La chèvre elle a couiné cinq minutes ; vous, vous râlez depuis trois heures.}}
@@ -595,7 +593,7 @@ C'est bon vous pouvez débarrasser...}}
 |auteur=Alexandre Astier
 |acteur=Alexandre Astier
 |série=Kaamelott
-|saison=livre II
+|saison=Livre II
 |épisode= ''Le Cadeau''}}
 
 {{citation|citation=Le seigneur Perceval ne se met jamais en situation dangereuse. Pour ça, il fait preuve d'une intelligence redoutable.}} 
@@ -1122,7 +1120,7 @@ Là, ça pue du cul, mais violent.}}
 
 {{autres projets|w=Personnages de Kaamelott#Arthur}}
 [[Catégorie:Kaamelott|Arthur]]</text>
-      <sha1>7vd86kvonwjtavjag0ymyf1o3oez8v8</sha1>
+      <sha1>6m5wq3tqf9hukot735nqwwi5svkbvcx</sha1>
     </revision>
   </page>
 </mediawiki>

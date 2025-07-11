@@ -16,7 +16,6 @@
 
 ## 👨‍💻 Todo
 
-* More data cleaning, there is too much variations of the same input _(Livre1, livre I, livre1, ...)_
 * Adding tests
 * Parsing Dialogs page
 * Parsing Comics page
@@ -28,11 +27,13 @@
 ```bash
 ├── src/
 │   ├── contants/
-│   │   ├── cleaning-regexp.constants.ts      # Regex for cleaning
-│   │   ├── citations-extract.constants.ts    # Regex for extraction
+│   │   ├── cleaning-regexp.constant.ts       # Regex for cleaning
+│   │   ├── citations-extract.constant.ts     # Regex for extraction
+│   │   ├── episodes-names.constant.ts        # Matrix of matching of all episodes names
 │   │   ├── filenames.constant.ts             # Filenames used
+│   │   ├── xml-urls.constant.ts              # XML dump URLs
+│   │   ├── file-extension.enum.ts            # File extensions used
 │   │   ├── media.enum.ts                     # MEDIA_TYPE enum
-│   │   └── xml-urls.constant.ts              # XML dump URLs
 │   ├── models/
 │   │   ├── citation.model.ts                 # Citation builder/model
 │   │   └── episode.model.ts                  # Episode structure
