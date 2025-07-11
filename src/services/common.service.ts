@@ -1,4 +1,4 @@
-import { CLEANING_REGEXP } from "../contants/cleaning-regexp.constants";
+import { CLEANING_REGEXP } from "../contants/cleaning-regexp.constant";
 import { logger } from "./logger.service";
 
 export class CommonService {
@@ -22,6 +22,13 @@ export class CommonService {
       logger.error(errorMsg, this.loggerContext);
       return fallback as T;
     }
+  }
+
+  capitalizeFirstLetter(text: string) {
+    return (
+      String(text).charAt(0).toUpperCase() +
+        String(text?.toLowerCase()).slice(1) || ""
+    );
   }
 }
 

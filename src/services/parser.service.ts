@@ -1,4 +1,6 @@
-import { CITATIONS_EXTRACT } from "../contants/citations-extract.constants";
+import { EPISODES_NAMES } from "../contants/episodes-names.constant";
+import { commonService } from "./common.service";
+import { CITATIONS_EXTRACT } from "../contants/citations-extract.constant";
 import { MEDIA_TYPE } from "../contants/media.enum";
 import {
   CitationBuilder,
@@ -32,10 +34,15 @@ export class ParserService {
     name: string;
     number: number | string;
   } {
+    let episodeName = "";
     let result = [...rawData.matchAll(regexp)][0] || "";
+    const key = commonService.capitalizeFirstLetter(result[2]);
 
+    if (key in EPISODES_NAMES) {
+      episodeName = EPISODES_NAMES[key as keyof typeof EPISODES_NAMES];
+    }
     return {
-      name: result[2] || "",
+      name: episodeName || "",
       number: result[1] || "",
     };
   }
@@ -51,14 +58,23 @@ export class ParserService {
       rawData,
       CITATIONS_EXTRACT.description
     );
-    citation.media = this.extractContent(rawData, CITATIONS_EXTRACT.media);
+    citation.media = this.extractContent(
+      commonService.capitalizeFirstLetter(rawData),
+      CITATIONS_EXTRACT.media
+    );
 
     if (citation.media === MEDIA_TYPE.movie) {
-      citation.title = this.extractContent(rawData, CITATIONS_EXTRACT.title);
+      citation.title = this.extractContent(
+        commonService.capitalizeFirstLetter(rawData),
+        CITATIONS_EXTRACT.title
+      );
       citation.date = this.extractContent(rawData, CITATIONS_EXTRACT.date);
     } else {
       citation.season = this.extractContent(rawData, CITATIONS_EXTRACT.season);
-      citation.show = this.extractContent(rawData, CITATIONS_EXTRACT.show);
+      citation.show = this.extractContent(
+        commonService.capitalizeFirstLetter(rawData),
+        CITATIONS_EXTRACT.show
+      );
       citation.episode = this.extractEpisodeContent(
         rawData,
         CITATIONS_EXTRACT.episode

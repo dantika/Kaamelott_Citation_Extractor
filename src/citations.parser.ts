@@ -1,6 +1,6 @@
 import path from "path";
 import { LOCAL_MODE } from ".";
-import { CITATIONS_EXTRACT } from "./contants/citations-extract.constants";
+import { CITATIONS_EXTRACT } from "./contants/citations-extract.constant";
 import {
   CITATIONS,
   CLEANED_EXTRACT,
