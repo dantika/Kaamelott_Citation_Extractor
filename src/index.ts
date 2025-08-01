@@ -1,7 +1,7 @@
 import { citationsParser } from "./citations.parser";
 import { logger } from "./services/logger.service";
 
-export const LOCAL_MODE = true;
+export const LOCAL_MODE = process.env.NODE_ENV === "local";
 
 LOCAL_MODE
   ? logger.warn(`/!\\ LOCAL_MODE /!\\`)

@@ -3,6 +3,7 @@ export const CITATIONS_EXTRACT = {
   citations_divider:
     /\{\{\s*[Cc]itation\b[\s\S]*?(?=(\{\{\s*[Cc]itation\b|^===|\[\[\s*Catégorie\s*:\s*Kaamelott|$))/gmi,
   linkToSpecific: /\{\{\s*[Ll]oupe\b/,
+  names_divider: /\s*(-|et)\s+/,
 
   global_character_isolation:
     /(===( |)\[\[w:Personnages de Kaamelott#[^\]]+\]\]( |)===[\s\S]*?)(?===)/g,
