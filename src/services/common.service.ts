@@ -1,4 +1,4 @@
-import { CLEANING_REGEXP } from "../contants/cleaning-regexp.constant";
+import { CLEANING_REGEXP } from "../constants/cleaning-regexp.constant";
 import { logger } from "./logger.service";
 
 export class CommonService {

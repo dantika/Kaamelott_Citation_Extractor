@@ -1,14 +1,14 @@
 import path from "path";
 import { LOCAL_MODE } from ".";
-import { CITATIONS_EXTRACT } from "./contants/citations-extract.constant";
-import { FILE_EXTENSION } from "./contants/file-extension.enum";
+import { CITATIONS_EXTRACT } from "./constants/citations-extract.constant";
+import { FILE_EXTENSION } from "./constants/file-extension.enum";
 import {
   CITATIONS,
   FETCHED_EXTRACT,
   GLOBAL,
   PARSED_EXTRACT,
-} from "./contants/filenames.constant";
-import { CITATIONS_XML_URLS } from "./contants/xml-urls.constant";
+} from "./constants/filenames.constant";
+import { CITATIONS_XML_URLS } from "./constants/xml-urls.constant";
 import { CitationModel } from "./models/citation.model";
 import { CitationUrlXmlInterface } from "./models/citations-url-xml.model";
 import { commonService } from "./services/common.service";

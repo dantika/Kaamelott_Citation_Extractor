@@ -1,6 +1,6 @@
-import { CITATIONS_EXTRACT } from "../contants/citations-extract.constant";
-import { EPISODES_NAMES } from "../contants/episodes-names.constant";
-import { MEDIA_TYPE } from "../contants/media.enum";
+import { CITATIONS_EXTRACT } from "../constants/citations-extract.constant";
+import { EPISODES_NAMES } from "../constants/episodes-names.constant";
+import { MEDIA_TYPE } from "../constants/media.enum";
 import {
   CitationBuilder,
   CitationMetadata,

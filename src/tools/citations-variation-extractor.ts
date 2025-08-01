@@ -1,12 +1,12 @@
 import * as fs from "fs";
 import * as path from "path";
-import { FILE_EXTENSION } from "./../contants/file-extension.enum";
+import { FILE_EXTENSION } from "./../constants/file-extension.enum";
 import {
   CITATIONS,
   GLOBAL,
   PARSED_EXTRACT,
   VARIATIONS,
-} from "./../contants/filenames.constant";
+} from "./../constants/filenames.constant";
 import { logger } from "./../services/logger.service";
 
 // Types

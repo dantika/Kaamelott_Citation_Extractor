@@ -26,7 +26,7 @@
 
 ```bash
 ├── src/
-│   ├── contants/
+│   ├── constants/
 │   │   ├── cleaning-regexp.constant.ts       # Regex for cleaning
 │   │   ├── citations-extract.constant.ts     # Regex for extraction
 │   │   ├── episodes-names.constant.ts        # Matrix of matching of all episodes names
