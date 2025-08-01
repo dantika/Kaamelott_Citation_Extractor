@@ -4,6 +4,9 @@ Un parseur XML TypeScript sophistiqué pour extraire et structurer les citations
 
 ![TypeScript](https://img.shields.io/badge/TypeScript-007ACC?style=flat-square&logo=typescript&logoColor=white)
 ![Node.js](https://img.shields.io/badge/Node.js-43853D?style=flat-square&logo=node.js&logoColor=white)
+![JSON](https://img.shields.io/badge/JSON-000000?style=flat-square&logo=json&logoColor=white)
+![XML](https://img.shields.io/badge/XML-FF6600?style=flat-square&logo=xml&logoColor=white)
+![RegExp](https://img.shields.io/badge/RegExp-DD0031?style=flat-square&logo=javascript&logoColor=white)
 
 ## 🚀 Installation
 
@@ -79,7 +82,7 @@ interface CitationModel {
 ### Sources traitées
 Le système extrait depuis **28 pages Wikiquote** :
 - `Global.xml` - Citations générales issue de personnages n'ayant pas leur propre page personnalisée sur WikiQuote
-- `Arthur.xml`, `Perceval.xml`, `Karadoc.xml`...
+- `Arthur.xml`, `Perceval.xml`, `Karadoc.xml` - Citations  issue de personnages ayant leur propre page personnalisée sur WikiQuote
 
 ## 🗂️ Architecture du projet
 
@@ -192,10 +195,12 @@ logger.error(new Error("Erreur"), "Context");     // Stack trace complète
 ## 🗺️ Roadmap
 
 - [ ] **Tests unitaires** Jest avec coverage > 80%
+- [ ] **Documenter** les regexp
+- [ ] **Terminal** interactif pour choisir local/prod, cleanse les anciens fichiers, etc
 - [ ] **Parsing des Dialogues** depuis Wikiquote
 - [ ] **Parsing des Bandes Dessinées** Kaamelott
-- [ ] **[API REST](https://github.com/dantika/Kaamelott_Citation_API)** pour consultation des citations
-- [ ] **[Interface web](https://github.com/dantika)** de recherche et filtrage
+- [ ] _WIP_ **[API REST](https://github.com/dantika/Kaamelott_Citation_API)** pour consultation des citations
+- [ ] _WIP_ **[Interface web](https://github.com/dantika)** de recherche et filtrage
 
 ## 🤝 Contribution
 
