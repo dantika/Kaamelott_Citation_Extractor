@@ -1,11 +1,21 @@
 import * as fs from "fs";
 import * as path from "path";
+import { FILE_EXTENSION } from "./../contants/file-extension.enum";
+import {
+  CITATIONS,
+  GLOBAL,
+  PARSED_EXTRACT,
+  VARIATIONS,
+} from "./../contants/filenames.constant";
+import { logger } from "./../services/logger.service";
 
 // Types
 type JsonValue = string | number | boolean | null | JsonObject | JsonArray;
 type JsonObject = { [key: string]: JsonValue };
 type JsonArray = JsonValue[];
 type FlatObject = { [key: string]: JsonValue };
+
+const loggerContext = "CitationVariationExtractor";
 
 // 1. Fonction récursive pour aplatir un objet
 function flatten(obj: JsonObject, prefix: string = ""): FlatObject {
@@ -45,22 +55,23 @@ function valueToEnumMember(value: string): string {
 
   return result;
 }
-
 // Vérifier l'existence du fichier citations.json
 const citationsPath = path.join(
   process.cwd(),
   "dist",
-  "parsed_extract",
-  "citations.json"
+  PARSED_EXTRACT,
+  GLOBAL,
+  `${CITATIONS}${FILE_EXTENSION.JSON}`
 );
 
 if (!fs.existsSync(citationsPath)) {
-  console.error("❌ Erreur : citations.json introuvable");
-  console.error(
-    `Veuillez d'abord lancer un build prod/local pour générer le fichier.`
+  logger.error("❌ Erreur : citations.json introuvable", loggerContext);
+  logger.error(
+    `Veuillez d'abord lancer un build prod/local pour générer le fichier.`,
+    loggerContext
   );
-  console.error(`Chemins vérifiés :`);
-  console.error(`- ${citationsPath}`);
+  logger.error(`Chemins vérifiés :`, loggerContext);
+  logger.error(`- ${citationsPath}`, loggerContext);
   process.exit(1);
 }
 
@@ -72,7 +83,7 @@ const data: JsonObject[] = JSON.parse(raw);
 const flatData = data.map((item) => flatten(item));
 const allFields = Array.from(
   new Set(flatData.flatMap((item) => Object.keys(item)))
-).filter((f) => f !== "description");
+);
 
 // 4. Collecter et normaliser toutes les valeurs par champ
 const valuesByField: Record<string, Set<string>> = {};
@@ -87,7 +98,7 @@ function cleanValue(
     .trim(); // trim en tête/queue
 }
 
-flatData.forEach((item) => {
+flatData.forEach((item, i) => {
   allFields.forEach((f) => {
     if (Array.isArray(item[f]) && item[f].length > 1) {
       item[f].forEach((item) => {
@@ -98,7 +109,7 @@ flatData.forEach((item) => {
       });
     } else {
       if (item[f] != null) {
-        let v = cleanValue(item);
+        let v = cleanValue(item[f]);
         if (v) valuesByField[f].add(v);
       }
     }
@@ -144,11 +155,14 @@ allFields.forEach((field) => {
 });
 
 // 7. Sauver dans citations.variations.enum.ts
-const outPath = path.join(
-  process.cwd(),
-  "dist",
-  "parsed_extract",
-  "citations.variations.enum.ts"
+const outPath = path.join(process.cwd(), "dist", PARSED_EXTRACT, VARIATIONS);
+const outFilePath = path.join(outPath, `${CITATIONS}.${VARIATIONS}.enum.ts`);
+
+if (!fs.existsSync(outPath)) {
+  fs.mkdirSync(outPath, { recursive: true });
+}
+fs.writeFileSync(outFilePath, enumsContent, "utf-8");
+logger.info(
+  `✅ citations.variations.enum.ts généré : ${outFilePath}`,
+  loggerContext
 );
-fs.writeFileSync(outPath, enumsContent, "utf-8");
-console.log(`✅ citations.variations.enum.ts généré : ${outPath}`);

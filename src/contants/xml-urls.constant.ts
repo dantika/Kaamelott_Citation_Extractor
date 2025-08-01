@@ -1,4 +1,6 @@
-export const CITATIONS_XML_URLS = [
+import { CitationUrlXmlInterface } from "./../models/citations-url-xml.model";
+
+export const CITATIONS_XML_URLS: CitationUrlXmlInterface[] = [
   {
     fileName: "Global",
     url: "https://fr.wikiquote.org/wiki/Special:Export/Kaamelott#Citations_des_personnages",

@@ -15,11 +15,16 @@ export class CommonService {
     return res.trim();
   }
 
-  safeExecute<T>(fn: () => T, errorMsg: string, fallback?: T): T {
+  safeExecute<T>(
+    fn: () => T,
+    errorMsg: string,
+    context: string = this.loggerContext,
+    fallback?: T
+  ): T {
     try {
       return fn();
     } catch (err) {
-      logger.error(errorMsg, this.loggerContext);
+      logger.error(errorMsg, context);
       return fallback as T;
     }
   }

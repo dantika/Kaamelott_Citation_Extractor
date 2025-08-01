@@ -1,7 +1,6 @@
 import * as fs from "fs";
 import * as path from "path";
 import { CitationModel } from "../models/citation.model";
-import { FILE_EXTENSION } from "./../contants/file-extension.enum";
 import { commonService } from "./common.service";
 import { logger } from "./logger.service";
 
@@ -19,68 +18,71 @@ export class FileService {
   private readJson<T>(filePath: string): T | undefined {
     const raw = commonService.safeExecute(
       () => fs.readFileSync(filePath, "utf-8"),
-      `Could not read file: ${filePath}`
+      `Could not read file: ${filePath}`,
+      this.loggerContext
     );
     if (typeof raw !== "string") return;
     return commonService.safeExecute(
       () => JSON.parse(raw) as T,
-      `Invalid JSON in file: ${filePath}`
+      `Invalid JSON in file: ${filePath}`,
+      this.loggerContext
     );
   }
 
   private writeFile(filePath: string, data: any): void {
     commonService.safeExecute(
       () => fs.writeFileSync(filePath, data, "utf-8"),
-      `Could not write to file: ${filePath}`
+      `Could not write to file: ${filePath}`,
+      this.loggerContext
     );
     logger.info(`File updated: ${filePath}`, this.loggerContext);
   }
 
-  fileCreation(
-    outputDir: string,
-    fileName: string,
-    extension: FILE_EXTENSION,
-    content: any
-  ): string {
-    const dir = path.join(this.baseDir, outputDir);
+  deleteFile(filePath: string) {
+    if (fs.existsSync(filePath)) {
+      commonService.safeExecute(
+        () => fs.unlinkSync(filePath),
+        `Unable to delete: ${filePath}`,
+        this.loggerContext
+      );
+      logger.info(`File deleted: ${filePath}`, this.loggerContext);
+    }
+  }
+
+  checkDirValidity(dirToCheck: string): string {
+    const dir = path.join(this.baseDir, dirToCheck);
     commonService.safeExecute(
       () => this.ensureDirectory(dir),
-      `Invalid or inaccessible path: ${dir}`
+      `Invalid or inaccessible path: ${dir}`,
+      this.loggerContext
     );
+    return dir;
+  }
 
-    const filePath = path.join(dir, `${fileName}${extension}`);
+  fileCreation(filePath: string, content: any) {
     this.createFileIfMissing(filePath, () =>
       fs.writeFileSync(filePath, content, { encoding: "utf8" })
     );
-    logger.info(`Created: ${fileName}${extension}`, this.loggerContext);
-
-    return filePath;
+    logger.info(`Created: ${filePath}`, this.loggerContext);
   }
 
   private createFileIfMissing(filePath: string, initializer: () => void): void {
     if (!fs.existsSync(filePath)) {
       commonService.safeExecute(
         initializer,
-        `Could not create file: ${filePath}`
+        `Could not create file: ${filePath}`,
+        this.loggerContext
       );
     }
   }
 
   appendToDataJson(
-    destinationFolder: string,
-    fileName: string,
-    items: CitationModel[]
+    filePath: string,
+    items: CitationModel[],
+    fileName: string
   ): void {
-    const filePath = this.fileCreation(
-      destinationFolder,
-      fileName,
-      FILE_EXTENSION.JSON,
-      JSON.stringify([], null, 2)
-    );
-
     const existing = this.readJson<CitationModel[]>(filePath) ?? [];
     let added = 0;
-
     for (const item of items) {
       const isDuplicate = existing.some(
         (e) => JSON.stringify(e) === JSON.stringify(item)
