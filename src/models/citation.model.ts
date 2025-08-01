@@ -1,8 +1,8 @@
 import { Episode } from "./episode.model";
 export interface CitationModel {
   character_name: string;
-  author: string;
-  actor: string;
+  author: string[];
+  actor: string[];
   description: string;
   media: string;
   title: string;
@@ -14,12 +14,12 @@ export interface CitationModel {
 
 export class CitationMetadata {
   private _character_name: string;
-  private _author: string;
-  private _actor: string;
+  private _author: string[];
+  private _actor: string[];
   private _description: string;
   private _media: string;
   private _season: string;
-  private _episode: { name: string; number: string | number };
+  private _episode: Episode;
   private _title: string;
   private _show: string;
   private _date: string;
@@ -71,10 +71,10 @@ export class CitationMetadata {
   set character_name(value: string) {
     this._character_name = value;
   }
-  set author(value: string) {
+  set author(value: string[]) {
     this._author = value;
   }
-  set actor(value: string) {
+  set actor(value: string[]) {
     this._actor = value;
   }
   set description(value: string) {
@@ -86,7 +86,7 @@ export class CitationMetadata {
   set season(value: string) {
     this._season = value;
   }
-  set episode(value: { name: string; number: string | number }) {
+  set episode(value: Episode) {
     this._episode = value;
   }
   set title(value: string) {
@@ -102,12 +102,12 @@ export class CitationMetadata {
 
 export class CitationBuilder {
   private _character_name: string = "";
-  private _author: string = "";
-  private _actor: string = "";
+  private _author: string[] = [];
+  private _actor: string[] = [];
   private _description: string = "";
   private _media: string = "";
   private _season: string = "";
-  private _episode: { name: string; number: string | number } = {
+  private _episode: Episode = {
     name: "",
     number: "",
   };
@@ -120,12 +120,12 @@ export class CitationBuilder {
     return this;
   }
 
-  author(value: string): this {
+  author(value: string[]): this {
     this._author = value;
     return this;
   }
 
-  actor(value: string): this {
+  actor(value: string[]): this {
     this._actor = value;
     return this;
   }
@@ -145,7 +145,7 @@ export class CitationBuilder {
     return this;
   }
 
-  episode(value: { name: string; number: string | number }): this {
+  episode(value: Episode): this {
     this._episode = value;
     return this;
   }

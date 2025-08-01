@@ -54,13 +54,24 @@ export class ParserService {
     };
   }
 
+  extractMultipleNames(rawData: string, regexp: RegExp): string[] {
+    const result = this.extractContent(rawData, regexp);
+    let cleanedResult: string[] = result
+      .split(CITATIONS_EXTRACT.names_divider)
+      .filter((item) => item !== "-" && item !== "et");
+    return cleanedResult;
+  }
+
   extractContent(rawData: string, regexp: RegExp): string {
     return [...rawData.matchAll(regexp)].map((e) => e[1])[0] || "";
   }
 
   completeCitationData(rawData: string, citation: CitationMetadata) {
-    citation.actor = this.extractContent(rawData, CITATIONS_EXTRACT.actor);
-    citation.author = this.extractContent(rawData, CITATIONS_EXTRACT.author);
+    citation.actor = this.extractMultipleNames(rawData, CITATIONS_EXTRACT.actor);
+    citation.author = this.extractMultipleNames(
+      rawData,
+      CITATIONS_EXTRACT.author
+    );
     citation.description = this.extractContent(
       rawData,
       CITATIONS_EXTRACT.description

@@ -78,14 +78,29 @@ const allFields = Array.from(
 const valuesByField: Record<string, Set<string>> = {};
 allFields.forEach((f) => (valuesByField[f] = new Set<string>()));
 
+function cleanValue(
+  item: string | number | boolean | null | JsonObject | JsonArray
+) {
+  return String(item)
+    .replace(/\u00A0/g, " ") // NBSP → space
+    .replace(/\s+/g, " ") // plusieurs espaces → un seul
+    .trim(); // trim en tête/queue
+}
+
 flatData.forEach((item) => {
   allFields.forEach((f) => {
-    if (item[f] != null) {
-      let v = String(item[f])
-        .replace(/\u00A0/g, " ") // NBSP → space
-        .replace(/\s+/g, " ") // plusieurs espaces → un seul
-        .trim(); // trim en tête/queue
-      if (v) valuesByField[f].add(v);
+    if (Array.isArray(item[f]) && item[f].length > 1) {
+      item[f].forEach((item) => {
+        if (item != null) {
+          let v = cleanValue(item);
+          if (v) valuesByField[f].add(v);
+        }
+      });
+    } else {
+      if (item[f] != null) {
+        let v = cleanValue(item);
+        if (v) valuesByField[f].add(v);
+      }
     }
   });
 });
