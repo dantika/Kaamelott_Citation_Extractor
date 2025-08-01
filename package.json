@@ -4,12 +4,14 @@
   "description": "An xml extractor to get all kaamelott quotes",
   "main": "index.ts",
   "scripts": {
-    "build": "tsc && cpx \"src/local_extracts/**/*\" dist/local_extracts",
-    "start": "npm run build && node dist/index.js"
+    "build": "tsc",
+    "start:local": "set NODE_ENV=local&& npm run build && node dist/index.js",
+    "start:prod": "set NODE_ENV=prod&& npm run build && node dist/index.js",
+    "start:citations:variations_extract": "ts-node ./src/tools/citations-variation-extractor.ts"
   },
   "devDependencies": {
-    "cpx": "^1.5.0",
-    "typescript": "^5.0.0"
+    "typescript": "^5.0.0",
+    "ts-node": "^10.9.2"
   },
   "keywords": [
     "kaamelott",

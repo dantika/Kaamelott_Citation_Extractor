@@ -1,4 +1,4 @@
 export enum MEDIA_TYPE {
-  serie = "Série",
-  movie = "Film",
+  serie = "série",
+  movie = "film",
 }

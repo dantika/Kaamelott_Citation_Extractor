@@ -1,9 +1,10 @@
 import path from "path";
 import { LOCAL_MODE } from ".";
 import { CITATIONS_EXTRACT } from "./contants/citations-extract.constant";
+import { FILE_EXTENSION } from "./contants/file-extension.enum";
 import {
   CITATIONS,
-  CLEANED_EXTRACT,
+  PARSED_EXTRACT,
   FETCHED_EXTRACT,
 } from "./contants/filenames.constant";
 import { CITATIONS_XML_URLS } from "./contants/xml-urls.constant";
@@ -13,7 +14,6 @@ import { fetchingService } from "./services/fetching.service";
 import { fileService } from "./services/file.service";
 import { logger } from "./services/logger.service";
 import { parserService } from "./services/parser.service";
-import { FILE_EXTENSION } from "./contants/file-extension.enum";
 
 export class CitationsParser {
   private loggerContext = "CitationsParser";
@@ -24,7 +24,6 @@ export class CitationsParser {
     CITATIONS_XML_URLS.forEach(async (url) => {
       logger.info(`Processing file: ${url.fileName}`, this.loggerContext);
       let data;
-      let filePath = LOCAL_MODE ? url.localDebug : url.fetched;
 
       if (!LOCAL_MODE) {
         data = await fetchingService.fetch(url.url);
@@ -35,7 +34,7 @@ export class CitationsParser {
           data
         );
       }
-      data = fetchingService.localFetch(filePath);
+      data = fetchingService.localFetch(url.filePath);
 
       if (data) {
         data = commonService.cleanText(data);
@@ -56,14 +55,14 @@ export class CitationsParser {
           citationsList.push(...results);
         }
 
-        fileService.appendToDataJson(CLEANED_EXTRACT, CITATIONS, citationsList);
+        fileService.appendToDataJson(PARSED_EXTRACT, CITATIONS, citationsList);
         logger.info(
           `Citations of ${url.fileName} extracted`,
           this.loggerContext
         );
       } else {
         logger.warn(
-          "Citations parsing ended on an unsuspected event. Look at the logs.\n",
+          "Citations parsing ended on an unsuspected event. File is unreachable. Look at the logs.\n",
           this.loggerContext
         );
       }

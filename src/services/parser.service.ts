@@ -1,12 +1,12 @@
-import { EPISODES_NAMES } from "../contants/episodes-names.constant";
-import { commonService } from "./common.service";
 import { CITATIONS_EXTRACT } from "../contants/citations-extract.constant";
+import { EPISODES_NAMES } from "../contants/episodes-names.constant";
 import { MEDIA_TYPE } from "../contants/media.enum";
 import {
   CitationBuilder,
   CitationMetadata,
   CitationModel,
 } from "./../models/citation.model";
+import { commonService } from "./common.service";
 
 export class ParserService {
   constructor() {}
@@ -36,6 +36,13 @@ export class ParserService {
   } {
     let episodeName = "";
     let result = [...rawData.matchAll(regexp)][0] || "";
+
+    let cleanedResult = "";
+    if (result[1]) {
+      cleanedResult =
+        result[1][0] === "0" ? result[0].slice(1, result.length) : result[1];
+    }
+
     const key = commonService.capitalizeFirstLetter(result[2]);
 
     if (key in EPISODES_NAMES) {
@@ -43,7 +50,7 @@ export class ParserService {
     }
     return {
       name: episodeName || "",
-      number: result[1] || "",
+      number: cleanedResult,
     };
   }
 
