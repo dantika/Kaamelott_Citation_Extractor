@@ -28,14 +28,22 @@ function fieldToEnumName(field: string): string {
 
 // Fonction pour convertir une valeur en nom de membre d'enum
 function valueToEnumMember(value: string): string {
-  // Remplacer les caractères spéciaux par des underscores, mettre en majuscules
-  return (
+  // Remplacer les caractères accentués
+  let result =
     value
-      .replace(/[^a-zA-Z0-9]/g, "_")
-      .replace(/_+/g, "_")
-      .replace(/^_|_$/g, "")
-      .toUpperCase() || "EMPTY"
-  );
+      .normalize("NFD") // Décompose les caractères accentués
+      .replace(/[\u0300-\u036f]/g, "") // Supprime les accents
+      .replace(/[^a-zA-Z0-9]/g, "_") // Remplace les caractères spéciaux
+      .replace(/_+/g, "_") // Remplace les underscores multiples
+      .replace(/^_|_$/g, "") // Supprime les underscores au début/fin
+      .toUpperCase() || "EMPTY";
+
+  // Préfixer si commence par un chiffre
+  if (/^\d/.test(result)) {
+    result = "_" + result;
+  }
+
+  return result;
 }
 
 // Vérifier l'existence du fichier citations.json
