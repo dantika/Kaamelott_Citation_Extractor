@@ -39,8 +39,7 @@ export class ParserService {
 
     let cleanedResult = "";
     if (result[1]) {
-      cleanedResult =
-        result[1][0] === "0" ? result[0].slice(1, result.length) : result[1];
+      cleanedResult = result[1][0] === "0" ? result[1].substring(1) : result[1];
     }
 
     const key = commonService.capitalizeFirstLetter(result[2]);
@@ -67,7 +66,10 @@ export class ParserService {
   }
 
   completeCitationData(rawData: string, citation: CitationMetadata) {
-    citation.actor = this.extractMultipleNames(rawData, CITATIONS_EXTRACT.actor);
+    citation.actor = this.extractMultipleNames(
+      rawData,
+      CITATIONS_EXTRACT.actor
+    );
     citation.author = this.extractMultipleNames(
       rawData,
       CITATIONS_EXTRACT.author

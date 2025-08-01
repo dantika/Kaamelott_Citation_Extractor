@@ -89,7 +89,10 @@ export class FileService {
       );
       if (isDuplicate) {
         logger.warn(
-          `Duplicate skipped: ${JSON.stringify(item)}`,
+          `Duplicate skipped: ${JSON.stringify({
+            ...item,
+            _description: "...",
+          })}`,
           this.loggerContext
         );
         continue;
